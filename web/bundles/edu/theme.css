@@ -4142,6 +4142,14 @@ button.bg-secondary:hover,
 button.bg-secondary:focus {
   background-color: #ff8000 !important; }
 
+.bg-secondary-shop {
+  background-color: #f15b26 !important; }
+
+a.bg-secondary-shop:hover, a.bg-secondary-shop:focus,
+button.bg-secondary-shop:hover,
+button.bg-secondary-shop:focus {
+  background-color: #f15b26 !important; }
+
 .bg-success {
   background-color: #1c91d0 !important; }
 
@@ -6221,3 +6229,47 @@ body > * {
 
 li {
   list-style-type: none; }
+
+/* Stype du panier (cart) */
+.panel {
+  border: solid;
+  border-color: #f15b26;
+  vertical-align: top;
+}
+
+.margin-block {
+  margin: 0.3em;
+}
+
+.btn-product {
+  background-color: #f15b26;
+  color: white;
+  font-weight: bold;
+}
+
+.card-align-product {
+  text-align: left;
+  margin: 0.2em;
+  padding: 0.4em;
+  background-color: white !important;
+}
+
+.card-header-product {
+  color: white;
+  font-weight: bold;
+  background-color: #f15b26 !important;
+}
+
+.price-right {
+  text-align: right;
+}
+
+.card-total {
+  color: #f15b26;
+  font-weight: bold;
+  font-size: 13pt;
+}
+
+.price {
+  font-weight: bold;
+}

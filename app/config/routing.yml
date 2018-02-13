@@ -9,3 +9,7 @@ home:
 adhesion:
     resource: "@EduBundle/Controller/"
     type:     annotation
+
+shop:
+    resource: "@EduBundle/Controller/"
+    type:     annotation

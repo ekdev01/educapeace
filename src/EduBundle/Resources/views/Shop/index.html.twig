@@ -1,0 +1,142 @@
+{# src/EduBundle/Resources/views/Shop/index.html.twig #}
+{# Template Bundle #}
+{% extends "EduBundle::layout.html.twig" %}
+
+{% block title %}{{ page_titre }}{% endblock %}
+
+{% block content %}
+    <section id="blog" class="container py-2">
+
+        <div class="blog" style="vertical-align: top"><!--.blog-->
+            <div class="row" style="vertical-align: top"><!--.row-->
+
+                <div class="col-md-8"><!--/.col-md-8-->
+                    <br>
+                    <div class="input-group">
+                        <div class="input-group-btn">
+                            <button type="button" class="btn btn-secondary dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                Catégorie:
+                            </button>
+                            <div class="dropdown-menu">
+                                <a class="dropdown-item" href="#">Colliers</a>
+                                <a class="dropdown-item" href="#">Tee-shirts</a>
+                                <a class="dropdown-item" href="#">Sacs</a>
+                            </div>
+                        </div>
+                        <input type="text" class="form-control" placeholder="Veuillez sélectionner une catégorie produit" aria-label="Text input with dropdown button">
+                    </div>
+
+                    <div class="blog-item py-3"><!--.ligne-produit-->
+                        <div class="row">
+                            <div class="col-sm-6">
+                                <div class="card">
+                                    <div class="card-block margin-block">
+                                        <img src="{{ asset('bundles/edu/assets/DSC_5098.jpg') }}" alt="" class="img-thumbnail">
+                                        <h3 class="card-title">Titre produit</h3>
+                                        <h4 class="card-title">15 &euro;</h4>
+                                        <p class="card-text">Mini description du produit</p>
+                                        <a href="#" class="btn btn-primary btn-product">AJOUTER</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-sm-6">
+                                <div class="card">
+                                    <div class="card-block margin-block">
+                                        <img src="{{ asset('bundles/edu/assets/DSC_7276.jpg') }}" alt="" class="img-thumbnail">
+                                        <h3 class="card-title">Titre produit</h3>
+                                        <h4 class="card-title">15 &euro;</h4>
+                                        <p class="card-text">Mini description du produit</p>
+                                        <a href="#" class="btn btn-primary btn-product">AJOUTER</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div><!--/.ligne-produit-->
+
+                    <div class="blog-item py-3"><!--.ligne-produit-->
+                        <div class="row">
+                            <div class="col-sm-6">
+                                <div class="card">
+                                    <div class="card-block margin-block">
+                                        <img src="{{ asset('bundles/edu/assets/DSC_5098.jpg') }}" alt="" class="img-thumbnail">
+                                        <h3 class="card-title">Titre produit</h3>
+                                        <h4 class="card-title">15 &euro;</h4>
+                                        <p class="card-text">Mini description du produit</p>
+                                        <a href="#" class="btn btn-primary btn-product">AJOUTER</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-sm-6">
+                                <div class="card">
+                                    <div class="card-block margin-block">
+                                        <img src="{{ asset('bundles/edu/assets/DSC_7276.jpg') }}" alt="" class="img-thumbnail">
+                                        <h3 class="card-title">Titre produit</h3>
+                                        <h4 class="card-title">15 &euro;</h4>
+                                        <p class="card-text">Mini description du produit</p>
+                                        <a href="#" class="btn btn-primary btn-product">AJOUTER</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div><!--/.ligne-produit-->
+
+                    <div class="blog-item py-3"><!--.ligne-produit-->
+                        <div class="row">
+                            <div class="col-sm-6">
+                                <div class="card">
+                                    <div class="card-block margin-block">
+                                        <img src="{{ asset('bundles/edu/assets/DSC_5098.jpg') }}" alt="" class="img-thumbnail">
+                                        <h3 class="card-title">Titre produit</h3>
+                                        <h4 class="card-title">15 &euro;</h4>
+                                        <p class="card-text">Mini description du produit</p>
+                                        <a href="#" class="btn btn-primary btn-product">AJOUTER</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-sm-6">
+                                <div class="card">
+                                    <div class="card-block margin-block">
+                                        <img src="{{ asset('bundles/edu/assets/DSC_7276.jpg') }}" alt="" class="img-thumbnail">
+                                        <h3 class="card-title">Titre produit</h3>
+                                        <h4 class="card-title">15 &euro;</h4>
+                                        <p class="card-text">Mini description du produit</p>
+                                        <a href="#" class="btn btn-primary btn-product">AJOUTER</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div><!--/.ligne-produit-->
+
+                    <!--.pagination-->
+                    <ul class="pagination justify-content-center">
+                        <li class="page-item">
+                            <a href="#" aria-label="Previous" class="page-link"> <span aria-hidden="true">«</span> <span class="sr-only">Previous</span> </a>
+                        </li>
+                        <li class="page-item">
+                            <a href="#" class="page-link">1</a>
+                        </li>
+                        <li class="page-item">
+                            <a href="#" class="page-link">2</a>
+                        </li>
+                        <li class="page-item">
+                            <a href="#" class="page-link">3</a>
+                        </li>
+                        <li class="page-item">
+                            <a href="#" class="page-link">4</a>
+                        </li>
+                        <li class="page-item">
+                            <a href="#" class="page-link" aria-label="Next"> <span aria-hidden="true">»</span> <span class="sr-only">Next</span> </a>
+                        </li>
+                    </ul>
+                    <!--/.pagination-->
+
+                </div><!--/.col-md-8-->
+
+                <aside class="col-md-4 p-3" style="vertical-align: top">
+                    {% include 'EduBundle:Shop:_cart.html.twig' %}
+                </aside>
+
+            </div><!--/.row-->
+        </div><!--/.blog-->
+    </section>
+{% endblock %}
