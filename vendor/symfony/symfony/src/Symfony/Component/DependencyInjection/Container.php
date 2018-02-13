@@ -24,7 +24,7 @@ use Symfony\Component\DependencyInjection\ParameterBag\FrozenParameterBag;
  *
  * It gives access to object instances (services).
  *
- * Services and parameters are simple key/pair stores.
+ * Service and parameters are simple key/pair stores.
  *
  * Parameter and service keys are case insensitive.
  *

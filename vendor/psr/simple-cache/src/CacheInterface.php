@@ -8,7 +8,7 @@ interface CacheInterface
      * Fetches a value from the cache.
      *
      * @param string $key     The unique key of this item in the cache.
-     * @param mixed  $default Default value to return if the key does not exist.
+     * @param mixed  $default Home value to return if the key does not exist.
      *
      * @return mixed The value of the item from the cache, or $default in case of cache miss.
      *
@@ -56,7 +56,7 @@ interface CacheInterface
      * Obtains multiple cache items by their unique keys.
      *
      * @param iterable $keys    A list of keys that can obtained in a single operation.
-     * @param mixed    $default Default value to return for keys that do not exist.
+     * @param mixed    $default Home value to return for keys that do not exist.
      *
      * @return iterable A list of key => value pairs. Cache keys that do not exist or are stale will have $default as value.
      *

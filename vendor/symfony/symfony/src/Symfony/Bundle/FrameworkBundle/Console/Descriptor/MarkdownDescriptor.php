@@ -168,7 +168,7 @@ class MarkdownDescriptor extends Descriptor
         }
 
         if (!empty($services['services'])) {
-            $this->write("\n\nServices\n--------\n");
+            $this->write("\n\nService\n--------\n");
             foreach ($services['services'] as $id => $service) {
                 $this->write("\n");
                 $this->write(sprintf('- `%s`: `%s`', $id, get_class($service)));

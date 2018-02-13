@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- PAGE settings -->
+    <title>Educapeace - {{ page_titre }}</title>
+
+    <meta name="description" content="L'Association EDUCAPEACE lutte contre l'analphabétisme des enfants dans les zones rurales du Cameroun, et l'accès aux soins de santé pour tous, ainsi qu'à l'eau et assainissement.">
+    <meta name="keywords" content="éducation, afrique, humanitaire, santé, aide humanitaire, analphabétisme, enfance">
+
+    <!-- CSS dependencies -->
+    <link rel="stylesheet" href="{{ absolute_url(asset('bundles/edu/theme.css')) }}">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" type="text/css">
+
+    <!-- Script: Animated entrance -->
+    <script src="{{ absolute_url(asset('bundles/edu/js/animate-in.js')) }}"></script>
+</head>
+
+<body class="text-center">
+
+<!-- Navbar -->
+{% include '::nav.html.twig' %}
+<!-- /Navbar -->
+
+{% if theme is defined and theme == 'adhesion' %}
+    <div class="py-5 text-center opaque-overlay h-50" style="background-image: url({{ asset('bundles/edu/assets/DSC_7294.jpg') }});"> </div>
+{% elseif theme is defined and theme == 'shop' %}
+    <div class="py-5 text-center opaque-overlay h-50" style="background-image: url({{ asset('bundles/edu/assets/DSC_7276.jpg') }});"> </div>
+{% elseif theme is defined and theme == 'about' %}
+    <div class="py-5 text-center opaque-overlay h-50" style="background-image: url({{ asset('bundles/edu/assets/DSC_7362.jpg') }});"> </div>
+{% else %}
+    <div class="py-5 text-center opaque-overlay h-50" style="background-image: url({{ asset('bundles/edu/assets/DSC_7294.jpg') }});"> </div>
+{% endif %}
+
+<div class="container-fluid bg-info">
+    <div class="row justify-content-center">
+        <div class="col-md-6 text-white col-sm-12">
+            <h3 class="pt-2 display-4">{{ page_titre }}</h3>
+        </div>
+    </div>
+</div>
+
+<!-- Content -->
+<section class="container py-2">
+    {% block content %}
+    {% endblock %}
+</section>
+<!-- /Content -->
+
+<!-- Sponsor logos -->
+{% include '::sponsor.html.twig' %}
+<!-- /Sponsor logos -->
+
+<!-- Call to action -->
+{% include '::call_action.html.twig' %}
+<!-- /Call to action -->
+
+<!-- Modal -->
+{% include '::modal.html.twig' %}
+<!-- /Modal -->
+
+<!-- Footer -->
+{% include '::footer.html.twig' %}
+<!-- /Footer -->
+
+<!-- JavaScript dependencies -->
+<script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+</body>
+
+</html>

@@ -1,3 +1,11 @@
 app:
     resource: '@AppBundle/Controller/'
     type: annotation
+
+home:
+    resource: "@EduBundle/Controller/"
+    type:     annotation
+
+adhesion:
+    resource: "@EduBundle/Controller/"
+    type:     annotation

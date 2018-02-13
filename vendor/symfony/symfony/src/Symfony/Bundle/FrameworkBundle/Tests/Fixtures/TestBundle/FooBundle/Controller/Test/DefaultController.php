@@ -12,7 +12,7 @@
 namespace TestBundle\FooBundle\Controller\Test;
 
 /**
- * DefaultController.
+ * HomeController.
  *
  * @author Fabien Potencier <fabien@symfony.com>
  */

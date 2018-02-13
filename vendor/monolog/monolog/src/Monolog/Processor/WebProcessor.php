@@ -24,7 +24,7 @@ class WebProcessor
     protected $serverData;
 
     /**
-     * Default fields
+     * Home fields
      *
      * Array is structured as [key in record.extra => key in $serverData]
      *

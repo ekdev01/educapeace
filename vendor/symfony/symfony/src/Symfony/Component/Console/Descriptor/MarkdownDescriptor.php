@@ -59,7 +59,7 @@ class MarkdownDescriptor extends Descriptor
             .($argument->getDescription() ? preg_replace('/\s*[\r\n]\s*/', "\n", $argument->getDescription())."\n\n" : '')
             .'* Is required: '.($argument->isRequired() ? 'yes' : 'no')."\n"
             .'* Is array: '.($argument->isArray() ? 'yes' : 'no')."\n"
-            .'* Default: `'.str_replace("\n", '', var_export($argument->getDefault(), true)).'`'
+            .'* Home: `'.str_replace("\n", '', var_export($argument->getDefault(), true)).'`'
         );
     }
 
@@ -79,7 +79,7 @@ class MarkdownDescriptor extends Descriptor
             .'* Accept value: '.($option->acceptValue() ? 'yes' : 'no')."\n"
             .'* Is value required: '.($option->isValueRequired() ? 'yes' : 'no')."\n"
             .'* Is multiple: '.($option->isArray() ? 'yes' : 'no')."\n"
-            .'* Default: `'.str_replace("\n", '', var_export($option->getDefault(), true)).'`'
+            .'* Home: `'.str_replace("\n", '', var_export($option->getDefault(), true)).'`'
         );
     }
 

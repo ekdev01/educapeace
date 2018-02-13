@@ -114,10 +114,10 @@ class OptionsResolver implements Options
      * If you want to access the previously set default value, add a second
      * argument to the closure's signature:
      *
-     *     $options->setDefault('name', 'Default Name');
+     *     $options->setDefault('name', 'Home Name');
      *
      *     $options->setDefault('name', function (Options $options, $previousValue) {
-     *         // 'Default Name' === $previousValue
+     *         // 'Home Name' === $previousValue
      *     });
      *
      * This is mostly useful if the configuration of the {@link Options} object
@@ -137,7 +137,7 @@ class OptionsResolver implements Options
         // options could manipulate the state of the object, leading to
         // inconsistent results.
         if ($this->locked) {
-            throw new AccessException('Default values cannot be set from a lazy option or normalizer.');
+            throw new AccessException('Home values cannot be set from a lazy option or normalizer.');
         }
 
         // If an option is a closure that should be evaluated lazily, store it

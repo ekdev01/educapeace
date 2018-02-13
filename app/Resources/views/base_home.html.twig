@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="{{ lang }}">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- PAGE settings -->
+    <title>Educapeace - {{ page_titre }}</title>
+
+    <meta name="description" content="L'Association EDUCAPEACE lutte contre l'analphabétisme des enfants dans les zones rurales du Cameroun, et l'accès aux soins de santé pour tous, ainsi qu'à l'eau et assainissement.">
+    <meta name="keywords" content="éducation, afrique, humanitaire, santé, aide humanitaire, analphabétisme, enfance">
+
+    <!-- CSS dependencies -->
+    <link rel="stylesheet" href="{{ absolute_url(asset('bundles/edu/theme.css')) }}">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" type="text/css">
+    <!-- Script: Animated entrance -->
+    <script src="{{ absolute_url(asset('bundles/edu/js/animate-in.js')) }}"></script>
+</head>
+
+<body>
+
+<!-- Navbar -->
+{% include '::nav.html.twig' %}
+<!-- /Navbar -->
+
+<!-- Cover -->
+<div class="d-flex align-items-center section-aquamarine py-5 cover" style="background-image: url({{ asset('bundles/edu/assets/accueil.jpg') }});">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12 text-white mt-5 align-self-center animate-in-down text-center">
+                <h3 class="display-3 d-none d-md-block text-center">Bienvenue chez <span><b>educapeace</b></span></h3>
+                <h3 class="display-4 d-block d-md-none">Bienvenue chez <span><b>educapeace</b></span></h3>
+                <h5 class="text-dark">L'association EDUCAPEACE lutte contre l’analphabétisme des enfants dans les zones rurales du Cameroun, et l’accès aux soins de santé pour tous, ainsi qu’à l’eau et assainissement. </h5>
+                <div class="row">
+                    <img src="{{ asset('bundles/edu/assets/logoEducapeace.png') }}" class="mx-auto rounded-circle animate-in-left" width="300" height="300"> </div>
+                <a href="adherer.html" class="btn btn-lg mt-4 text-center justify-content-center align-items-center align-self-center btn-outline-light">Nous soutenir</a><i class="d-block fa fa-angle-down pt-5 fa-3x"></i> </div>
+        </div>
+    </div>
+</div>
+
+<!-- Parallax section -->
+<div class="py-5 section-parallax" style="background-image: url({{ asset('bundles/edu/assets/DSC_7362.jpg') }});">
+    <div class="container my-5 bg-light p-4">
+        <div class="row mx-auto">
+            <div class="col-md-12 text-center">
+                <h1 class="mb-3">Notre mission</h1>
+                <p class="">Educapeace œuvre pour la scolarisation des enfants de tous âges dans les villages et autres endroits retirés au sud du Sahara, aux fins de faire baisser le taux d’analphabétisme dans ces régions, en créant ou en améliorant des infrastructures
+                    aussi bien qu’en dotant ces écoles de manuels et fournitures scolaires, de matériel d’audiovisuel ,et informatique,tout en aidant les parents pauvres au possible en frais de scolarité</p>
+                <h4 class="mb-3">ENSEMBLE, POSITIVONS ET AGISSONS CONTRE LA MALNUTRITION.</h4>
+                <a href="adherer.html" class="btn btn-outline-primary btn-lg m-2">Nous soutenir</a>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- /Parallax section -->
+
+<!-- Speakers -->
+<div class="pt-5" id="sponsors">
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-md-12">
+                <h1 class="text-center">Nos objectifs</h1>
+            </div>
+        </div>
+        <div class="row  justify-content-center mx-5">
+            <div class="col-md-6 text-left animate-in-left my-3">
+                <h3 class="mb-0"><b>Sur le plan éducatif </b></h3>
+                <h5 class="my-2 text-secondary"><b>Diminution du taux d’analphabétisation : </b></h5>
+                <p class="text-muted"> • Remises de manuels et fournitures scolaires,
+                    <br> • Remises des bourses d’excellence aux élèves les plus méritants,
+                    <br> • Accès à mises l'eau potable et assainissement,
+                    <br> • Création de bibliothèques,
+                    <br> • Matériel informatique et audiovisuel,
+                    <br> • Electrification des salles de classes,</p>
+            </div>
+            <div class="col-md-6 text-left my-3 animate-in-right">
+                <h3 class="mb-0"><b>Sur le plan sanitaire </b></h3>
+                <h5 class="my-2 text-secondary"><b>Organisation de campagnes de lutte contre les maladies : </b></h5>
+                <p class="text-muted"> • Remises de manuels et fournitures scolaires,
+                    <br> • Le paludisme,
+                    <br> • Maladies sexuellement transmissibles,
+                    <br> • Le diabète,
+                    <br> • Maladies hydriques (choléra, diarrhée...)</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Schedule -->
+    <div class="py-5 section-parallax" style="background-image: url({{ asset('bundles/edu/assets/DSC_4708.jpg') }});">
+        <div class="container my-5 bg-light p-4">
+            <div class="row py-3">
+                <div class="col-md-12 text-center">
+                    <h1 class="mt-4 text-secondary">Nos valeurs</h1>
+                    <h4 class="mb-3 text-uppercase">trois valeurs essentielles d'educapeace :</h4>
+                    <h5 class="text-uppercase text-secondary">Solidarité</h5>
+                    <p class="">Par une aide directe et sans intermédiaire vers chaque enfant, notre association accueille tous les enfants qui souhaitent aller à l’école.</p>
+                    <h5 class="text-uppercase text-secondary">Respect</h5>
+                    <p class="">Toutes nos actions sont marquées par le respect de chaque enfant soutenu sans discrimination de sexe, de religion, d’opinion et d’ethnie.</p>
+                    <h5 class="text-uppercase text-secondary">Transparence</h5>
+                    <p class="">La politique de l’association Educapeace est : 1€ REÇU = 1€ RÉALISÉ.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- /Schedule -->
+
+    <!-- Sponsor logos -->
+    {% include '::sponsor.html.twig' %}
+    <!-- /Sponsor logos -->
+
+    <!-- Call to action -->
+    {% include '::call_action.html.twig' %}
+    <!-- /Call to action -->
+
+    <!-- Modal -->
+    {% include '::modal.html.twig' %}
+    <!-- /Modal -->
+
+    <!-- Footer -->
+    {% include '::footer.html.twig' %}
+    <!-- /Footer -->
+
+    <!-- JavaScript dependencies -->
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+</div>
+<!-- Speakers -->
+
+</body>
+</html>
+

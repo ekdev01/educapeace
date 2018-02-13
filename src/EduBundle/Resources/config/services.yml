@@ -1,0 +1,8 @@
+services:
+    edu.translation:
+        class: EduBundle\Service\Translation
+        arguments: ['@translator.default']
+
+    edu.mailer:
+        class: EduBundle\Service\Mailer
+        arguments: ['@service_container']

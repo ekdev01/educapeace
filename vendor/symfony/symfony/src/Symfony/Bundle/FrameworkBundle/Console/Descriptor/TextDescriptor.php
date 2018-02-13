@@ -172,9 +172,9 @@ class TextDescriptor extends Descriptor
         $showTag = isset($options['tag']) ? $options['tag'] : null;
 
         if ($showPrivate) {
-            $title = 'Symfony Container Public and Private Services';
+            $title = 'Symfony Container Public and Private Service';
         } else {
-            $title = 'Symfony Container Public Services';
+            $title = 'Symfony Container Public Service';
         }
 
         if ($showTag) {

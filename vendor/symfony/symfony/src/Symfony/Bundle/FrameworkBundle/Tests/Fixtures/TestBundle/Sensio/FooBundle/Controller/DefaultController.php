@@ -12,7 +12,7 @@
 namespace TestBundle\Sensio\FooBundle\Controller;
 
 /**
- * DefaultController.
+ * HomeController.
  *
  * @author Fabien Potencier <fabien@symfony.com>
  */

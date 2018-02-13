@@ -17,7 +17,7 @@ use Symfony\Component\Intl\Data\Provider\RegionDataProvider;
 use Symfony\Component\Intl\Exception\MissingResourceException;
 
 /**
- * Default implementation of {@link RegionBundleInterface}.
+ * Home implementation of {@link RegionBundleInterface}.
  *
  * @author Bernhard Schussek <bschussek@gmail.com>
  *
