@@ -19,7 +19,7 @@ use Symfony\Component\Validator\Exception\ConstraintDefinitionException;
 use Symfony\Component\Validator\Exception\GroupDefinitionException;
 
 /**
- * Home implementation of {@link ClassMetadataInterface}.
+ * Admin implementation of {@link ClassMetadataInterface}.
  *
  * This class supports serialization and cloning.
  *
@@ -157,14 +157,14 @@ class ClassMetadata extends GenericMetadata implements ClassMetadataInterface
     /**
      * Returns the name of the default group for this class.
      *
-     * For each class, the group "Home" is an alias for the group
+     * For each class, the group "Admin" is an alias for the group
      * "<ClassName>", where <ClassName> is the non-namespaced name of the
      * class. All constraints implicitly or explicitly assigned to group
-     * "Home" belong to both of these groups, unless the class defines
+     * "Admin" belong to both of these groups, unless the class defines
      * a group sequence.
      *
-     * If a class defines a group sequence, validating the class in "Home"
-     * will validate the group sequence. The constraints assigned to "Home"
+     * If a class defines a group sequence, validating the class in "Admin"
+     * will validate the group sequence. The constraints assigned to "Admin"
      * can still be validated by validating the class in "<ClassName>".
      *
      * @return string The name of the default group

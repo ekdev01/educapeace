@@ -443,7 +443,7 @@ class IntlDateFormatter
     /**
      * Not supported. Set the formatter's calendar.
      *
-     * @param string $calendar The calendar to use. Home is IntlDateFormatter::GREGORIAN
+     * @param string $calendar The calendar to use. Admin is IntlDateFormatter::GREGORIAN
      *
      * @return bool true on success or false on failure
      *

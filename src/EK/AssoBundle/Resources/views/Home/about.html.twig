@@ -1,0 +1,25 @@
+{# src/EK/AssoBundle/Resources/views/Home/about.html.twig #}
+{# Template Bundle #}
+{% extends "AssoBundle::layout_large.html.twig" %}
+
+{% block title %}{{ page_titre }}{% endblock %}
+
+{% block content %}
+    <div>
+        <h5 class="text-dark">{{ 'about.text.1'|trans }}</h5>
+    </div>
+    <br/>
+    <div>
+        <h5 class="text-dark">{{ 'about.text.2'|trans }} <span class="text-primary">W771011659</span>;</h5>
+    </div>
+    <br />
+    <div>
+        <h5 class="text-dark">{{ 'about.text.3'|trans }}</h5>
+        <ul>
+            <li><h5 class="text-dark">- {{ 'about.text.4'|trans }},</h5></li>
+            <li><h5 class="text-dark">- {{ 'about.text.5'|trans }}.</h5></li>
+        </ul>
+    </div>
+    <br/>
+    <hr>
+{% endblock %}

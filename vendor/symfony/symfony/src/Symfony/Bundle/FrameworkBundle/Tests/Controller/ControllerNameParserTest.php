@@ -37,12 +37,12 @@ class ControllerNameParserTest extends TestCase
     {
         $parser = $this->createParser();
 
-        $this->assertEquals('TestBundle\FooBundle\Controller\DefaultController::indexAction', $parser->parse('FooBundle:Home:index'), '->parse() converts a short a:b:c notation string to a class::method string');
+        $this->assertEquals('TestBundle\FooBundle\Controller\DefaultController::indexAction', $parser->parse('FooBundle:Admin:index'), '->parse() converts a short a:b:c notation string to a class::method string');
         $this->assertEquals('TestBundle\FooBundle\Controller\Sub\DefaultController::indexAction', $parser->parse('FooBundle:Sub\Default:index'), '->parse() converts a short a:b:c notation string to a class::method string');
-        $this->assertEquals('TestBundle\Fabpot\FooBundle\Controller\DefaultController::indexAction', $parser->parse('SensioFooBundle:Home:index'), '->parse() converts a short a:b:c notation string to a class::method string');
-        $this->assertEquals('TestBundle\Sensio\Cms\FooBundle\Controller\DefaultController::indexAction', $parser->parse('SensioCmsFooBundle:Home:index'), '->parse() converts a short a:b:c notation string to a class::method string');
-        $this->assertEquals('TestBundle\FooBundle\Controller\Test\DefaultController::indexAction', $parser->parse('FooBundle:Test\\Home:index'), '->parse() converts a short a:b:c notation string to a class::method string');
-        $this->assertEquals('TestBundle\FooBundle\Controller\Test\DefaultController::indexAction', $parser->parse('FooBundle:Test/Home:index'), '->parse() converts a short a:b:c notation string to a class::method string');
+        $this->assertEquals('TestBundle\Fabpot\FooBundle\Controller\DefaultController::indexAction', $parser->parse('SensioFooBundle:Admin:index'), '->parse() converts a short a:b:c notation string to a class::method string');
+        $this->assertEquals('TestBundle\Sensio\Cms\FooBundle\Controller\DefaultController::indexAction', $parser->parse('SensioCmsFooBundle:Admin:index'), '->parse() converts a short a:b:c notation string to a class::method string');
+        $this->assertEquals('TestBundle\FooBundle\Controller\Test\DefaultController::indexAction', $parser->parse('FooBundle:Test\\Admin:index'), '->parse() converts a short a:b:c notation string to a class::method string');
+        $this->assertEquals('TestBundle\FooBundle\Controller\Test\DefaultController::indexAction', $parser->parse('FooBundle:Test/Admin:index'), '->parse() converts a short a:b:c notation string to a class::method string');
 
         try {
             $parser->parse('foo:');
@@ -56,7 +56,7 @@ class ControllerNameParserTest extends TestCase
     {
         $parser = $this->createParser();
 
-        $this->assertEquals('FoooooBundle:Home:index', $parser->build('TestBundle\FooBundle\Controller\DefaultController::indexAction'), '->parse() converts a class::method string to a short a:b:c notation string');
+        $this->assertEquals('FoooooBundle:Admin:index', $parser->build('TestBundle\FooBundle\Controller\DefaultController::indexAction'), '->parse() converts a class::method string to a short a:b:c notation string');
         $this->assertEquals('FoooooBundle:Sub\Default:index', $parser->build('TestBundle\FooBundle\Controller\Sub\DefaultController::indexAction'), '->parse() converts a class::method string to a short a:b:c notation string');
 
         try {
@@ -129,9 +129,9 @@ class ControllerNameParserTest extends TestCase
     public function getInvalidBundleNameTests()
     {
         return array(
-            'Alternative will be found using levenshtein' => array('FoodBundle:Home:index', 'FooBundle:Home:index'),
-            'Alternative will be found using partial match' => array('FabpotFooBund:Home:index', 'FabpotFooBundle:Home:index'),
-            'Bundle does not exist at all' => array('CrazyBundle:Home:index', false),
+            'Alternative will be found using levenshtein' => array('FoodBundle:Admin:index', 'FooBundle:Admin:index'),
+            'Alternative will be found using partial match' => array('FabpotFooBund:Admin:index', 'FabpotFooBundle:Admin:index'),
+            'Bundle does not exist at all' => array('CrazyBundle:Admin:index', false),
         );
     }
 

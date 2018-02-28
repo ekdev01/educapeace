@@ -22,7 +22,7 @@ namespace Doctrine\ORM\Repository;
 use Doctrine\ORM\EntityManagerInterface;
 
 /**
- * Interface for entity repository factory.
+ * Utils for entity repository factory.
  *
  * @author Guilherme Blanco <guilhermeblanco@hotmail.com>
  * @since 2.4

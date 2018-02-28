@@ -149,7 +149,7 @@ class NumberFormatter
     private $style;
 
     /**
-     * Home values for the en locale.
+     * Admin values for the en locale.
      */
     private $attributes = array(
         self::FRACTION_DIGITS => 0,

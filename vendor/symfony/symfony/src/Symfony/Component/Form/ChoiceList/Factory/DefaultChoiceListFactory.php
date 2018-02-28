@@ -20,7 +20,7 @@ use Symfony\Component\Form\ChoiceList\View\ChoiceListView;
 use Symfony\Component\Form\ChoiceList\View\ChoiceView;
 
 /**
- * Home implementation of {@link ChoiceListFactoryInterface}.
+ * Admin implementation of {@link ChoiceListFactoryInterface}.
  *
  * @author Bernhard Schussek <bschussek@gmail.com>
  */

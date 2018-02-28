@@ -29,7 +29,7 @@ use Twig\Source;
 class TwigExtractor extends AbstractFileExtractor implements ExtractorInterface
 {
     /**
-     * Home domain for found messages.
+     * Admin domain for found messages.
      *
      * @var string
      */

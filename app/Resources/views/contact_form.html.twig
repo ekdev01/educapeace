@@ -1,0 +1,49 @@
+<h4>{{ 'others.text.11'|trans }}</h4>
+<p>
+    {% if tag is defined and tag == 1 %}
+        <b>
+            {% for message in app.flashes('success') %}
+                <div class="alert alert-success">
+                    {{ message }}
+                </div>
+            {% endfor %}
+        </b>
+    {% endif %}
+
+    {% if tag is defined and tag == 0 %}
+        <b>
+            {% for message in app.flashes('warning') %}
+                <div class="alert alert-danger">
+                    {{ message }}
+                </div>
+            {% endfor %}
+        </b>
+    {% endif %}
+</p>
+{% if form is defined %}
+    {{ form_start(form) }}
+        <fieldset class="form-group" style="margin-bottom: 4px;">
+            {{ form_widget(form.email, { 'attr': {'class':'form-control'} }) }}
+            {{ form_errors(form.email) }}
+        </fieldset>
+
+        <fieldset class="form-group" style="margin-bottom: 4px;">
+            {{ form_widget(form.subject, { 'attr': {'class':'form-control'} }) }}
+            {{ form_errors(form.subject) }}
+        </fieldset>
+        <fieldset class="form-group my-3" style="margin-bottom: 4px;">
+            {{ form_widget(form.body, { 'attr': {'cols':'5', 'rows':'4', 'class':'form-control'} }) }}
+            {{ form_errors(form.body) }}
+        </fieldset>
+        <fieldset>
+            {# Render CSRF token #}
+            {{ form_rest(form) }}
+            <div class="g-recaptcha" data-sitekey="6LcaQT0UAAAAAGTQwl21SicdsjbLGxdjKFIbCrKH"></div>
+        </fieldset>
+        <br/>
+        <fieldset class="text-right">
+            <button type="submit" class="btn btn-outline-secondary">{{ 'others.text.12'|trans }}</button>
+        </fieldset>
+    {{ form_end(form) }}
+{% else %}
+{% endif %}

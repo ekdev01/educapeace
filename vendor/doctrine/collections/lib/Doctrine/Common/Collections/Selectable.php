@@ -20,7 +20,7 @@
 namespace Doctrine\Common\Collections;
 
 /**
- * Interface for collections that allow efficient filtering with an expression API.
+ * Utils for collections that allow efficient filtering with an expression API.
  *
  * Goal of this interface is a backend independent method to fetch elements
  * from a collections. {@link Expression} is crafted in a way that you can

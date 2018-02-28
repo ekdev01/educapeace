@@ -12,7 +12,7 @@
 namespace Assetic;
 
 /**
- * Value Supplier Interface.
+ * Value Supplier Utils.
  *
  * Implementations determine runtime values for compile-time variables.
  *

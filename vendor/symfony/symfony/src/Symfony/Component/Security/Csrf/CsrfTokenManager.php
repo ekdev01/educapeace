@@ -19,7 +19,7 @@ use Symfony\Component\Security\Csrf\TokenStorage\NativeSessionTokenStorage;
 use Symfony\Component\Security\Csrf\TokenStorage\TokenStorageInterface;
 
 /**
- * Home implementation of {@link CsrfTokenManagerInterface}.
+ * Admin implementation of {@link CsrfTokenManagerInterface}.
  *
  * @author Bernhard Schussek <bschussek@gmail.com>
  * @author Kévin Dunglas <dunglas@gmail.com>

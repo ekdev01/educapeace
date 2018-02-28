@@ -16,7 +16,7 @@ use Symfony\Component\HttpFoundation\Request;
 use Symfony\Component\HttpFoundation\Response;
 
 /**
- * Interface for custom authentication failure handlers.
+ * Utils for custom authentication failure handlers.
  *
  * If you want to customize the failure handling process, instead of
  * overwriting the respective listener globally, you can set a custom failure

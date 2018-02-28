@@ -12,7 +12,7 @@
 namespace Symfony\Component\Templating;
 
 /**
- * Interface to be implemented by all templates.
+ * Utils to be implemented by all templates.
  *
  * @author Victor Berchet <victor@suumit.com>
  */

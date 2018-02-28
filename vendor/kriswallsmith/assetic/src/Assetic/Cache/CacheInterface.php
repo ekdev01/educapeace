@@ -12,7 +12,7 @@
 namespace Assetic\Cache;
 
 /**
- * Interface for a cache backend.
+ * Utils for a cache backend.
  *
  * @author Kris Wallsmith <kris.wallsmith@gmail.com>
  */

@@ -1,38 +1,210 @@
 <!-- Modal authentification -->
-<div class="modal fade" id="authentificationModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+<div class="modal fade" id="_authentificationModal" aria-hidden="true" aria-labelledby="exampleModalLabel" role="dialog" tabindex="-1">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content text-white bg-secondary">
+            <div class="modal-header  text-center">
+                <h4 class="modal-title text-center">{{ 'form.login.label1'|trans }}</h4>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close"> <span aria-hidden="true">×</span></button>
+            </div>
+            <div class="modal-body">
+                <div class="text-right">
+                    {{ 'form.login.label2'|trans }},&nbsp;<a class="text-white" id="registration" data-toggle="modal" data-target="#_registerModal" href="#">{{ 'label.click.here'|trans }}</a>
+                </div>
+                <form action="{{ path('fos_user_security_check') }}" method="post">
+                    <div id="error_login" style="color: red;"></div><br/>
+                    <input type="hidden" id="_csrf_token" name="_csrf_token" value="">
+                    <div class="form-group"><label for="username">{{ 'label.ident'|trans }}</label>
+                        <input class="form-control" placeholder="{{ 'label.ident'|trans }}" autocomplete="username" id="username" name="_username" required="required" value="">
+                    </div>
+                    <div class="form-group"><label for="password">{{ 'label.password'|trans }}</label>
+                        <input type="password" class="form-control" placeholder="{{ 'label.password'|trans }}" autocomplete="current-password" id="password" name="_password" required="required">
+                    </div>
+                    <br/>
+                    <button class="btn btn-primary" id="_submit_login" name="_submit" value="Connexion">{{ 'label.button.connexion'|trans }}</button>
+                </form>
+            </div>
+            <div class="modal-footer">
+                <div class="form-check"><label class="form-check-label">
+                        <input class="form-check-input" type="radio" name="_remember_me" value="on" checked="" id="remember_me">
+                        {{ 'label.remmeber.me'|trans }}
+                    </label>
+                </div>
+                - <a href="" class="text-white">{{ 'label.pwd.forget'|trans }}?</a>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- /Modal authentification -->
+
+<!-- Modal inscription -->
+<div class="modal fade bd-example-modal-lg" id="_registerModal" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-lg" role="document">
+        <div class="modal-content text-white bg-secondary">
+            <div class="modal-header  text-center">
+                <h4 class="modal-title text-center">{{ 'label.invite.register'|trans }}</h4>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close"> <span aria-hidden="true">×</span></button>
+            </div>
+            <div class="modal-body">
+                <div class="text-right">
+                    <a class="text-white" id="authentification_ins" role="button" data-toggle="modal" data-target="#_authentificationModal" href="#">{{ 'label.button.connexion'|trans }}</a>
+                </div>
+                <form action="{{ path('fos_user_registration_register') }}" method="post">
+                    <div id="fos_user_registration_form">
+                        <div id="error_register" style="color: red;">
+                            {% if form is defined  %}
+                                {{ form_errors(form) }}
+                            {% endif %}
+                        </div><br/>
+                        <table width="100%" cellspacing="2" cellpadding="1">
+                            <tr>
+                                <td colspan="3">
+                                    <div class="form-group">
+                                        <label for="fos_user_registration_form_email">{{ 'label.email'|trans }}</label>
+                                        <input type="email" class="form-control" placeholder="{{ 'form.register.ph.email'|trans }}" id="fos_user_registration_form_email" name="fos_user_registration_form[email]" required="required">
+                                    </div>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td colspan="3">
+                                    <div class="form-group">
+                                        <label for="fos_user_registration_form_username">{{ 'label.ident'|trans }}</label>
+                                        <input type="text" class="form-control" placeholder="{{ 'form.register.ph.ident'|trans }}" id="fos_user_registration_form_username" name="fos_user_registration_form[username]" required="required" maxlength="180">
+                                    </div>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td width="45%">
+                                    <div class="form-group">
+                                        <label for="fos_user_registration_form_plainPassword_first">{{ 'label.password'|trans }}</label>
+                                        <input type="password" class="form-control" placeholder="{{ 'form.register.ph.pwd'|trans }}" id="fos_user_registration_form_plainPassword_first" name="fos_user_registration_form[plainPassword][first]" required="required" autocomplete="new-password">
+                                    </div>
+                                </td>
+                                <td width="10%">&nbsp;</td>
+                                <td width="45%">
+                                    <div class="form-group">
+                                        <label for="fos_user_registration_form_plainPassword_second">{{ 'label.repeat.pwd'|trans }}</label>
+                                        <input type="password" class="form-control" placeholder="{{ 'form.register.ph.pwdb'|trans }}" id="fos_user_registration_form_plainPassword_second" name="fos_user_registration_form[plainPassword][second]" required="required" autocomplete="new-password">
+                                    </div>
+                                </td>
+                            </tr>
+                            <tr><td colspan="3"><hr size="1" style="color: white" /></td></tr>
+                            {#
+                            <tr>
+                                <td width="45%">
+                                    <div class="form-group">
+                                        <label for="fos_user_registration_form_firstname">{{ 'label.firstname'|trans }}</label>
+                                        <input type="text" class="form-control" placeholder="{{ 'form.register.ph.firstname'|trans }}" id="fos_user_registration_form_firstname" name="fos_user_registration_form[firstname]" required="required">
+                                    </div>
+                                </td>
+                                <td width="10%">&nbsp;</td>
+                                <td width="45%">
+                                    <div class="form-group">
+                                        <label for="fos_user_registration_form_lastname">{{ 'label.lastname'|trans }}</label>
+                                        <input type="text" class="form-control" placeholder="{{ 'form.register.ph.lastname'|trans }}" id="fos_user_registration_form_lastname" name="fos_user_registration_form[lastname]" required="required">
+                                    </div>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td colspan="3">
+                                    <div class="form-group">
+                                        <label for="fos_user_registration_form_address">{{ 'label.address'|trans }}</label>
+                                        <textarea class="form-control" placeholder="{{ 'form.register.ph.address'|trans }}" id="fos_user_registration_form_address" name="fos_user_registration_form[address]" required="required"></textarea>
+                                    </div>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td width="45%">
+                                    <div class="form-group">
+                                        <label for="fos_user_registration_form_zipcode">{{ 'label.zipcode'|trans }}</label>
+                                        <input type="text" class="form-control" placeholder="{{ 'form.register.ph.zipcode'|trans }}" id="fos_user_registration_form_zipcode" name="fos_user_registration_form[zipcode]">
+                                    </div>
+                                </td>
+                                <td width="10%">&nbsp;</td>
+                                <td width="45%">
+                                    <div class="form-group">
+                                        <label for="fos_user_registration_form_city">{{ 'label.city'|trans }}</label>
+                                        <input type="text" class="form-control" placeholder="{{ 'form.register.ph.city'|trans }}" id="fos_user_registration_form_city" name="fos_user_registration_form[city]" required="required">
+                                    </div>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td width="45%">
+                                    <div class="form-group">
+                                        <label for="fos_user_registration_form_country">{{ 'label.country'|trans }}</label>
+                                        <select class="form-control" id="fos_user_registration_form_country" name="fos_user_registration_form[country]" required="required">
+                                            <option selected>{{ 'form.register.ph.country'|trans }}</option>
+                                            {% if lang is defined and lang == 'en' %}
+                                                {% include '::countries_en.html.twig' %}
+                                            {% else %}
+                                                {% include '::countries_fr.html.twig' %}
+                                            {% endif %}
+                                        </select>
+                                    </div>
+                                </td>
+                                <td width="10%">&nbsp;</td>
+                                <td width="45%">
+                                    <div class="form-group">
+                                        <label for="fos_user_registration_form_phone">{{ 'label.phone'|trans }}</label>
+                                        <input type="text" class="form-control" placeholder="{{ 'form.register.ph.phone'|trans }}" id="fos_user_registration_form_phone" name="fos_user_registration_form[phone]">
+                                    </div>
+                                </td>
+                            </tr>
+                         #}
+                        </table>
+                        <input type="hidden" id="fos_user_registration_form__token" name="fos_user_registration_form[_token]" value="">
+                    </div>
+                    <br/>
+                    <button class="btn btn-primary" id="_submit_register" name="_submit" value="Inscription">{{ 'label.button.register'|trans }}</button>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- /Modal inscription -->
+
+<!-- Modal password forgetten -->
+<div class="modal fade" id="reseting_pswd-modal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
     <div class="modal-dialog" role="document" style="text-align: left">
         <div class="modal-content">
             <div class="modal-header">
-                <h5 class="modal-title" id="exampleModalLabel">Espace Adhérents</h5>
+                <h5 class="modal-title" id="exampleModalLabel">{{ 'form.pwdforget.label1'|trans }}</h5>
                 <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                     <span aria-hidden="true">&times;</span>
                 </button>
             </div>
-            <form>
+            <form action="{{ path('fos_user_resetting_send_email') }}" method="POST" class="fos_user_resetting_request">
                 <div class="modal-body">
-                    <div>
-                        Veuillez-vous identifiez
+                    <div>{{ 'form.pwdforget.label2'|trans }}.</div>
+                    <br>
+                    <label for="basic-url">{{ 'label.ident'|trans }}:</label>
+                    <div class="input-group">
+                        <input type="text" class="form-control" placeholder="{{ 'label.ident'|trans }}" id="f2username" size="15" aria-describedby="basic-addon3">
                     </div>
                     <br>
-                    <label for="basic-url">Email:</label>
+                    <label for="basic-url">{{ 'label.email'|trans }}:</label>
                     <div class="input-group">
-                        <input type="text" class="form-control" placeholder="Saisissez votre E-mail" id="email" aria-describedby="basic-addon3">
-                    </div>
-                    <br>
-                    <label for="basic-url">Mot de passe:</label>
-                    <div class="input-group">
-                        <input type="password" class="form-control" placeholder="Saisissez votre mot de passe" id="password" aria-describedby="basic-addon3">
+                        <input type="text" class="form-control" placeholder="{{ 'label.email'|trans }}" id="f2email" size="15" aria-describedby="basic-addon3">
                     </div>
                 </div>
                 <div class="modal-footer">
-                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Fermer</button>
-                    <button type="button" class="btn btn-primary">Connexion</button>
-                </div>
-                <div style="text-align: right;">
-                    Par encore adhérent(e), <a href="/adhesion">cliquez-ici</a>&nbsp;&nbsp;<br><br>
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">{{ 'label.button.close'|trans }}</button>
+                    <button type="button" class="btn btn-primary">{{ 'label.button.connexion'|trans }}</button>
                 </div>
             </form>
         </div>
     </div>
 </div>
-<!-- /Modal authentification -->
+<!-- /Modal password forgetten -->
+
+<!-- Loading... -->
+<div id="loadingDiv" class="modal loadingDiv" role="dialog" tabindex="-1" style="top: 10% !important;background-color: transparent;">
+    {# rgba(140, 132, 132, 0.84); #}
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-body" style="text-align: center">
+                <img src="{{ asset('bundles/front/assets/img/loading.svg') }}" width="20%" />
+            </div>
+        </div>
+    </div>
+</div>
+<!-- /Loading... -->

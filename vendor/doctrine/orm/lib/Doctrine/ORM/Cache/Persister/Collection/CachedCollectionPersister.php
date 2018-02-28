@@ -26,7 +26,7 @@ use Doctrine\ORM\Persisters\Collection\CollectionPersister;
 use Doctrine\ORM\PersistentCollection;
 
 /**
- * Interface for second level cache collection persisters.
+ * Utils for second level cache collection persisters.
  *
  * @author Fabio B. Silva <fabio.bat.silva@gmail.com>
  * @since 2.5

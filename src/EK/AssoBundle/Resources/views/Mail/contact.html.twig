@@ -1,0 +1,26 @@
+{# src/EK/AssoBundle/Resources/views/Mail/contact.html.twig #}
+{# Template Bundle #}
+{% extends "AssoBundle::layout_mail.html.twig" %}
+
+{% block content %}
+    <div>
+        <table width="100%" cellpadding="0" cellspacing="0" border="0">
+            <tr>
+                <td class="text-left"><img src="{{ absolute_url(asset('bundles/front/assets/DSC_4708.jpg')) }}" class="mx-auto" height="200"></td>
+            </tr>
+        </table>
+    </div>
+    <div class="text-left">
+        {{ data.body|nl2br }}
+    </div>
+    <div>
+        <table width="100%" cellpadding="0" cellspacing="0" border="0">
+            <tr>
+                <td width="20%" class="text-left"><img src="{{ absolute_url(asset('bundles/front/assets/brandEducapeace.png')) }}" class="mx-auto" width="160"></td>
+                <td width="80%" class="text-left">
+                    Mail contact envoyé depuis le site educapeace.org
+                </td>
+            </tr>
+        </table>
+    </div>
+{% endblock %}

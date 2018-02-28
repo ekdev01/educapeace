@@ -22,7 +22,7 @@ namespace Doctrine\ORM\Proxy;
 use Doctrine\Common\Proxy\Proxy as BaseProxy;
 
 /**
- * Interface for proxy classes.
+ * Utils for proxy classes.
  *
  * @author Roman Borschel <roman@code-factory.org>
  * @since 2.0

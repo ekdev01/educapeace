@@ -101,9 +101,9 @@ EOF
         }
 
         if ($name === $extension->getAlias()) {
-            $message = sprintf('Home configuration for extension with alias: "%s"', $name);
+            $message = sprintf('Admin configuration for extension with alias: "%s"', $name);
         } else {
-            $message = sprintf('Home configuration for "%s"', $name);
+            $message = sprintf('Admin configuration for "%s"', $name);
         }
 
         if (null !== $path) {

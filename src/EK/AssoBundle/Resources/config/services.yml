@@ -1,0 +1,41 @@
+services:
+    front.translation:
+        class: EK\AssoBundle\Service\Translation
+        arguments: ['@translator.default']
+
+    front.mailer:
+        class: EK\AssoBundle\Service\Mailer
+        arguments: ['@service_container']
+
+    front.utils:
+        class: EK\AssoBundle\Service\Utils
+
+    front.utiles:
+            class: EK\AssoBundle\Service\Utiles
+
+    front.token_subscriber.authentification:
+        class: EK\AssoBundle\EventListener\TokenSubscriber
+        arguments: [ "@security.token_storage" ]
+        tags:
+            - { name: kernel.event_listener, event: kernel.controller }
+
+    front.monolog_subscriber:
+        class: EK\AssoBundle\EventListener\MonologSubscriber
+        arguments: ['@service_container']
+        tags:
+            - { name: kernel.event_listener, event: kernel.controller }
+
+    front.util_logger:
+        class: EK\AssoBundle\Service\UtilsLog
+        arguments: ['%file_log%']
+
+    front.authentication_handler:
+        class: EK\AssoBundle\Handler\AuthenticationHandler
+        arguments: ["@router", "@fos_user.user_manager", "@translator.default", "@service_container"]
+
+    front.registration_listner:
+        class: EK\AssoBundle\EventListener\RegistrationListener
+        arguments: [ "@router", "@service_container", "@translator.default"]
+        tags:
+            - { name: kernel.event_subscriber }
+

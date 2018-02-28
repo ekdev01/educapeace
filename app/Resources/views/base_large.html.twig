@@ -20,11 +20,12 @@
     <meta name="author" content="EK DEV Center">
 
     <!-- CSS dependencies -->
-    <link rel="stylesheet" href="{{ absolute_url(asset('bundles/edu/theme.css')) }}">
+    <link rel="stylesheet" href="{{ absolute_url(asset('bundles/front/theme.css')) }}">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" type="text/css">
 
     <!-- Script: Animated entrance -->
-    <script src="{{ absolute_url(asset('bundles/edu/js/animate-in.js')) }}"></script>
+    <script defer src="https://use.fontawesome.com/releases/v5.0.7/js/all.js"></script>
+    <script src="{{ absolute_url(asset('bundles/front/js/animate-in.js')) }}"></script>
 </head>
 
 <body class="text-center">
@@ -34,22 +35,32 @@
 <!-- /Navbar -->
 
 {% if theme is defined and theme == 'adhesion' %}
-    <div class="py-5 text-center opaque-overlay h-50" style="background-image: url({{ asset('bundles/edu/assets/DSC_7294.jpg') }});"> </div>
+    <div class="py-5 text-center opaque-overlay h-50" style="background-image: url({{ asset('bundles/front/assets/DSC_7294.jpg') }});"> </div>
 {% elseif theme is defined and theme == 'shop' %}
-    <div class="py-5 text-center opaque-overlay h-50" style="background-image: url({{ asset('bundles/edu/assets/DSC_7276.jpg') }});"> </div>
+    <div class="py-5 text-center opaque-overlay h-50" style="background-image: url({{ asset('bundles/front/assets/DSC_7276.jpg') }});"> </div>
 {% elseif theme is defined and theme == 'about' %}
-    <div class="py-5 text-center opaque-overlay h-50" style="background-image: url({{ asset('bundles/edu/assets/DSC_7362.jpg') }});"> </div>
+    <div class="py-5 text-center opaque-overlay h-50" style="background-image: url({{ asset('bundles/front/assets/DSC_7362.jpg') }});"> </div>
 {% else %}
-    <div class="py-5 text-center opaque-overlay h-50" style="background-image: url({{ asset('bundles/edu/assets/DSC_7294.jpg') }});"> </div>
+    <div class="py-5 text-center opaque-overlay h-50" style="background-image: url({{ asset('bundles/front/assets/DSC_7294.jpg') }});"> </div>
 {% endif %}
 
-<div class="container-fluid bg-info">
-    <div class="row justify-content-center">
-        <div class="col-md-6 text-white col-sm-12">
-            <h3 class="pt-2 display-4">{{ page_titre }}</h3>
+{% if theme is defined and theme == 'adhesion' %}
+    <div class="container-fluid bg-marron">
+        <div class="row justify-content-center">
+            <div class="col-md-6 text-white col-sm-12">
+                <h3 class="pt-2 display-4">{{ page_titre }}</h3>
+            </div>
         </div>
     </div>
-</div>
+{% else %}
+    <div class="container-fluid bg-info">
+        <div class="row justify-content-center">
+            <div class="col-md-6 text-white col-sm-12">
+                <h3 class="pt-2 display-4">{{ page_titre }}</h3>
+            </div>
+        </div>
+    </div>
+{% endif %}
 
 <!-- Content -->
 <section class="container py-2">
@@ -75,9 +86,8 @@
 <!-- /Footer -->
 
 <!-- JavaScript dependencies -->
-<script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+{% include '::js_ident.html.twig' %}
+<!-- /JavaScript dependencies -->
 </body>
 
 </html>

@@ -1656,7 +1656,7 @@ ruby: |
   ]
 
 ---
-test: Home key
+test: Admin key
 todo: true
 yaml: |
    ---     # Old schema

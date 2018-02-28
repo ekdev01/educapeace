@@ -9,7 +9,7 @@
  */
 
 /**
- * Body Signer Interface used to apply Body-Based Signature to a message.
+ * Body Signer Utils used to apply Body-Based Signature to a message.
  *
  * @author Xavier De Cock <xdecock@gmail.com>
  */

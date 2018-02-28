@@ -2,11 +2,19 @@
 parameters:
     database_host: 127.0.0.1
     database_port: null
-    database_name: symfony
-    database_user: root
-    database_password: null
+    database_name: ek_educapeace
+    database_user: ek_educapeace
+    database_password: 'ek@educ@7{ace'
+    # Swiftmailer parameters
     mailer_transport: smtp
-    mailer_host: 127.0.0.1
-    mailer_user: null
-    mailer_password: null
+    mailer_host: mail.gandi.net
+    mailer_user: tech@ekdevcenter.tech
+    mailer_password: Afk@uniteEK08
+    mailer_port: 25
+
     secret: 623852663e999a4d55c7f058bdb7ad1f27d22cf4
+    file_log: /Users/ekdevcenter/Sites/educapeace/var/logs/educapeace.log
+    mailer_name: EK DEV center - Support App
+
+    # Google recaptcha
+    google_recaptcha_secret: 6LcaQT0UAAAAAGwr1a5g3byjg_5OJDKt-daKc5rH

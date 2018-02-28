@@ -50,7 +50,7 @@ class ConfigDumpReferenceCommandTest extends WebTestCase
 
         $this->assertSame(0, $ret, 'Returns 0 in case of success');
         $this->assertSame(<<<'EOL'
-# Home configuration for extension with alias: "test" at path "array"
+# Admin configuration for extension with alias: "test" at path "array"
 array:
     child1:               ~
     child2:               ~

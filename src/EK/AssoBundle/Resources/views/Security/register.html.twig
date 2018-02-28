@@ -1,0 +1,32 @@
+<div class="modal fade bd-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+            <div>
+                <form name="fos_user_registration_form" method="post" action="/register/" class="fos_user_registration_register">
+                    <div id="fos_user_registration_form">
+                        <div>
+                            <label for="fos_user_registration_form_email" class="required">Adresse e-mail</label>
+                            <input type="email" id="fos_user_registration_form_email" name="fos_user_registration_form[email]" required="required">
+                        </div>
+                        <div>
+                            <label for="fos_user_registration_form_username" class="required">Nom d'utilisateur</label>
+                            <input type="text" id="fos_user_registration_form_username" name="fos_user_registration_form[username]" required="required" maxlength="180" pattern=".{2,}">
+                        </div>
+                        <div>
+                            <label for="fos_user_registration_form_plainPassword_first" class="required">Mot de passe</label>
+                            <input type="password" id="fos_user_registration_form_plainPassword_first" name="fos_user_registration_form[plainPassword][first]" required="required" autocomplete="new-password">
+                        </div>
+                        <div>
+                            <label for="fos_user_registration_form_plainPassword_second" class="required">Répéter le mot de passe</label>
+                            <input type="password" id="fos_user_registration_form_plainPassword_second" name="fos_user_registration_form[plainPassword][second]" required="required" autocomplete="new-password">
+                        </div>
+                        <input type="hidden" id="fos_user_registration_form__token" name="fos_user_registration_form[_token]" value="1KUqc0y0FQm33exNZJlzUqd445fRfYRuqeVM7unDkvo">
+                    </div>
+                    <div>
+                        <input type="submit" value="Créer un compte">
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>

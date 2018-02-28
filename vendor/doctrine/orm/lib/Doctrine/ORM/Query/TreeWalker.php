@@ -20,7 +20,7 @@
 namespace Doctrine\ORM\Query;
 
 /**
- * Interface for walkers of DQL ASTs (abstract syntax trees).
+ * Utils for walkers of DQL ASTs (abstract syntax trees).
  *
  * @author Roman Borschel <roman@code-factory.org>
  * @since 2.0

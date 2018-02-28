@@ -2,16 +2,272 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4a7707cd-173c-4a83-a665-d0ab52bc2674" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/EduBundle/Resources/views/Shop/_cart.html.twig" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/EduBundle/Resources/views/Shop/index.html.twig" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/bundles/front/assets/img/child.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/Resources/views/base_admin.html.twig" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/Resources/views/base_mail.html.twig" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/Resources/views/contact_form.html.twig" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/Resources/views/countries_en.html.twig" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/Resources/views/countries_fr.html.twig" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/Resources/views/footer_mail.html.twig" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/Resources/views/js_ident.html.twig" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/Resources/views/nav_admin.html.twig" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/EK/AssoBundle/Controller/Backend/AdminController.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/EK/AssoBundle/Controller/MonologLoggerController.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/EK/AssoBundle/Controller/RegistrationController.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/EK/AssoBundle/Controller/SecurityController.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/EK/AssoBundle/Entity/Contact.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/EK/AssoBundle/Entity/Users.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/EK/AssoBundle/EventListener/MonologSubscriber.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/EK/AssoBundle/EventListener/RegistrationListener.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/EK/AssoBundle/EventListener/TokenSubscriber.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/EK/AssoBundle/Form/ContactType.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/EK/AssoBundle/Handler/AuthenticationHandler.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/EK/AssoBundle/Resources/config/services.yml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/EK/AssoBundle/Resources/translations/messages.en.yml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/EK/AssoBundle/Resources/translations/messages.fr.yml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/EK/AssoBundle/Resources/views/Admin/login.html.twig" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/EK/AssoBundle/Resources/views/Home/about.html.twig" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/EK/AssoBundle/Resources/views/Home/index.html.twig" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/EK/AssoBundle/Resources/views/Mail/confirmationAdhesion.html.twig" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/EK/AssoBundle/Resources/views/Mail/confirmationCommand.html.twig" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/EK/AssoBundle/Resources/views/Mail/contact.html.twig" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/EK/AssoBundle/Resources/views/Security/login.html.twig" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/EK/AssoBundle/Resources/views/Security/login_content.html.twig" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/EK/AssoBundle/Resources/views/Security/register.html.twig" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/EK/AssoBundle/Resources/views/layout.html.twig" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/EK/AssoBundle/Resources/views/layout_admin_a.html.twig" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/EK/AssoBundle/Resources/views/layout_home.html.twig" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/EK/AssoBundle/Resources/views/layout_large.html.twig" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/EK/AssoBundle/Resources/views/layout_mail.html.twig" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/EK/AssoBundle/Service/Utiles.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/EK/AssoBundle/Service/UtilsLog.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/EK/AssoBundle/Utils/UtilsLogInterface.php" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/AppBundle/Controller/DefaultController.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/EduBundle/EduBundle.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/EduBundle/Resources/config/services.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/EduBundle/Resources/translations/messages.en.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/EduBundle/Resources/translations/messages.fr.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/EduBundle/Resources/views/Home/about.html.twig" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/EduBundle/Resources/views/Home/index.html.twig" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/EduBundle/Resources/views/layout.html.twig" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/EduBundle/Resources/views/layout_home.html.twig" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/EduBundle/Resources/views/layout_large.html.twig" afterPath="" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/AppBundle/AppBundle.php" afterPath="$PROJECT_DIR$/src/EK/AssoBundle/AssoBundle.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/EduBundle/Controller/AdhesionController.php" afterPath="$PROJECT_DIR$/src/EK/AssoBundle/Controller/Front/AdhesionController.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/EduBundle/Controller/HomeController.php" afterPath="$PROJECT_DIR$/src/EK/AssoBundle/Controller/Front/HomeController.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/EduBundle/Controller/ShopController.php" afterPath="$PROJECT_DIR$/src/EK/AssoBundle/Controller/Front/ShopController.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/EduBundle/Resources/views/Adhesion/index.html.twig" afterPath="$PROJECT_DIR$/src/EK/AssoBundle/Resources/views/Adhesion/index.html.twig" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/EduBundle/Resources/views/Home/news.html.twig" afterPath="$PROJECT_DIR$/src/EK/AssoBundle/Resources/views/Home/news.html.twig" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/EduBundle/Resources/views/Mail/confirmationAdhesion.html.twig" afterPath="$PROJECT_DIR$/app/Resources/views/base_admin_a.html.twig" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/EduBundle/Resources/views/Mail/confirmationCommand.html.twig" afterPath="$PROJECT_DIR$/app/Resources/views/base_fos.html.twig" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/EduBundle/Resources/views/Shop/_cart.html.twig" afterPath="$PROJECT_DIR$/src/EK/AssoBundle/Resources/views/Shop/_cart.html.twig" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/EduBundle/Resources/views/Shop/index.html.twig" afterPath="$PROJECT_DIR$/src/EK/AssoBundle/Resources/views/Shop/index.html.twig" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/EduBundle/Service/Mailer.php" afterPath="$PROJECT_DIR$/src/EK/AssoBundle/Service/Mailer.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/EduBundle/Service/Translation.php" afterPath="$PROJECT_DIR$/src/EK/AssoBundle/Service/Translation.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/web/bundles/edu/assets/DSC_4708.jpg" afterPath="$PROJECT_DIR$/web/bundles/front/assets/DSC_4708.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/web/bundles/edu/assets/DSC_5061.jpg" afterPath="$PROJECT_DIR$/web/bundles/front/assets/DSC_5061.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/web/bundles/edu/assets/DSC_5095.jpg" afterPath="$PROJECT_DIR$/web/bundles/front/assets/DSC_5095.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/web/bundles/edu/assets/DSC_5098.jpg" afterPath="$PROJECT_DIR$/web/bundles/front/assets/DSC_5098.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/web/bundles/edu/assets/DSC_7219.jpg" afterPath="$PROJECT_DIR$/web/bundles/front/assets/DSC_7219.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/web/bundles/edu/assets/DSC_7276.jpg" afterPath="$PROJECT_DIR$/web/bundles/front/assets/DSC_7276.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/web/bundles/edu/assets/DSC_7294.jpg" afterPath="$PROJECT_DIR$/web/bundles/front/assets/DSC_7294.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/web/bundles/edu/assets/DSC_7362.jpg" afterPath="$PROJECT_DIR$/web/bundles/front/assets/DSC_7362.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/web/bundles/edu/assets/DSC_7412.jpg" afterPath="$PROJECT_DIR$/web/bundles/front/assets/DSC_7412.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/web/bundles/edu/assets/accueil.jpg" afterPath="$PROJECT_DIR$/web/bundles/front/assets/accueil.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/web/bundles/edu/assets/brandEducapeace.png" afterPath="$PROJECT_DIR$/web/bundles/front/assets/brandEducapeace.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/web/bundles/edu/assets/dsc_4604.jpg" afterPath="$PROJECT_DIR$/web/bundles/front/assets/dsc_4604.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/web/bundles/edu/assets/flags/fr.png" afterPath="$PROJECT_DIR$/web/bundles/front/assets/flags/fr.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/web/bundles/edu/assets/flags/gb.png" afterPath="$PROJECT_DIR$/web/bundles/front/assets/flags/gb.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/web/bundles/edu/assets/home_rs.jpg" afterPath="$PROJECT_DIR$/web/bundles/front/assets/home_rs.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/web/bundles/edu/assets/home_rs.png" afterPath="$PROJECT_DIR$/web/bundles/front/assets/home_rs.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/web/bundles/edu/assets/img/moins.jpg" afterPath="$PROJECT_DIR$/web/bundles/front/assets/img/moins.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/web/bundles/edu/assets/img/plus.jpg" afterPath="$PROJECT_DIR$/web/bundles/front/assets/img/plus.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/web/bundles/edu/assets/img/poubelle.jpg" afterPath="$PROJECT_DIR$/web/bundles/front/assets/img/poubelle.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/web/bundles/edu/assets/interet_general.jpg" afterPath="$PROJECT_DIR$/web/bundles/front/assets/interet_general.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/web/bundles/edu/assets/label_interet_general.jpg" afterPath="$PROJECT_DIR$/web/bundles/front/assets/label_interet_general.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/web/bundles/edu/assets/logoEducapeace.png" afterPath="$PROJECT_DIR$/web/bundles/front/assets/logoEducapeace.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/web/bundles/edu/assets/parrainnage.png" afterPath="$PROJECT_DIR$/web/bundles/front/assets/parrainnage.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/web/bundles/edu/assets/partners/AE75.jpg" afterPath="$PROJECT_DIR$/web/bundles/front/assets/partners/AE75.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/web/bundles/edu/assets/partners/Conseil-Gnral-77.jpg" afterPath="$PROJECT_DIR$/web/bundles/front/assets/partners/Conseil-Gnral-77.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/web/bundles/edu/assets/partners/ascovime-opt2.png" afterPath="$PROJECT_DIR$/web/bundles/front/assets/partners/ascovime-opt2.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/web/bundles/edu/assets/partners/csc pontault combault.jpg" afterPath="$PROJECT_DIR$/web/bundles/front/assets/partners/csc pontault combault.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/web/bundles/edu/assets/partners/ekdev.png" afterPath="$PROJECT_DIR$/web/bundles/front/assets/partners/ekdev.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/web/bundles/edu/assets/partners/logo-pan-piper.jpg" afterPath="$PROJECT_DIR$/web/bundles/front/assets/partners/logo-pan-piper.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/web/bundles/edu/assets/partners/pontault-combault.png" afterPath="$PROJECT_DIR$/web/bundles/front/assets/partners/pontault-combault.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/web/bundles/edu/js/animate-in.js" afterPath="$PROJECT_DIR$/web/bundles/front/js/animate-in.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/web/bundles/edu/theme.css" afterPath="$PROJECT_DIR$/web/bundles/front/theme.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/educapeace.iml" afterPath="$PROJECT_DIR$/.idea/educapeace.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/AppKernel.php" afterPath="$PROJECT_DIR$/app/AppKernel.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Resources/views/base.html.twig" afterPath="$PROJECT_DIR$/app/Resources/views/base.html.twig" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Resources/views/base_home.html.twig" afterPath="$PROJECT_DIR$/app/Resources/views/base_home.html.twig" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Resources/views/base_large.html.twig" afterPath="$PROJECT_DIR$/app/Resources/views/base_large.html.twig" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Resources/views/call_action.html.twig" afterPath="$PROJECT_DIR$/app/Resources/views/call_action.html.twig" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Resources/views/default/index.html.twig" afterPath="$PROJECT_DIR$/app/Resources/views/default/index.html.twig" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Resources/views/footer.html.twig" afterPath="$PROJECT_DIR$/app/Resources/views/footer.html.twig" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Resources/views/modal.html.twig" afterPath="$PROJECT_DIR$/app/Resources/views/modal.html.twig" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Resources/views/nav.html.twig" afterPath="$PROJECT_DIR$/app/Resources/views/nav.html.twig" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Resources/views/sponsor.html.twig" afterPath="$PROJECT_DIR$/app/Resources/views/sponsor.html.twig" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/config/config.yml" afterPath="$PROJECT_DIR$/app/config/config.yml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/config/config_dev.yml" afterPath="$PROJECT_DIR$/app/config/config_dev.yml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/config/parameters.yml" afterPath="$PROJECT_DIR$/app/config/parameters.yml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/config/routing.yml" afterPath="$PROJECT_DIR$/app/config/routing.yml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/EduBundle/Controller/ShopController.php" afterPath="$PROJECT_DIR$/src/EduBundle/Controller/ShopController.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/EduBundle/Resources/views/Home/news.html.twig" afterPath="$PROJECT_DIR$/src/EduBundle/Resources/views/Home/news.html.twig" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/bundles/edu/theme.css" afterPath="$PROJECT_DIR$/web/bundles/edu/theme.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/config/security.yml" afterPath="$PROJECT_DIR$/app/config/security.yml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/config/services.yml" afterPath="$PROJECT_DIR$/app/config/services.yml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/composer.json" afterPath="$PROJECT_DIR$/composer.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/composer.lock" afterPath="$PROJECT_DIR$/composer.lock" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/composer/autoload_psr4.php" afterPath="$PROJECT_DIR$/vendor/composer/autoload_psr4.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/composer/autoload_static.php" afterPath="$PROJECT_DIR$/vendor/composer/autoload_static.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/composer/ca-bundle/src/CaBundle.php" afterPath="$PROJECT_DIR$/vendor/composer/ca-bundle/src/CaBundle.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/composer/installed.json" afterPath="$PROJECT_DIR$/vendor/composer/installed.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/doctrine/annotations/lib/Doctrine/Common/Annotations/Reader.php" afterPath="$PROJECT_DIR$/vendor/doctrine/annotations/lib/Doctrine/Common/Annotations/Reader.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/doctrine/cache/lib/Doctrine/Common/Cache/Cache.php" afterPath="$PROJECT_DIR$/vendor/doctrine/cache/lib/Doctrine/Common/Cache/Cache.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/doctrine/cache/lib/Doctrine/Common/Cache/ClearableCache.php" afterPath="$PROJECT_DIR$/vendor/doctrine/cache/lib/Doctrine/Common/Cache/ClearableCache.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/doctrine/cache/lib/Doctrine/Common/Cache/FlushableCache.php" afterPath="$PROJECT_DIR$/vendor/doctrine/cache/lib/Doctrine/Common/Cache/FlushableCache.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/doctrine/cache/lib/Doctrine/Common/Cache/MultiDeleteCache.php" afterPath="$PROJECT_DIR$/vendor/doctrine/cache/lib/Doctrine/Common/Cache/MultiDeleteCache.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/doctrine/cache/lib/Doctrine/Common/Cache/MultiGetCache.php" afterPath="$PROJECT_DIR$/vendor/doctrine/cache/lib/Doctrine/Common/Cache/MultiGetCache.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/doctrine/cache/lib/Doctrine/Common/Cache/MultiOperationCache.php" afterPath="$PROJECT_DIR$/vendor/doctrine/cache/lib/Doctrine/Common/Cache/MultiOperationCache.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/doctrine/cache/lib/Doctrine/Common/Cache/MultiPutCache.php" afterPath="$PROJECT_DIR$/vendor/doctrine/cache/lib/Doctrine/Common/Cache/MultiPutCache.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/doctrine/collections/lib/Doctrine/Common/Collections/Selectable.php" afterPath="$PROJECT_DIR$/vendor/doctrine/collections/lib/Doctrine/Common/Collections/Selectable.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/doctrine/common/lib/Doctrine/Common/Persistence/Proxy.php" afterPath="$PROJECT_DIR$/vendor/doctrine/common/lib/Doctrine/Common/Persistence/Proxy.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/doctrine/common/lib/Doctrine/Common/Proxy/Proxy.php" afterPath="$PROJECT_DIR$/vendor/doctrine/common/lib/Doctrine/Common/Proxy/Proxy.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/doctrine/dbal/lib/Doctrine/DBAL/Driver.php" afterPath="$PROJECT_DIR$/vendor/doctrine/dbal/lib/Doctrine/DBAL/Driver.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/doctrine/dbal/lib/Doctrine/DBAL/Driver/ResultStatement.php" afterPath="$PROJECT_DIR$/vendor/doctrine/dbal/lib/Doctrine/DBAL/Driver/ResultStatement.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/doctrine/dbal/lib/Doctrine/DBAL/Logging/SQLLogger.php" afterPath="$PROJECT_DIR$/vendor/doctrine/dbal/lib/Doctrine/DBAL/Logging/SQLLogger.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/doctrine/dbal/lib/Doctrine/DBAL/Tools/Console/ConsoleRunner.php" afterPath="$PROJECT_DIR$/vendor/doctrine/dbal/lib/Doctrine/DBAL/Tools/Console/ConsoleRunner.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/doctrine/doctrine-bundle/Command/CreateDatabaseDoctrineCommand.php" afterPath="$PROJECT_DIR$/vendor/doctrine/doctrine-bundle/Command/CreateDatabaseDoctrineCommand.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/doctrine/doctrine-bundle/Command/DropDatabaseDoctrineCommand.php" afterPath="$PROJECT_DIR$/vendor/doctrine/doctrine-bundle/Command/DropDatabaseDoctrineCommand.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/doctrine/doctrine-bundle/Resources/views/Collector/db.html.twig" afterPath="$PROJECT_DIR$/vendor/doctrine/doctrine-bundle/Resources/views/Collector/db.html.twig" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/doctrine/orm/lib/Doctrine/ORM/Cache/Logging/CacheLogger.php" afterPath="$PROJECT_DIR$/vendor/doctrine/orm/lib/Doctrine/ORM/Cache/Logging/CacheLogger.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/doctrine/orm/lib/Doctrine/ORM/Cache/Persister/CachedPersister.php" afterPath="$PROJECT_DIR$/vendor/doctrine/orm/lib/Doctrine/ORM/Cache/Persister/CachedPersister.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/doctrine/orm/lib/Doctrine/ORM/Cache/Persister/Collection/CachedCollectionPersister.php" afterPath="$PROJECT_DIR$/vendor/doctrine/orm/lib/Doctrine/ORM/Cache/Persister/Collection/CachedCollectionPersister.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/doctrine/orm/lib/Doctrine/ORM/Cache/Persister/Entity/CachedEntityPersister.php" afterPath="$PROJECT_DIR$/vendor/doctrine/orm/lib/Doctrine/ORM/Cache/Persister/Entity/CachedEntityPersister.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/doctrine/orm/lib/Doctrine/ORM/Proxy/Proxy.php" afterPath="$PROJECT_DIR$/vendor/doctrine/orm/lib/Doctrine/ORM/Proxy/Proxy.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/doctrine/orm/lib/Doctrine/ORM/Query/TreeWalker.php" afterPath="$PROJECT_DIR$/vendor/doctrine/orm/lib/Doctrine/ORM/Query/TreeWalker.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/doctrine/orm/lib/Doctrine/ORM/Repository/RepositoryFactory.php" afterPath="$PROJECT_DIR$/vendor/doctrine/orm/lib/Doctrine/ORM/Repository/RepositoryFactory.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/doctrine/orm/lib/Doctrine/ORM/Tools/Console/ConsoleRunner.php" afterPath="$PROJECT_DIR$/vendor/doctrine/orm/lib/Doctrine/ORM/Tools/Console/ConsoleRunner.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/incenteev/composer-parameter-handler/.travis.yml" afterPath="$PROJECT_DIR$/vendor/incenteev/composer-parameter-handler/.travis.yml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/incenteev/composer-parameter-handler/CHANGELOG.md" afterPath="$PROJECT_DIR$/vendor/incenteev/composer-parameter-handler/CHANGELOG.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/incenteev/composer-parameter-handler/Tests/ProcessorTest.php" afterPath="$PROJECT_DIR$/vendor/incenteev/composer-parameter-handler/Tests/ProcessorTest.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/incenteev/composer-parameter-handler/Tests/ScriptHandlerTest.php" afterPath="$PROJECT_DIR$/vendor/incenteev/composer-parameter-handler/Tests/ScriptHandlerTest.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/incenteev/composer-parameter-handler/composer.json" afterPath="$PROJECT_DIR$/vendor/incenteev/composer-parameter-handler/composer.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/kriswallsmith/assetic/src/Assetic/Cache/CacheInterface.php" afterPath="$PROJECT_DIR$/vendor/kriswallsmith/assetic/src/Assetic/Cache/CacheInterface.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/kriswallsmith/assetic/src/Assetic/ValueSupplierInterface.php" afterPath="$PROJECT_DIR$/vendor/kriswallsmith/assetic/src/Assetic/ValueSupplierInterface.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/monolog/monolog/src/Monolog/Formatter/FormatterInterface.php" afterPath="$PROJECT_DIR$/vendor/monolog/monolog/src/Monolog/Formatter/FormatterInterface.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/monolog/monolog/src/Monolog/Handler/FingersCrossed/ActivationStrategyInterface.php" afterPath="$PROJECT_DIR$/vendor/monolog/monolog/src/Monolog/Handler/FingersCrossed/ActivationStrategyInterface.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/monolog/monolog/src/Monolog/Handler/HandlerInterface.php" afterPath="$PROJECT_DIR$/vendor/monolog/monolog/src/Monolog/Handler/HandlerInterface.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/monolog/monolog/src/Monolog/Processor/WebProcessor.php" afterPath="$PROJECT_DIR$/vendor/monolog/monolog/src/Monolog/Processor/WebProcessor.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/psr/simple-cache/src/CacheException.php" afterPath="$PROJECT_DIR$/vendor/psr/simple-cache/src/CacheException.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/psr/simple-cache/src/CacheInterface.php" afterPath="$PROJECT_DIR$/vendor/psr/simple-cache/src/CacheInterface.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/sensio/generator-bundle/Resources/skeleton/bundle/routing.yml.twig" afterPath="$PROJECT_DIR$/vendor/sensio/generator-bundle/Resources/skeleton/bundle/routing.yml.twig" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Encoder.php" afterPath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Encoder.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Events/EventDispatcher.php" afterPath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Events/EventDispatcher.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/lib/classes/Swift/FileSpool.php" afterPath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/lib/classes/Swift/FileSpool.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Mime/ContentEncoder.php" afterPath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Mime/ContentEncoder.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Mime/HeaderEncoder.php" afterPath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Mime/HeaderEncoder.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Signers/BodySigner.php" afterPath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Signers/BodySigner.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Signers/HeaderSigner.php" afterPath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Signers/HeaderSigner.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Spool.php" afterPath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Spool.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/symfony/assetic-bundle/DefaultValueSupplier.php" afterPath="$PROJECT_DIR$/vendor/symfony/assetic-bundle/DefaultValueSupplier.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/symfony/assetic-bundle/Tests/FunctionalTest.php" afterPath="$PROJECT_DIR$/vendor/symfony/assetic-bundle/Tests/FunctionalTest.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Bridge/Twig/Translation/TwigExtractor.php" afterPath="$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Bridge/Twig/Translation/TwigExtractor.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Bundle/FrameworkBundle/CacheWarmer/TemplateFinderInterface.php" afterPath="$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Bundle/FrameworkBundle/CacheWarmer/TemplateFinderInterface.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Bundle/FrameworkBundle/Command/ConfigDumpReferenceCommand.php" afterPath="$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Bundle/FrameworkBundle/Command/ConfigDumpReferenceCommand.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Bundle/FrameworkBundle/Tests/Controller/ControllerNameParserTest.php" afterPath="$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Bundle/FrameworkBundle/Tests/Controller/ControllerNameParserTest.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Bundle/FrameworkBundle/Tests/Controller/ControllerResolverTest.php" afterPath="$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Bundle/FrameworkBundle/Tests/Controller/ControllerResolverTest.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Bundle/FrameworkBundle/Tests/Functional/ConfigDumpReferenceCommandTest.php" afterPath="$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Bundle/FrameworkBundle/Tests/Functional/ConfigDumpReferenceCommandTest.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Bundle/FrameworkBundle/Tests/Templating/TemplateNameParserTest.php" afterPath="$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Bundle/FrameworkBundle/Tests/Templating/TemplateNameParserTest.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Bundle/SecurityBundle/Tests/Functional/Bundle/CsrfFormLoginBundle/Controller/LoginController.php" afterPath="$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Bundle/SecurityBundle/Tests/Functional/Bundle/CsrfFormLoginBundle/Controller/LoginController.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Bundle/SecurityBundle/Tests/Functional/Bundle/FormLoginBundle/Controller/LocalizedController.php" afterPath="$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Bundle/SecurityBundle/Tests/Functional/Bundle/FormLoginBundle/Controller/LocalizedController.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Bundle/SecurityBundle/Tests/Functional/Bundle/FormLoginBundle/Controller/LoginController.php" afterPath="$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Bundle/SecurityBundle/Tests/Functional/Bundle/FormLoginBundle/Controller/LoginController.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Bundle/TwigBundle/Tests/Loader/FilesystemLoaderTest.php" afterPath="$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Bundle/TwigBundle/Tests/Loader/FilesystemLoaderTest.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Bundle/TwigBundle/Tests/TemplateIteratorTest.php" afterPath="$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Bundle/TwigBundle/Tests/TemplateIteratorTest.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Bundle/WebProfilerBundle/Resources/views/Profiler/layout.html.twig" afterPath="$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Bundle/WebProfilerBundle/Resources/views/Profiler/layout.html.twig" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Component/Cache/Adapter/AdapterInterface.php" afterPath="$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Component/Cache/Adapter/AdapterInterface.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Component/Cache/Adapter/TagAwareAdapterInterface.php" afterPath="$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Component/Cache/Adapter/TagAwareAdapterInterface.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Component/Config/ConfigCacheFactoryInterface.php" afterPath="$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Component/Config/ConfigCacheFactoryInterface.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Component/Config/ConfigCacheInterface.php" afterPath="$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Component/Config/ConfigCacheInterface.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Component/Config/Definition/Dumper/YamlReferenceDumper.php" afterPath="$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Component/Config/Definition/Dumper/YamlReferenceDumper.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Component/Config/Definition/NodeInterface.php" afterPath="$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Component/Config/Definition/NodeInterface.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Component/Config/Resource/SelfCheckingResourceInterface.php" afterPath="$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Component/Config/Resource/SelfCheckingResourceInterface.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Component/Config/ResourceCheckerInterface.php" afterPath="$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Component/Config/ResourceCheckerInterface.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Component/Config/Tests/Loader/FileLoaderTest.php" afterPath="$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Component/Config/Tests/Loader/FileLoaderTest.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Component/Console/Descriptor/MarkdownDescriptor.php" afterPath="$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Component/Console/Descriptor/MarkdownDescriptor.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Component/CssSelector/Exception/ExceptionInterface.php" afterPath="$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Component/CssSelector/Exception/ExceptionInterface.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Component/CssSelector/Node/NodeInterface.php" afterPath="$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Component/CssSelector/Node/NodeInterface.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Component/Debug/Exception/ClassNotFoundException.php" afterPath="$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Component/Debug/Exception/ClassNotFoundException.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Component/DependencyInjection/Compiler/CompilerPassInterface.php" afterPath="$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Component/DependencyInjection/Compiler/CompilerPassInterface.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Component/DependencyInjection/Compiler/RepeatablePassInterface.php" afterPath="$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Component/DependencyInjection/Compiler/RepeatablePassInterface.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Component/Dotenv/Exception/ExceptionInterface.php" afterPath="$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Component/Dotenv/Exception/ExceptionInterface.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Component/Filesystem/LockHandler.php" afterPath="$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Component/Filesystem/LockHandler.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Component/Finder/Iterator/PathFilterIterator.php" afterPath="$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Component/Finder/Iterator/PathFilterIterator.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Component/Form/AbstractRendererEngine.php" afterPath="$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Component/Form/AbstractRendererEngine.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Component/Form/ChoiceList/Factory/DefaultChoiceListFactory.php" afterPath="$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Component/Form/ChoiceList/Factory/DefaultChoiceListFactory.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Component/Form/Extension/DataCollector/FormDataExtractor.php" afterPath="$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Component/Form/Extension/DataCollector/FormDataExtractor.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Component/Form/Extension/Validator/EventListener/ValidationListener.php" afterPath="$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Component/Form/Extension/Validator/EventListener/ValidationListener.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Component/Form/FormExtensionInterface.php" afterPath="$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Component/Form/FormExtensionInterface.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Component/Form/Tests/Extension/Validator/Constraints/FormValidatorTest.php" afterPath="$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Component/Form/Tests/Extension/Validator/Constraints/FormValidatorTest.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Component/HttpFoundation/Exception/RequestExceptionInterface.php" afterPath="$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Component/HttpFoundation/Exception/RequestExceptionInterface.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Component/HttpFoundation/ParameterBag.php" afterPath="$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Component/HttpFoundation/ParameterBag.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Component/HttpFoundation/Session/Flash/FlashBagInterface.php" afterPath="$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Component/HttpFoundation/Session/Flash/FlashBagInterface.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Component/HttpFoundation/Session/SessionInterface.php" afterPath="$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Component/HttpFoundation/Session/SessionInterface.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Component/HttpFoundation/Session/Storage/Handler/NativeFileSessionHandler.php" afterPath="$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Component/HttpFoundation/Session/Storage/Handler/NativeFileSessionHandler.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/CacheWarmer/CacheWarmerInterface.php" afterPath="$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/CacheWarmer/CacheWarmerInterface.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/CacheWarmer/WarmableInterface.php" afterPath="$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/CacheWarmer/WarmableInterface.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/Exception/HttpExceptionInterface.php" afterPath="$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/Exception/HttpExceptionInterface.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/Fragment/FragmentRendererInterface.php" afterPath="$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/Fragment/FragmentRendererInterface.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/HttpCache/StoreInterface.php" afterPath="$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/HttpCache/StoreInterface.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Component/Intl/Data/Bundle/Reader/BundleEntryReader.php" afterPath="$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Component/Intl/Data/Bundle/Reader/BundleEntryReader.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Component/Intl/DateFormatter/IntlDateFormatter.php" afterPath="$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Component/Intl/DateFormatter/IntlDateFormatter.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Component/Intl/NumberFormatter/NumberFormatter.php" afterPath="$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Component/Intl/NumberFormatter/NumberFormatter.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Component/Intl/ResourceBundle/CurrencyBundle.php" afterPath="$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Component/Intl/ResourceBundle/CurrencyBundle.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Component/Intl/ResourceBundle/LanguageBundle.php" afterPath="$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Component/Intl/ResourceBundle/LanguageBundle.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Component/Intl/ResourceBundle/LocaleBundle.php" afterPath="$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Component/Intl/ResourceBundle/LocaleBundle.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Component/Intl/ResourceBundle/RegionBundle.php" afterPath="$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Component/Intl/ResourceBundle/RegionBundle.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Component/OptionsResolver/OptionsResolver.php" afterPath="$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Component/OptionsResolver/OptionsResolver.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Component/Process/Exception/ExceptionInterface.php" afterPath="$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Component/Process/Exception/ExceptionInterface.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Component/PropertyAccess/PropertyAccessor.php" afterPath="$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Component/PropertyAccess/PropertyAccessor.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Component/PropertyAccess/PropertyPath.php" afterPath="$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Component/PropertyAccess/PropertyPath.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Component/PropertyInfo/PropertyDescriptionExtractorInterface.php" afterPath="$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Component/PropertyInfo/PropertyDescriptionExtractorInterface.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Component/PropertyInfo/PropertyInfoExtractor.php" afterPath="$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Component/PropertyInfo/PropertyInfoExtractor.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Component/PropertyInfo/PropertyTypeExtractorInterface.php" afterPath="$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Component/PropertyInfo/PropertyTypeExtractorInterface.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Component/Routing/Matcher/Dumper/DumperCollection.php" afterPath="$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Component/Routing/Matcher/Dumper/DumperCollection.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Component/Routing/Tests/RouteCollectionBuilderTest.php" afterPath="$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Component/Routing/Tests/RouteCollectionBuilderTest.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Component/Security/Core/Authentication/AuthenticationTrustResolverInterface.php" afterPath="$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Component/Security/Core/Authentication/AuthenticationTrustResolverInterface.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Component/Security/Core/Authentication/RememberMe/PersistentTokenInterface.php" afterPath="$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Component/Security/Core/Authentication/RememberMe/PersistentTokenInterface.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Component/Security/Core/Authentication/RememberMe/TokenProviderInterface.php" afterPath="$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Component/Security/Core/Authentication/RememberMe/TokenProviderInterface.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Component/Security/Csrf/CsrfTokenManager.php" afterPath="$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Component/Security/Csrf/CsrfTokenManager.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Component/Security/Http/Authentication/AuthenticationFailureHandlerInterface.php" afterPath="$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Component/Security/Http/Authentication/AuthenticationFailureHandlerInterface.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Component/Security/Http/Authentication/AuthenticationSuccessHandlerInterface.php" afterPath="$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Component/Security/Http/Authentication/AuthenticationSuccessHandlerInterface.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Component/Security/Http/Authentication/SimpleAuthenticationHandler.php" afterPath="$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Component/Security/Http/Authentication/SimpleAuthenticationHandler.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Component/Security/Http/Firewall/ListenerInterface.php" afterPath="$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Component/Security/Http/Firewall/ListenerInterface.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Component/Security/Http/Logout/DefaultLogoutSuccessHandler.php" afterPath="$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Component/Security/Http/Logout/DefaultLogoutSuccessHandler.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Component/Security/Http/Logout/LogoutHandlerInterface.php" afterPath="$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Component/Security/Http/Logout/LogoutHandlerInterface.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Component/Security/Http/RememberMe/RememberMeServicesInterface.php" afterPath="$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Component/Security/Http/RememberMe/RememberMeServicesInterface.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Component/Templating/TemplateReferenceInterface.php" afterPath="$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Component/Templating/TemplateReferenceInterface.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Component/Validator/Constraint.php" afterPath="$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Component/Validator/Constraint.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Component/Validator/ConstraintValidatorFactory.php" afterPath="$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Component/Validator/ConstraintValidatorFactory.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Component/Validator/ConstraintViolation.php" afterPath="$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Component/Validator/ConstraintViolation.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Component/Validator/ConstraintViolationList.php" afterPath="$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Component/Validator/ConstraintViolationList.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Component/Validator/Constraints/GroupSequence.php" afterPath="$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Component/Validator/Constraints/GroupSequence.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Component/Validator/Mapping/ClassMetadata.php" afterPath="$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Component/Validator/Mapping/ClassMetadata.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Component/Validator/Mapping/ClassMetadataInterface.php" afterPath="$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Component/Validator/Mapping/ClassMetadataInterface.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Component/Validator/Tests/ConstraintTest.php" afterPath="$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Component/Validator/Tests/ConstraintTest.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Component/Validator/Tests/Constraints/CompositeTest.php" afterPath="$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Component/Validator/Tests/Constraints/CompositeTest.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Component/Validator/Tests/Mapping/ClassMetadataTest.php" afterPath="$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Component/Validator/Tests/Mapping/ClassMetadataTest.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Component/Validator/Tests/Mapping/Factory/LazyLoadingMetadataFactoryTest.php" afterPath="$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Component/Validator/Tests/Mapping/Factory/LazyLoadingMetadataFactoryTest.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Component/Validator/Tests/Validator/AbstractValidatorTest.php" afterPath="$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Component/Validator/Tests/Validator/AbstractValidatorTest.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Component/Validator/Validator/ContextualValidatorInterface.php" afterPath="$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Component/Validator/Validator/ContextualValidatorInterface.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Component/Validator/Validator/RecursiveContextualValidator.php" afterPath="$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Component/Validator/Validator/RecursiveContextualValidator.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Component/Validator/Validator/ValidatorInterface.php" afterPath="$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Component/Validator/Validator/ValidatorInterface.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Component/Validator/Violation/ConstraintViolationBuilder.php" afterPath="$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Component/Validator/Violation/ConstraintViolationBuilder.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Component/Yaml/Tests/Fixtures/YtsSpecificationExamples.yml" afterPath="$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Component/Yaml/Tests/Fixtures/YtsSpecificationExamples.yml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/twig/twig/lib/Twig/CacheInterface.php" afterPath="$PROJECT_DIR$/vendor/twig/twig/lib/Twig/CacheInterface.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/twig/twig/lib/Twig/ExtensionInterface.php" afterPath="$PROJECT_DIR$/vendor/twig/twig/lib/Twig/ExtensionInterface.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/twig/twig/lib/Twig/LoaderInterface.php" afterPath="$PROJECT_DIR$/vendor/twig/twig/lib/Twig/LoaderInterface.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/twig/twig/lib/Twig/TokenParserInterface.php" afterPath="$PROJECT_DIR$/vendor/twig/twig/lib/Twig/TokenParserInterface.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/twig/twig/test/Twig/Tests/EnvironmentTest.php" afterPath="$PROJECT_DIR$/vendor/twig/twig/test/Twig/Tests/EnvironmentTest.php" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -21,119 +277,59 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="routing.yml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/config/routing.yml">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="index.html.twig" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/EK/AssoBundle/Resources/views/Adhesion/index.html.twig">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="14" column="16" lean-forward="false" selection-start-line="14" selection-start-column="16" selection-end-line="14" selection-end-column="16" />
+            <state relative-caret-position="324">
+              <caret line="382" column="146" lean-forward="false" selection-start-line="382" selection-start-column="146" selection-end-line="382" selection-end-column="146" />
+              <folding>
+                <element signature="e#22786#22811#0#HTML" expanded="true" />
+                <element signature="e#40510#40537#0#HTML" expanded="true" />
+                <element signature="e#40611#40657#0#HTML" expanded="true" />
+                <element signature="e#44953#44979#0#HTML" expanded="true" />
+                <element signature="e#46262#46288#0#HTML" expanded="true" />
+                <element signature="e#46563#46589#0#HTML" expanded="true" />
+                <element signature="e#46936#46964#0#HTML" expanded="true" />
+                <element signature="e#47196#47241#0#HTML" expanded="true" />
+                <element signature="e#47486#47504#0#HTML" expanded="true" />
+                <element signature="e#47681#47726#0#HTML" expanded="true" />
+                <element signature="e#47758#47776#0#HTML" expanded="true" />
+                <element signature="e#47886#47904#0#HTML" expanded="true" />
+                <element signature="e#48014#48032#0#HTML" expanded="true" />
+                <element signature="e#48142#48160#0#HTML" expanded="true" />
+                <element signature="e#48338#48383#0#HTML" expanded="true" />
+                <element signature="e#48415#48433#0#HTML" expanded="true" />
+                <element signature="e#49253#49299#0#HTML" expanded="true" />
+                <element signature="e#49872#49897#0#HTML" expanded="true" />
+                <element signature="e#50302#50327#0#HTML" expanded="true" />
+                <element signature="e#50732#50757#0#HTML" expanded="true" />
+                <element signature="e#51687#51712#0#HTML" expanded="true" />
+                <element signature="e#51783#51809#0#HTML" expanded="true" />
+                <element signature="e#51975#52000#0#HTML" expanded="true" />
+                <element signature="e#52072#52078#0#HTML" expanded="true" />
+                <element signature="e#52078#52084#0#HTML" expanded="true" />
+                <element signature="e#52084#52090#0#HTML" expanded="true" />
+                <element signature="e#52090#52096#0#HTML" expanded="true" />
+                <element signature="e#52096#52102#0#HTML" expanded="true" />
+                <element signature="e#52102#52108#0#HTML" expanded="true" />
+                <element signature="e#52108#52114#0#HTML" expanded="true" />
+                <element signature="e#52297#52322#0#HTML" expanded="true" />
+                <element signature="e#52393#52419#0#HTML" expanded="true" />
+                <element signature="e#52632#52674#0#HTML" expanded="true" />
+                <element signature="e#52810#52835#0#HTML" expanded="true" />
+                <element signature="e#53383#53409#0#HTML" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="js_ident.html.twig" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/Resources/views/js_ident.html.twig">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="243">
+              <caret line="160" column="34" lean-forward="false" selection-start-line="160" selection-start-column="34" selection-end-line="160" selection-end-column="34" />
               <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="base.html.twig" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/Resources/views/base.html.twig">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="386">
-              <caret line="60" column="10" lean-forward="false" selection-start-line="60" selection-start-column="10" selection-end-line="60" selection-end-column="10" />
-              <folding>
-                <element signature="n#style#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="theme.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web/bundles/edu/theme.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="559">
-              <caret line="6273" column="20" lean-forward="false" selection-start-line="6273" selection-start-column="20" selection-end-line="6273" selection-end-column="20" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="base_home.html.twig" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/Resources/views/base_home.html.twig">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="277">
-              <caret line="59" column="80" lean-forward="false" selection-start-line="59" selection-start-column="80" selection-end-line="59" selection-end-column="80" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="news.html.twig" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/EduBundle/Resources/views/Home/news.html.twig">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="7" column="3" lean-forward="false" selection-start-line="7" selection-start-column="3" selection-end-line="99" selection-end-column="14" />
-              <folding>
-                <element signature="e#6213#6219#0#HTML" expanded="true" />
-                <element signature="e#6219#6225#0#HTML" expanded="true" />
-                <element signature="e#6225#6231#0#HTML" expanded="true" />
-                <element signature="e#6231#6237#0#HTML" expanded="true" />
-                <element signature="e#6237#6243#0#HTML" expanded="true" />
-                <element signature="e#6243#6249#0#HTML" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.html.twig" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/EduBundle/Resources/views/Shop/index.html.twig">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="195">
-              <caret line="13" column="24" lean-forward="false" selection-start-line="13" selection-start-column="24" selection-end-line="13" selection-end-column="24" />
-              <folding>
-                <element signature="e#267#294#0#HTML" expanded="true" />
-                <element signature="e#337#364#0#HTML" expanded="true" />
-                <element signature="e#1916#1922#0#HTML" expanded="true" />
-                <element signature="e#2690#2696#0#HTML" expanded="true" />
-                <element signature="e#3657#3663#0#HTML" expanded="true" />
-                <element signature="e#4431#4437#0#HTML" expanded="true" />
-                <element signature="e#5398#5404#0#HTML" expanded="true" />
-                <element signature="e#6172#6178#0#HTML" expanded="true" />
-                <element signature="e#7859#7886#0#HTML" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="_cart.html.twig" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/EduBundle/Resources/views/Shop/_cart.html.twig">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="4" column="16" lean-forward="false" selection-start-line="4" selection-start-column="16" selection-end-line="4" selection-end-column="16" />
-              <folding>
-                <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
-                <element signature="e#2314#2320#1#HTML" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ShopController.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/EduBundle/Controller/ShopController.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="375">
-              <caret line="30" column="1" lean-forward="false" selection-start-line="30" selection-start-column="1" selection-end-line="30" selection-end-column="1" />
-              <folding>
-                <element signature="e#128#185#0#PHP" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="HomeController.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/EduBundle/Controller/HomeController.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="396">
-              <caret line="34" column="34" lean-forward="false" selection-start-line="34" selection-start-column="12" selection-end-line="34" selection-end-column="34" />
-              <folding>
-                <element signature="e#40#97#0#PHP" expanded="true" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -141,8 +337,50 @@
       <file leaf-file-name="base_large.html.twig" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/Resources/views/base_large.html.twig">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="254">
-              <caret line="17" column="167" lean-forward="false" selection-start-line="17" selection-start-column="167" selection-end-line="17" selection-end-column="167" />
+            <state relative-caret-position="24">
+              <caret line="26" column="87" lean-forward="false" selection-start-line="26" selection-start-column="87" selection-end-line="26" selection-end-column="87" />
+              <folding>
+                <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="theme.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/bundles/front/theme.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="273">
+              <caret line="4214" column="23" lean-forward="false" selection-start-line="4214" selection-start-column="23" selection-end-line="4214" selection-end-column="23" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="messages.fr.yml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/EK/AssoBundle/Resources/translations/messages.fr.yml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="363">
+              <caret line="104" column="15" lean-forward="false" selection-start-line="104" selection-start-column="11" selection-end-line="104" selection-end-column="15" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="messages.en.yml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/EK/AssoBundle/Resources/translations/messages.en.yml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="201">
+              <caret line="80" column="23" lean-forward="false" selection-start-line="80" selection-start-column="23" selection-end-line="80" selection-end-column="23" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="footer.html.twig" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/Resources/views/footer.html.twig">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="285">
+              <caret line="19" column="95" lean-forward="false" selection-start-line="19" selection-start-column="95" selection-end-line="19" selection-end-column="95" />
               <folding />
             </state>
           </provider>
@@ -152,14 +390,52 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>exampleModal</find>
-      <find>myModal</find>
+      <find>bundles/back/vendor</find>
+      <find>$</find>
+      <find>loadingDiv</find>
+      <find>form-control</find>
+      <find>base_home</find>
+      <find>base</find>
+      <find>security.html.twig</find>
+      <find>dump.html.twig</find>
+      <find>login</find>
+      <find>base_login</find>
+      <find>&quot;'</find>
+      <find>'</find>
+      <find />
+      <find>Ile Maurice</find>
+      <find>Miquelon</find>
+      <find>value = &quot;</find>
+      <find>&lt;/ option&gt;</find>
+      <find>&quot;&gt;</find>
+      <find>&lt;/ ​​option&gt;</find>
+      <find>_submit_register</find>
+      <find>&lt;ul&gt;&lt;li&gt;</find>
+      <find>W771011659</find>
+      <find>bg-secondary-shop</find>
+      <find>btn-secondary</find>
       <find>bg-secondary</find>
-      <find>h5</find>
-      <find>bg-s</find>
+      <find>label</find>
+      <find>bg-secondary-card</find>
+      <find>btn-block</find>
+      <find>fontawesome</find>
+      <find>bg-info</find>
     </findStrings>
+    <replaceStrings>
+      <replace>bundles/back/vendor/</replace>
+      <replace>&quot;</replace>
+      <replace>&quot;&gt;One&lt;/option&gt;</replace>
+      <replace>&lt;option value=&quot;</replace>
+      <replace>'</replace>
+      <replace>&quot;&gt;Two&lt;/option&gt;</replace>
+      <replace />
+      <replace>value=&quot;</replace>
+      <replace>&quot;&gt;</replace>
+      <replace>&lt;/option&gt;</replace>
+    </replaceStrings>
     <dirStrings>
       <dir>$PROJECT_DIR$/src/EduBundle/Resources/views</dir>
+      <dir>$PROJECT_DIR$/app/Resources/views</dir>
       <dir>$PROJECT_DIR$</dir>
     </dirStrings>
   </component>
@@ -169,41 +445,57 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/EduBundle/Resources/views/layout_home.html.twig" />
-        <option value="$PROJECT_DIR$/app/AppKernel.php" />
-        <option value="$PROJECT_DIR$/composer.json" />
-        <option value="$PROJECT_DIR$/app/config/config.yml" />
-        <option value="$PROJECT_DIR$/app/config/config_dev.yml" />
-        <option value="$PROJECT_DIR$/app/Resources/views/base_news.html.twig" />
-        <option value="$PROJECT_DIR$/src/EduBundle/Resources/views/layout.html.twig" />
-        <option value="$PROJECT_DIR$/app/Resources/views/footer.html.twig" />
+        <option value="$PROJECT_DIR$/src/EK/AssoBundle/Controller/SecurityController.php" />
+        <option value="$PROJECT_DIR$/src/EK/AssoBundle/Controller/RegistrationController.php" />
+        <option value="$PROJECT_DIR$/src/EK/AssoBundle/EventListener/RegistrationListener.php" />
+        <option value="$PROJECT_DIR$/src/EK/AssoBundle/Controller/Front/ShopController.php" />
+        <option value="$PROJECT_DIR$/src/EK/AssoBundle/Controller/Backend/AdminController.php" />
+        <option value="$PROJECT_DIR$/src/EK/AssoBundle/Entity/Users.php" />
+        <option value="$PROJECT_DIR$/src/EK/AssoBundle/EventListener/MonologSubscriber.php" />
+        <option value="$PROJECT_DIR$/src/EK/AssoBundle/EventListener/TokenSubscriber.php" />
+        <option value="$PROJECT_DIR$/src/EK/AssoBundle/Handler/AuthenticationHandler.php" />
+        <option value="$PROJECT_DIR$/src/EK/AssoBundle/Service/Translation.php" />
+        <option value="$PROJECT_DIR$/src/EK/AssoBundle/Service/UtilsLog.php" />
+        <option value="$PROJECT_DIR$/src/EK/AssoBundle/Utils/UtilsLogInterface.php" />
+        <option value="$PROJECT_DIR$/src/EK/AssoBundle/Resources/views/layout_admin.html.twig" />
+        <option value="$PROJECT_DIR$/src/EK/AssoBundle/Resources/views/layout.html.twig" />
+        <option value="$PROJECT_DIR$/src/EK/AssoBundle/Resources/views/layout_admin_a.html.twig" />
+        <option value="$PROJECT_DIR$/src/EK/AssoBundle/Resources/views/layout_home.html.twig" />
+        <option value="$PROJECT_DIR$/src/EK/AssoBundle/Resources/views/layout_large.html.twig" />
+        <option value="$PROJECT_DIR$/src/EK/AssoBundle/Resources/views/layout_mail.html.twig" />
+        <option value="$PROJECT_DIR$/src/EK/AssoBundle/Resources/views/Home/index.html.twig" />
+        <option value="$PROJECT_DIR$/src/EK/AssoBundle/Resources/views/Home/news.html.twig" />
+        <option value="$PROJECT_DIR$/src/EK/AssoBundle/Resources/views/Shop/index.html.twig" />
+        <option value="$PROJECT_DIR$/src/EK/AssoBundle/Resources/views/Mail/confirmationAdhesion.html.twig" />
+        <option value="$PROJECT_DIR$/src/EK/AssoBundle/Resources/views/Admin/index.html.twig" />
+        <option value="$PROJECT_DIR$/src/EK/AssoBundle/Resources/views/Admin/login.html.twig" />
+        <option value="$PROJECT_DIR$/app/config/routing.yml" />
+        <option value="$PROJECT_DIR$/src/EK/AssoBundle/Resources/views/Home/about.html.twig" />
         <option value="$PROJECT_DIR$/app/Resources/views/sponsor.html.twig" />
         <option value="$PROJECT_DIR$/app/Resources/views/call_action.html.twig" />
-        <option value="$PROJECT_DIR$/app/Resources/views/modal.html.twig" />
-        <option value="$PROJECT_DIR$/src/EduBundle/Resources/views/Adhesion/adhesion.html.twig" />
-        <option value="$PROJECT_DIR$/src/EduBundle/Resources/views/layout_large.html.twig" />
-        <option value="$PROJECT_DIR$/src/EduBundle/Resources/views/Home/index.html.twig" />
-        <option value="$PROJECT_DIR$/app/Resources/views/nav.html.twig" />
-        <option value="$PROJECT_DIR$/src/EduBundle/Services/Translation.php" />
-        <option value="$PROJECT_DIR$/src/EduBundle/Services/Mailer.php" />
-        <option value="$PROJECT_DIR$/src/EduBundle/Service/Translation.php" />
-        <option value="$PROJECT_DIR$/src/EduBundle/Resources/config/services.yml" />
-        <option value="$PROJECT_DIR$/src/EduBundle/Controller/AdhesionController.php" />
-        <option value="$PROJECT_DIR$/src/EduBundle/Service/Mailer.php" />
-        <option value="$PROJECT_DIR$/src/EduBundle/Resources/views/Adhesion/index.html.twig" />
-        <option value="$PROJECT_DIR$/src/EduBundle/Resources/views/Home/about.html.twig" />
-        <option value="$PROJECT_DIR$/src/EduBundle/Controller/HomeController.php" />
-        <option value="$PROJECT_DIR$/src/EduBundle/Resources/translations/messages.en.yml" />
-        <option value="$PROJECT_DIR$/src/EduBundle/Resources/translations/messages.fr.yml" />
-        <option value="$PROJECT_DIR$/app/Resources/views/base_large.html.twig" />
+        <option value="$PROJECT_DIR$/src/EK/AssoBundle/Entity/Contact.php" />
+        <option value="$PROJECT_DIR$/src/EK/AssoBundle/Controller/Form/ContactType.php" />
+        <option value="$PROJECT_DIR$/src/EK/AssoBundle/Resources/config/services.yml" />
+        <option value="$PROJECT_DIR$/src/EK/AssoBundle/Service/Utiles.php" />
+        <option value="$PROJECT_DIR$/app/config/parameters.yml" />
+        <option value="$PROJECT_DIR$/src/EK/AssoBundle/Form/ContactType.php" />
+        <option value="$PROJECT_DIR$/src/EK/AssoBundle/Resources/views/Mail/contact.html.twig" />
+        <option value="$PROJECT_DIR$/src/EK/AssoBundle/Service/Mailer.php" />
+        <option value="$PROJECT_DIR$/src/EK/AssoBundle/Resources/views/Home/contact_form.html.twig" />
+        <option value="$PROJECT_DIR$/src/EK/AssoBundle/Controller/Front/HomeController.php" />
+        <option value="$PROJECT_DIR$/app/Resources/views/contact_form.html.twig" />
+        <option value="$PROJECT_DIR$/src/EK/AssoBundle/Controller/Front/AdhesionController.php" />
+        <option value="$PROJECT_DIR$/app/Resources/views/base_admin.html.twig" />
+        <option value="$PROJECT_DIR$/app/Resources/views/base_admin_a.html.twig" />
+        <option value="$PROJECT_DIR$/app/Resources/views/base_fos.html.twig" />
         <option value="$PROJECT_DIR$/app/Resources/views/base_home.html.twig" />
-        <option value="$PROJECT_DIR$/src/EduBundle/Resources/views/Home/news.html.twig" />
-        <option value="$PROJECT_DIR$/app/config/routing.yml" />
-        <option value="$PROJECT_DIR$/app/Resources/views/base.html.twig" />
-        <option value="$PROJECT_DIR$/src/EduBundle/Controller/ShopController.php" />
-        <option value="$PROJECT_DIR$/web/bundles/edu/theme.css" />
-        <option value="$PROJECT_DIR$/src/EduBundle/Resources/views/Shop/_cart.html.twig" />
-        <option value="$PROJECT_DIR$/src/EduBundle/Resources/views/Shop/index.html.twig" />
+        <option value="$PROJECT_DIR$/web/bundles/front/theme.css" />
+        <option value="$PROJECT_DIR$/app/Resources/views/base_large.html.twig" />
+        <option value="$PROJECT_DIR$/app/Resources/views/footer.html.twig" />
+        <option value="$PROJECT_DIR$/src/EK/AssoBundle/Resources/translations/messages.en.yml" />
+        <option value="$PROJECT_DIR$/src/EK/AssoBundle/Resources/translations/messages.fr.yml" />
+        <option value="$PROJECT_DIR$/app/Resources/views/js_ident.html.twig" />
+        <option value="$PROJECT_DIR$/src/EK/AssoBundle/Resources/views/Adhesion/index.html.twig" />
       </list>
     </option>
   </component>
@@ -215,10 +507,10 @@
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds">
-    <option name="x" value="94" />
-    <option name="y" value="61" />
-    <option name="width" value="1346" />
-    <option name="height" value="811" />
+    <option name="x" value="136" />
+    <option name="y" value="110" />
+    <option name="width" value="1304" />
+    <option name="height" value="834" />
   </component>
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
@@ -235,8 +527,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -271,33 +561,60 @@
             <path>
               <item name="educapeace" type="b2602c69:ProjectViewProjectNode" />
               <item name="educapeace" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="app" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Resources" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="views" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="default" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="educapeace" type="b2602c69:ProjectViewProjectNode" />
+              <item name="educapeace" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="src" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
             <path>
               <item name="educapeace" type="b2602c69:ProjectViewProjectNode" />
               <item name="educapeace" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="src" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="EduBundle" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="EK" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
             <path>
               <item name="educapeace" type="b2602c69:ProjectViewProjectNode" />
               <item name="educapeace" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="src" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="EduBundle" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="EK" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="AssoBundle" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="educapeace" type="b2602c69:ProjectViewProjectNode" />
+              <item name="educapeace" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="src" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="EK" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="AssoBundle" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="Controller" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
             <path>
               <item name="educapeace" type="b2602c69:ProjectViewProjectNode" />
               <item name="educapeace" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="src" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="EduBundle" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="EK" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="AssoBundle" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Controller" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Front" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="educapeace" type="b2602c69:ProjectViewProjectNode" />
+              <item name="educapeace" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="src" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="EK" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="AssoBundle" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="Resources" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
             <path>
               <item name="educapeace" type="b2602c69:ProjectViewProjectNode" />
               <item name="educapeace" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="src" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="EduBundle" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="EK" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="AssoBundle" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="Resources" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="config" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
@@ -305,7 +622,8 @@
               <item name="educapeace" type="b2602c69:ProjectViewProjectNode" />
               <item name="educapeace" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="src" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="EduBundle" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="EK" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="AssoBundle" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="Resources" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="translations" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
@@ -313,7 +631,8 @@
               <item name="educapeace" type="b2602c69:ProjectViewProjectNode" />
               <item name="educapeace" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="src" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="EduBundle" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="EK" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="AssoBundle" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="Resources" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="views" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
@@ -321,7 +640,8 @@
               <item name="educapeace" type="b2602c69:ProjectViewProjectNode" />
               <item name="educapeace" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="src" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="EduBundle" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="EK" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="AssoBundle" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="Resources" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="views" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="Adhesion" type="2a2b976b:PhpTreeStructureProvider$1" />
@@ -330,7 +650,8 @@
               <item name="educapeace" type="b2602c69:ProjectViewProjectNode" />
               <item name="educapeace" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="src" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="EduBundle" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="EK" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="AssoBundle" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="Resources" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="views" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="Home" type="2a2b976b:PhpTreeStructureProvider$1" />
@@ -339,7 +660,8 @@
               <item name="educapeace" type="b2602c69:ProjectViewProjectNode" />
               <item name="educapeace" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="src" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="EduBundle" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="EK" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="AssoBundle" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="Resources" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="views" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="Mail" type="2a2b976b:PhpTreeStructureProvider$1" />
@@ -348,16 +670,8 @@
               <item name="educapeace" type="b2602c69:ProjectViewProjectNode" />
               <item name="educapeace" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="src" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="EduBundle" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="Resources" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="views" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="Shop" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="educapeace" type="b2602c69:ProjectViewProjectNode" />
-              <item name="educapeace" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="src" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="EduBundle" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="EK" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="AssoBundle" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="Service" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
             <path>
@@ -376,14 +690,14 @@
               <item name="educapeace" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="web" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="bundles" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="edu" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="front" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
             <path>
               <item name="educapeace" type="b2602c69:ProjectViewProjectNode" />
               <item name="educapeace" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="web" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="bundles" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="edu" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="front" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="assets" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
             <path>
@@ -391,7 +705,7 @@
               <item name="educapeace" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="web" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="bundles" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="edu" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="front" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="assets" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="img" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
@@ -399,11 +713,26 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scratches" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="settings.editor.selected.configurable" value="vcs.Git" />
     <property name="WebServerToolWindowFactoryState" value="true" />
+    <property name="nodejs_interpreter_path" value="/opt/local/bin/node" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/web/bundles/front/assets/img" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/app/Resources/views" />
+      <recent name="$PROJECT_DIR$/app/Resources/views/default" />
+      <recent name="$PROJECT_DIR$/src/EK/AssoBundle/Controller" />
+      <recent name="$PROJECT_DIR$/src/EK/AssoBundle" />
+      <recent name="$PROJECT_DIR$/src/EK" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -427,56 +756,47 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1518385990218</updated>
-      <workItem from="1518385992051" duration="47774000" />
+      <workItem from="1518385992051" duration="48486000" />
+      <workItem from="1518574612604" duration="555000" />
+      <workItem from="1518577419643" duration="540000" />
+      <workItem from="1518640623134" duration="51757000" />
+      <workItem from="1518876835894" duration="12871000" />
+      <workItem from="1519051737775" duration="795000" />
+      <workItem from="1519052837879" duration="67624000" />
+      <workItem from="1519227253854" duration="4067000" />
+      <workItem from="1519257170414" duration="7559000" />
+      <workItem from="1519315768744" duration="55374000" />
+      <workItem from="1519756053620" duration="1789000" />
+      <workItem from="1519757904227" duration="17303000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="47774000" />
+    <option name="totallyTimeSpent" value="268720000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="94" y="61" width="1346" height="811" extended-state="0" />
+    <frame x="136" y="110" width="1304" height="834" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.30904907" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19809826" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32900432" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32756132" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24980174" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="combo" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3248503" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
     </layout>
-    <layout-to-restore>
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.30904907" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="combo" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32756132" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
-    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
@@ -486,393 +806,419 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="2" />
+      <option name="time" value="8" />
     </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/composer.lock">
+    <entry file="file://$PROJECT_DIR$/src/EK/AssoBundle/AssoBundle.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-5225">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+        <state relative-caret-position="135">
+          <caret line="9" column="0" lean-forward="true" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="0">
-            <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-            <folding />
-          </first_editor>
-          <second_editor />
+    <entry file="file://$PROJECT_DIR$/src/EK/AssoBundle/Resources/views/layout_large.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" column="17" lean-forward="false" selection-start-line="1" selection-start-column="17" selection-end-line="1" selection-end-column="17" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/.htaccess">
+    <entry file="file://$PROJECT_DIR$/src/EK/AssoBundle/Resources/views/layout_admin_a.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="20" lean-forward="false" selection-start-line="0" selection-start-column="20" selection-end-line="0" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/EK/AssoBundle/Resources/views/Shop/index.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" column="21" lean-forward="true" selection-start-line="1" selection-start-column="21" selection-end-line="1" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/EK/AssoBundle/Resources/views/Admin/index.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="22" lean-forward="false" selection-start-line="3" selection-start-column="22" selection-end-line="3" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/EK/AssoBundle/Resources/views/Admin/login.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="22" lean-forward="false" selection-start-line="3" selection-start-column="22" selection-end-line="3" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/EK/AssoBundle/Resources/views/Mail/confirmationCommand.html.twig">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/EduBundle/EduBundle.php">
+    <entry file="file://$PROJECT_DIR$/src/EK/AssoBundle/Resources/views/Shop/_cart.html.twig">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/composer.json">
+    <entry file="file://$PROJECT_DIR$/src/EK/AssoBundle/Resources/views/Home/news.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" column="21" lean-forward="true" selection-start-line="1" selection-start-column="21" selection-end-line="1" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/EK/AssoBundle/Resources/views/Security/register.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/EK/AssoBundle/Resources/views/Security/login.html.twig">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="75">
-          <caret line="5" column="18" lean-forward="false" selection-start-line="5" selection-start-column="18" selection-end-line="5" selection-end-column="18" />
-          <folding />
+          <caret line="5" column="26" lean-forward="false" selection-start-line="5" selection-start-column="26" selection-end-line="5" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/EK/AssoBundle/Resources/views/Security/login_content.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" column="14" lean-forward="true" selection-start-line="14" selection-start-column="14" selection-end-line="14" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/EK/AssoBundle/Controller/Backend/AdminController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="8" column="43" lean-forward="false" selection-start-line="8" selection-start-column="43" selection-end-line="8" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/config/routing.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" column="6" lean-forward="false" selection-start-line="12" selection-start-column="6" selection-end-line="12" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/config/config.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/AppKernel.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-139">
-          <caret line="3" column="52" lean-forward="false" selection-start-line="3" selection-start-column="52" selection-end-line="3" selection-end-column="52" />
-          <folding>
-            <element signature="e#7#47#0#PHP" expanded="false" />
-          </folding>
+        <state relative-caret-position="255">
+          <caret line="17" column="43" lean-forward="false" selection-start-line="17" selection-start-column="43" selection-end-line="17" selection-end-column="43" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/Resources/views/default/index.html.twig">
+    <entry file="file://$PROJECT_DIR$/src/EK/AssoBundle/Resources/views/layout_home.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="20" lean-forward="false" selection-start-line="0" selection-start-column="20" selection-end-line="0" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/EK/AssoBundle/Resources/views/Home/about.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="13" column="10" lean-forward="false" selection-start-line="13" selection-start-column="10" selection-end-line="13" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Resources/views/sponsor.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="45" lean-forward="false" selection-start-line="4" selection-start-column="45" selection-end-line="4" selection-end-column="72" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/EK/AssoBundle/Service/UtilsLog.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-54">
+          <caret line="8" column="23" lean-forward="false" selection-start-line="8" selection-start-column="23" selection-end-line="8" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/EK/AssoBundle/Resources/views/Mail/confirmationAdhesion.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="13" column="68" lean-forward="true" selection-start-line="13" selection-start-column="68" selection-end-line="13" selection-end-column="68" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Resources/views/footer_mail.html.twig">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/AppBundle/Controller/DefaultController.php">
+    <entry file="file://$PROJECT_DIR$/src/EK/AssoBundle/Resources/views/Home/index.html.twig">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" column="34" lean-forward="false" selection-start-line="11" selection-start-column="19" selection-end-line="11" selection-end-column="34" />
-          <folding>
-            <element signature="e#40#99#0#PHP" expanded="false" />
-          </folding>
+        <state relative-caret-position="45">
+          <caret line="3" column="19" lean-forward="false" selection-start-line="3" selection-start-column="19" selection-end-line="3" selection-end-column="19" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/config/config_dev.yml">
+    <entry file="file://$PROJECT_DIR$/app/config/parameters.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="28" lean-forward="false" selection-start-line="7" selection-start-column="28" selection-end-line="7" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/EK/AssoBundle/Service/Utiles.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-159">
+          <caret line="18" column="51" lean-forward="false" selection-start-line="18" selection-start-column="44" selection-end-line="18" selection-end-column="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/EK/AssoBundle/Resources/config/services.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="4" lean-forward="false" selection-start-line="5" selection-start-column="4" selection-end-line="5" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/EK/AssoBundle/Form/ContactType.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="338">
+          <caret line="39" column="68" lean-forward="false" selection-start-line="39" selection-start-column="68" selection-end-line="39" selection-end-column="68" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/EK/AssoBundle/Entity/Contact.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="750">
+          <caret line="55" column="5" lean-forward="false" selection-start-line="55" selection-start-column="5" selection-end-line="55" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Resources/views/base_mail.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="22" column="49" lean-forward="false" selection-start-line="22" selection-start-column="36" selection-end-line="22" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/EK/AssoBundle/EventListener/RegistrationListener.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="327">
+          <caret line="84" column="8" lean-forward="false" selection-start-line="84" selection-start-column="8" selection-end-line="84" selection-end-column="94" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/EK/AssoBundle/Service/Mailer.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="486">
+          <caret line="106" column="9" lean-forward="false" selection-start-line="106" selection-start-column="9" selection-end-line="106" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/EK/AssoBundle/Resources/views/layout_mail.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" column="24" lean-forward="false" selection-start-line="1" selection-start-column="24" selection-end-line="1" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/EK/AssoBundle/Resources/views/Mail/contact.html.twig">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
-          <caret line="12" column="0" lean-forward="false" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
-          <folding />
+          <caret line="12" column="27" lean-forward="false" selection-start-line="12" selection-start-column="27" selection-end-line="12" selection-end-column="27" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/config/routing_dev.yml">
+    <entry file="file://$PROJECT_DIR$/app/Resources/views/contact_form.html.twig">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="5" lean-forward="false" selection-start-line="0" selection-start-column="5" selection-end-line="0" selection-end-column="5" />
-          <folding />
+        <state relative-caret-position="531">
+          <caret line="47" column="0" lean-forward="false" selection-start-line="47" selection-start-column="0" selection-end-line="47" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/EduBundle/Resources/views/Home/layout.html.twig">
+    <entry file="file://$PROJECT_DIR$/src/EK/AssoBundle/Controller/Front/HomeController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Resources/views/footer.html.twig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="525">
-          <caret line="35" column="9" lean-forward="false" selection-start-line="35" selection-start-column="9" selection-end-line="35" selection-end-column="9" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Resources/views/call_action.html.twig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="20" column="6" lean-forward="false" selection-start-line="20" selection-start-column="6" selection-end-line="20" selection-end-column="6" />
+        <state relative-caret-position="465">
+          <caret line="34" column="36" lean-forward="false" selection-start-line="32" selection-start-column="12" selection-end-line="34" selection-end-column="36" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/Resources/views/modal.html.twig">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" column="40" lean-forward="false" selection-start-line="11" selection-start-column="40" selection-end-line="11" selection-end-column="40" />
-          <folding>
-            <element signature="n#style#0;n#div#0;n#div#0;n#!!top" expanded="false" />
-            <element signature="e#537#544#1#HTML" expanded="false" />
-            <element signature="n#style#0;n#div#2;n#form#0;n#div#0;n#div#0;n#div#0;n#!!top" expanded="false" />
-            <element signature="e#1788#1794#0#HTML" expanded="false" />
-            <element signature="e#1794#1800#0#HTML" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Resources/views/sponsor.html.twig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="405">
-          <caret line="27" column="48" lean-forward="false" selection-start-line="27" selection-start-column="48" selection-end-line="27" selection-end-column="48" />
+        <state relative-caret-position="270">
+          <caret line="18" column="42" lean-forward="false" selection-start-line="18" selection-start-column="33" selection-end-line="18" selection-end-column="42" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/Resources/views/nav.html.twig">
+    <entry file="file://$PROJECT_DIR$/app/Resources/views/call_action.html.twig">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="585">
-          <caret line="39" column="102" lean-forward="false" selection-start-line="39" selection-start-column="102" selection-end-line="39" selection-end-column="102" />
-          <folding>
-            <element signature="e#1921#1927#0#HTML" expanded="false" />
-            <element signature="e#1927#1933#0#HTML" expanded="false" />
-            <element signature="e#2542#2548#0#HTML" expanded="false" />
-            <element signature="e#2548#2554#0#HTML" expanded="false" />
-            <element signature="e#3037#3043#0#HTML" expanded="false" />
-            <element signature="e#3043#3049#0#HTML" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/config/config.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="14" lean-forward="false" selection-start-line="9" selection-start-column="14" selection-end-line="9" selection-end-column="14" />
+        <state relative-caret-position="270">
+          <caret line="18" column="88" lean-forward="false" selection-start-line="18" selection-start-column="43" selection-end-line="18" selection-end-column="88" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/EduBundle/Resources/views/Mail/confirmationAdhesion.html.twig">
+    <entry file="file://$PROJECT_DIR$/src/EK/AssoBundle/Controller/Front/AdhesionController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state relative-caret-position="450">
+          <caret line="37" column="36" lean-forward="false" selection-start-line="37" selection-start-column="36" selection-end-line="37" selection-end-column="36" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/EduBundle/Resources/views/Mail/confirmationCommand.html.twig">
+    <entry file="file://$PROJECT_DIR$/app/Resources/views/base_admin.html.twig">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state relative-caret-position="495">
+          <caret line="33" column="87" lean-forward="false" selection-start-line="33" selection-start-column="87" selection-end-line="33" selection-end-column="87" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/EduBundle/Service/Mailer.php">
+    <entry file="file://$PROJECT_DIR$/app/Resources/views/base_admin_a.html.twig">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="660">
-          <caret line="44" column="5" lean-forward="false" selection-start-line="44" selection-start-column="5" selection-end-line="44" selection-end-column="5" />
-          <folding>
-            <element signature="e#6#93#0#PHP" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/EduBundle/Resources/views/layout_large.html.twig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="1" column="38" lean-forward="true" selection-start-line="1" selection-start-column="38" selection-end-line="1" selection-end-column="38" />
+        <state relative-caret-position="465">
+          <caret line="31" column="87" lean-forward="false" selection-start-line="31" selection-start-column="87" selection-end-line="31" selection-end-column="87" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/EduBundle/Resources/config/services.yml">
+    <entry file="file://$PROJECT_DIR$/app/Resources/views/base_fos.html.twig">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="35" lean-forward="false" selection-start-line="7" selection-start-column="35" selection-end-line="7" selection-end-column="35" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/EduBundle/Service/Translation.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="525">
-          <caret line="35" column="26" lean-forward="false" selection-start-line="35" selection-start-column="26" selection-end-line="35" selection-end-column="26" />
-          <folding>
-            <element signature="e#6#93#0#PHP" expanded="false" />
-            <element signature="e#124#169#0#PHP" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/EduBundle/Resources/views/Adhesion/index.html.twig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="17" lean-forward="false" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="33" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/EduBundle/Resources/views/Home/about.html.twig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="14" lean-forward="false" selection-start-line="7" selection-start-column="14" selection-end-line="7" selection-end-column="14" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/EduBundle/Controller/AdhesionController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="30" column="1" lean-forward="false" selection-start-line="30" selection-start-column="1" selection-end-line="30" selection-end-column="1" />
-          <folding>
-            <element signature="e#128#185#0#PHP" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/EduBundle/Resources/translations/messages.en.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="16" column="26" lean-forward="false" selection-start-line="16" selection-start-column="26" selection-end-line="16" selection-end-column="26" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/bundles/edu/assets/home_rs.jpg">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/EduBundle/Resources/views/layout_home.html.twig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="1" column="37" lean-forward="false" selection-start-line="1" selection-start-column="37" selection-end-line="1" selection-end-column="37" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Resources/views/base_large.html.twig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="254">
-          <caret line="17" column="167" lean-forward="false" selection-start-line="17" selection-start-column="167" selection-end-line="17" selection-end-column="167" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/EduBundle/Resources/views/Home/index.html.twig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" column="48" lean-forward="false" selection-start-line="3" selection-start-column="48" selection-end-line="3" selection-end-column="48" />
+        <state relative-caret-position="420">
+          <caret line="28" column="87" lean-forward="false" selection-start-line="28" selection-start-column="87" selection-end-line="28" selection-end-column="87" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/Resources/views/base_home.html.twig">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="277">
-          <caret line="59" column="80" lean-forward="false" selection-start-line="59" selection-start-column="80" selection-end-line="59" selection-end-column="80" />
+        <state relative-caret-position="214">
+          <caret line="28" column="46" lean-forward="false" selection-start-line="28" selection-start-column="35" selection-end-line="28" selection-end-column="46" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/config/routing.yml">
+    <entry file="file://$PROJECT_DIR$/web/bundles/front/theme.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="14" column="16" lean-forward="false" selection-start-line="14" selection-start-column="16" selection-end-line="14" selection-end-column="16" />
+        <state relative-caret-position="273">
+          <caret line="4214" column="23" lean-forward="false" selection-start-line="4214" selection-start-column="23" selection-end-line="4214" selection-end-column="23" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/EduBundle/Resources/views/layout.html.twig">
+    <entry file="file://$PROJECT_DIR$/app/Resources/views/footer.html.twig">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="1" column="32" lean-forward="false" selection-start-line="1" selection-start-column="32" selection-end-line="1" selection-end-column="32" />
+        <state relative-caret-position="285">
+          <caret line="19" column="95" lean-forward="false" selection-start-line="19" selection-start-column="95" selection-end-line="19" selection-end-column="95" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/EduBundle/Resources/translations/messages.fr.yml">
+    <entry file="file://$PROJECT_DIR$/app/Resources/views/nav.html.twig">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="15" column="15" lean-forward="false" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="15" />
+        <state relative-caret-position="405">
+          <caret line="27" column="76" lean-forward="false" selection-start-line="27" selection-start-column="49" selection-end-line="27" selection-end-column="76" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/Resources/views/base.html.twig">
+    <entry file="file://$PROJECT_DIR$/app/Resources/views/base_large.html.twig">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="386">
-          <caret line="60" column="10" lean-forward="false" selection-start-line="60" selection-start-column="10" selection-end-line="60" selection-end-column="10" />
+        <state relative-caret-position="24">
+          <caret line="26" column="87" lean-forward="false" selection-start-line="26" selection-start-column="87" selection-end-line="26" selection-end-column="87" />
           <folding>
-            <element signature="n#style#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/EduBundle/Controller/HomeController.php">
+    <entry file="jar://$APPLICATION_HOME_DIR$/lib/phpstorm.jar!/resources/html5-schema/html5/block.rnc">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="396">
-          <caret line="34" column="34" lean-forward="false" selection-start-line="34" selection-start-column="12" selection-end-line="34" selection-end-column="34" />
-          <folding>
-            <element signature="e#40#97#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/EduBundle/Controller/ShopController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="30" column="1" lean-forward="false" selection-start-line="30" selection-start-column="1" selection-end-line="30" selection-end-column="1" />
-          <folding>
-            <element signature="e#128#185#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/EduBundle/Resources/views/Home/news.html.twig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="3" lean-forward="false" selection-start-line="7" selection-start-column="3" selection-end-line="99" selection-end-column="14" />
-          <folding>
-            <element signature="e#6213#6219#0#HTML" expanded="true" />
-            <element signature="e#6219#6225#0#HTML" expanded="true" />
-            <element signature="e#6225#6231#0#HTML" expanded="true" />
-            <element signature="e#6231#6237#0#HTML" expanded="true" />
-            <element signature="e#6237#6243#0#HTML" expanded="true" />
-            <element signature="e#6243#6249#0#HTML" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/bundles/edu/theme.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="559">
-          <caret line="6273" column="20" lean-forward="false" selection-start-line="6273" selection-start-column="20" selection-end-line="6273" selection-end-column="20" />
+        <state relative-caret-position="230">
+          <caret line="237" column="16" lean-forward="false" selection-start-line="237" selection-start-column="16" selection-end-line="237" selection-end-column="16" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/EduBundle/Resources/views/Shop/index.html.twig">
+    <entry file="file://$PROJECT_DIR$/src/EK/AssoBundle/Resources/translations/messages.en.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="13" column="24" lean-forward="false" selection-start-line="13" selection-start-column="24" selection-end-line="13" selection-end-column="24" />
-          <folding>
-            <element signature="e#267#294#0#HTML" expanded="true" />
-            <element signature="e#337#364#0#HTML" expanded="true" />
-            <element signature="e#1916#1922#0#HTML" expanded="true" />
-            <element signature="e#2690#2696#0#HTML" expanded="true" />
-            <element signature="e#3657#3663#0#HTML" expanded="true" />
-            <element signature="e#4431#4437#0#HTML" expanded="true" />
-            <element signature="e#5398#5404#0#HTML" expanded="true" />
-            <element signature="e#6172#6178#0#HTML" expanded="true" />
-            <element signature="e#7859#7886#0#HTML" expanded="true" />
-          </folding>
+        <state relative-caret-position="201">
+          <caret line="80" column="23" lean-forward="false" selection-start-line="80" selection-start-column="23" selection-end-line="80" selection-end-column="23" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/EduBundle/Resources/views/Shop/_cart.html.twig">
+    <entry file="file://$PROJECT_DIR$/src/EK/AssoBundle/Resources/translations/messages.fr.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="16" lean-forward="false" selection-start-line="4" selection-start-column="16" selection-end-line="4" selection-end-column="16" />
+        <state relative-caret-position="363">
+          <caret line="104" column="15" lean-forward="false" selection-start-line="104" selection-start-column="11" selection-end-line="104" selection-end-column="15" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Resources/views/js_ident.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="243">
+          <caret line="160" column="34" lean-forward="false" selection-start-line="160" selection-start-column="34" selection-end-line="160" selection-end-column="34" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/EK/AssoBundle/Resources/views/Adhesion/index.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="324">
+          <caret line="382" column="146" lean-forward="false" selection-start-line="382" selection-start-column="146" selection-end-line="382" selection-end-column="146" />
           <folding>
-            <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
-            <element signature="e#2314#2320#1#HTML" expanded="true" />
+            <element signature="e#22786#22811#0#HTML" expanded="true" />
+            <element signature="e#40510#40537#0#HTML" expanded="true" />
+            <element signature="e#40611#40657#0#HTML" expanded="true" />
+            <element signature="e#44953#44979#0#HTML" expanded="true" />
+            <element signature="e#46262#46288#0#HTML" expanded="true" />
+            <element signature="e#46563#46589#0#HTML" expanded="true" />
+            <element signature="e#46936#46964#0#HTML" expanded="true" />
+            <element signature="e#47196#47241#0#HTML" expanded="true" />
+            <element signature="e#47486#47504#0#HTML" expanded="true" />
+            <element signature="e#47681#47726#0#HTML" expanded="true" />
+            <element signature="e#47758#47776#0#HTML" expanded="true" />
+            <element signature="e#47886#47904#0#HTML" expanded="true" />
+            <element signature="e#48014#48032#0#HTML" expanded="true" />
+            <element signature="e#48142#48160#0#HTML" expanded="true" />
+            <element signature="e#48338#48383#0#HTML" expanded="true" />
+            <element signature="e#48415#48433#0#HTML" expanded="true" />
+            <element signature="e#49253#49299#0#HTML" expanded="true" />
+            <element signature="e#49872#49897#0#HTML" expanded="true" />
+            <element signature="e#50302#50327#0#HTML" expanded="true" />
+            <element signature="e#50732#50757#0#HTML" expanded="true" />
+            <element signature="e#51687#51712#0#HTML" expanded="true" />
+            <element signature="e#51783#51809#0#HTML" expanded="true" />
+            <element signature="e#51975#52000#0#HTML" expanded="true" />
+            <element signature="e#52072#52078#0#HTML" expanded="true" />
+            <element signature="e#52078#52084#0#HTML" expanded="true" />
+            <element signature="e#52084#52090#0#HTML" expanded="true" />
+            <element signature="e#52090#52096#0#HTML" expanded="true" />
+            <element signature="e#52096#52102#0#HTML" expanded="true" />
+            <element signature="e#52102#52108#0#HTML" expanded="true" />
+            <element signature="e#52108#52114#0#HTML" expanded="true" />
+            <element signature="e#52297#52322#0#HTML" expanded="true" />
+            <element signature="e#52393#52419#0#HTML" expanded="true" />
+            <element signature="e#52632#52674#0#HTML" expanded="true" />
+            <element signature="e#52810#52835#0#HTML" expanded="true" />
+            <element signature="e#53383#53409#0#HTML" expanded="true" />
           </folding>
         </state>
       </provider>

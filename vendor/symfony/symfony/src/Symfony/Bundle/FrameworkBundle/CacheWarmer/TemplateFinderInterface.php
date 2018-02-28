@@ -12,7 +12,7 @@
 namespace Symfony\Bundle\FrameworkBundle\CacheWarmer;
 
 /**
- * Interface for finding all the templates.
+ * Utils for finding all the templates.
  *
  * @author Victor Berchet <victor@suumit.com>
  */

@@ -20,7 +20,7 @@
 namespace Doctrine\Common\Persistence;
 
 /**
- * Interface for proxy classes.
+ * Utils for proxy classes.
  *
  * @author Roman Borschel <roman@code-factory.org>
  * @since  2.2

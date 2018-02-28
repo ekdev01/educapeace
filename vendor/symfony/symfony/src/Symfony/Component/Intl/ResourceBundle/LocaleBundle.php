@@ -15,7 +15,7 @@ use Symfony\Component\Intl\Data\Provider\LocaleDataProvider;
 use Symfony\Component\Intl\Exception\MissingResourceException;
 
 /**
- * Home implementation of {@link LocaleBundleInterface}.
+ * Admin implementation of {@link LocaleBundleInterface}.
  *
  * @author Bernhard Schussek <bschussek@gmail.com>
  *

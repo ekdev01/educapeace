@@ -33,7 +33,7 @@ class TemplateIteratorTest extends TestCase
             array(
                 '@Bar/index.html.twig',
                 '@Foo/index.html.twig',
-                'layout.html.twig',
+                'layoutold.html.twig',
                 'sub/sub.html.twig',
             ),
             $sorted

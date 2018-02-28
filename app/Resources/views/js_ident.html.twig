@@ -1,0 +1,189 @@
+{% block javascript %}
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+
+    <script>
+
+        var $loading = $('#loadingDiv');
+        $(document)
+            .ajaxStart(function () {
+                $loading.modal({backdrop: 'static', keyboard: false});
+                $loading.modal('show');
+            })
+            .ajaxStop(function () {
+                $loading.modal('hide');
+            });
+
+        $(document).ready(function() {
+
+            // Authentification processing via fosuserbundle
+            $('#authentification').click(function () {
+
+                console.log('Authentification click!');
+                $('#_registerModal').modal('hide');
+
+                $.ajax({
+                    type        : "GET",
+                    url         : '{{ path("fos_user_security_login") }}',
+                    success: function(data) {
+                        console.log('fos_user_security_login lancée!');
+                        //console.log(data);
+
+                        // Get token
+                        var deb = (Number(data.indexOf('_csrf_token')) + 20);
+
+                        // The length of the token is equal to 43
+                        var fin = ("JjNh6xVkegGG1-LBRf4KcObXVMmgoljpY9ZioWlS3b8".length + 1);
+
+                        //console.log('deb = '+deb+' - fin = '+ fin);
+
+                        var token = data.substr(deb, 43);
+                        //console.log('token = '+token);
+
+                        $('#_csrf_token').val(token);
+                    }
+                });
+            });
+
+            //$(document).ready(function(){
+                $('#_submit_login').click(function(e){
+                    e.preventDefault();
+                    $.ajax({
+                        type        : $('form').attr( 'method' ),
+                        url         : '{{ path("fos_user_security_check") }}',
+                        data        : $('form').serialize(),
+                        dataType    : "json",
+                        success     : function(data, status, object) {
+                            console.log('fos_user_security_check submit');
+                            console.log(data);
+                            console.log('status = '+status);
+
+                            if(status=='success') {
+                                console.log('Redirection après connexion');
+                                $('#_authentificationModal').modal('hide');
+                                document.location.href="{{ app.request.getBaseURL() }}/";
+                            }
+                            else if(data.error) {
+                                console.log('Error!!');
+                                $('#error_login').html(data.message);
+                            }
+                            else {
+                                $('#_authentificationModal').modal('hide');
+                            }
+
+                        },
+                        error: function(data, status, object){
+                            setTimeout(function(){
+                                console.log(data.message);
+                            }, 1000);
+                        }
+                    });
+                });
+            //});
+
+            // Registration processing via fosuserbundle
+            $('#registration').click(function () {
+
+                console.log('Registration click!');
+                $('#_authentificationModal').modal('hide');
+
+                $.ajax({
+                    type        : "GET",
+                    url         : '{{ path("fos_user_registration_register") }}',
+                    success: function(data) {
+                        console.log('fos_user_registration_register lancée!');
+                        console.log(data);
+
+                        // Get token
+                        var deb = (Number(data.indexOf('[_token]')) + 17);
+
+                        // The length of the token is equal to 43
+                        var fin = ("rm5l1WpS6FguIgfb9EZuRXXzwvj2HEnCWKqCipSIy20".length + 1);
+
+                        console.log('deb = '+deb+' - fin = '+ fin);
+
+                        var token = data.substr(deb, 43);
+                        console.log('token = '+token);
+
+                        $('#fos_user_registration_form__token').val(token);
+                    }
+                });
+            });
+
+            //$(document).ready(function(){
+                $('#_submit_register').click(function(e){
+
+                    console.log('_submit_register click');
+
+                    e.preventDefault();
+                    $.ajax({
+                        type: $('form').attr( 'method' ),
+                        url: '{{ path("fos_user_registration_register") }}',
+                        data: $('form').serialize(),
+                        dataType: "json",
+                        success: function(data){
+                            console.log('fos_user_registration_register ok');
+                            console.log(data);
+
+                            $('#_registerModal').modal('hide');
+                        },
+                        error: function(data){
+                            console.log('fos_user_registration_register error');
+                            var deb = data.responseText.indexOf('<ul>');
+                            var fin = data.responseText.indexOf('</ul>');
+
+                            deb = (Number(deb) + 8);
+                            fin = (Number(fin) - 5);
+                            var msgerror = data.responseText.substring(deb,fin);
+                            $('#error_register').html(msgerror);
+
+                            console.log('data.responseText =' + data.responseText);
+                            console.log('msgerror = '+msgerror);
+                        }
+                    });
+                });
+            //});
+
+            $('#authentification_ins').click(function() {
+                console.log('click sur authentification_ins');
+                $('#_registerModal').modal('hide');
+            });
+
+            $('#_reseting_button').click(function() {
+                console.log('click sur reseting_button');
+                $('#_authentificationModal').modal('hide');
+            });
+
+            $('#_choice-btn-60-1').click(function() {
+                alert('choice-btn-60-1');
+                $('#amount_free_1').val('60');
+                var deductAMount =
+            });
+
+            $('#_choice-btn-100-1').click(function() {
+                alert('choice-btn-100-1');
+
+            });
+
+            $('#_choice-btn-150-1').click(function() {
+                alert('choice-btn-150-1');
+
+            });
+
+            $('#_choice-btn-60-2').click(function() {
+                alert('choice-btn-60-2');
+
+            });
+
+            $('#_choice-btn-100-2').click(function() {
+                alert('choice-btn-100-2');
+
+            });
+
+            $('#_choice-btn-150-2').click(function() {
+                alert('choice-btn-150-2');
+            });
+        });
+    </script>
+{% endblock javascript %}

@@ -1,0 +1,323 @@
+# Fichier des textes en français
+label_fr: Français
+label_en: Anglais
+# Menu
+menu_home: Accueil
+menu_asso: Association
+menu_news: Actualités
+menu_adhesion: Nous soutenir
+menu_shop: Boutique
+menu_contact: Contact
+menu_members_area: Espace adhérents
+#
+# Titles
+#
+label.title.1: Educapeace
+label.title.2: Association Educapeace
+#
+# pages titles
+#
+page_title_home: Accueil
+page_title_news: Actualités
+page_title_adhesion: Nous soutenir
+page_title_shop: Boutique
+page_title_about: Qui sommes-nous
+page_title_login: Authentification
+#
+# Label ou textes courants
+label.email: Email
+label.ident: Nom d'utilisateur
+label.password: Mot de passe
+label.repeat.pwd: Répéter le mot de passe
+label.button.close: Fermer
+label.button.connexion: Connectez-vous
+label.click.here: cliquez-ici
+label.welcome: Bienvenue
+label.pwd.forget: Mot de passe oublié
+label.remmeber.me: Se souvenir de moi
+label.button.register: Créer un compte
+label.invite.register: Veuillez-vous s'inscrire
+label.firstname: Prénom
+label.lastname: Nom
+label.address: Adresse
+label.zipcode: Code postal
+label.city: Ville
+label.country: Pays
+label.phone: Téléphone
+label.hello: Bonjour
+label.area.member: Espace adhérent
+label.logon: Se connecter
+label.address.value: 4, rue de l'orme au Charron 77340 Pontault-Combault
+label.email.value: educapeace@gmail.com
+label.email2.value: contact@educapeace.org
+label.numero.wouri: 715/2014/RDA/C19/SAAJP8
+label.num.officiel: W771011659
+
+#
+form.login.label1: Veuillez-vous identifier
+form.login.label2: Par encore adhérent(e)
+form.login.label4: Veuillez saisir votre e-mail
+form.login.label5: Veuillez saisir votre mot de passe
+form.login.label6: Veuillez saisir votre identifiant
+#
+form.pwdforget.label1: Réinitialiser le mot de passe
+form.pwdforget.label2: Vous pouvez réinitialiser votre mot de passe ici
+#
+form.register.ph.email: Veuillez saisir votre e-mail...
+form.register.ph.ident: Veuillez saisir un nom d'utilisateur...
+form.register.ph.pwd: Veuillez saisir un mot de passe...
+form.register.ph.pwdb: Veuillez répéter le mot de passe...
+form.register.ph.firstname: Veuillez saisir votre prénom...
+form.register.ph.lastname: Veuillez saisir votre nom...
+form.register.ph.address: Veuillez saisir votre adresse...
+form.register.ph.zipcode: Veuillez saisir votre code postal...
+form.register.ph.city: Veuillez saisir votre ville...
+form.register.ph.country: Choisir...
+form.register.ph.phone: Veuillez saisir votre numéro de téléphone...
+#
+# Form support us
+#
+form.supportus.intro1: Je fais un don
+form.supportus.intro2: pour les enfants du monde
+form.supportus.title1: Mon don
+form.supportus.title2: Mes coordonnées
+form.supportus.title3: Mon règlement
+form.supportus.free_amount: Montant libre
+form.supportus.deduct_amount: Après déduction
+#
+form.details.civility: Civilité
+form.details.firstname: Prénom
+form.details.name: Nom
+form.details.email: Email
+form.details.address: Adresse
+form.details.address_cpl: Complément adresse
+form.details.zipcode: Code postal
+form.details.city: Ville
+form.details.country: Pays
+form.details.phone: Téléphone
+#
+form.rules.title1: SÉLECTIONNEZ VOTRE CARTE DE PAIEMENT
+form.rules.numcard: Saisissez votre numéro de carte
+form.rules.date1: date
+form.rules.date2: d'expiration
+form.rules.codesecurity: Code de sécurité
+form.rules.submit: Je donne
+form.rules.avis: OU FAIRE UN PAIEMENT PAR PAYPAL
+form.rules.title2: FAIRE UN PAIEMENT PAR IBAN/BIC
+form.rules.iban: Votre numéro iban
+form.rules.bic: Votre code bic
+#
+mail.confirm.adhesion.text1: Votre adhésion à l'association Educapeace a été enregistrée avec succès.<br>Nous vous invitons à choisir votre mode de paiement ainsi que le montant<br>de votre cotisation au sein de votre espace adhérent.<br><br>Cet espace va vous permettre de suivre votre soutien à notre organisation et bien plus.<br><br>Rappel de vos identifiants de connexion à votre espace adhérent:<br><br>
+mail.confirm.adhesion.text2: Rappel de vos identifiants de connexion à votre espace adhérent:
+mail.confirm.adhesion.text3: Solidairement votre
+mail.confirm.adhesion.text4: Le président de l'association
+#
+label.subject.confirm.adhesion: Confimation adhésion
+label.subject.confirm.order: Confimation commande
+#
+# Home Page
+#
+home.text.1: Bienvenue chez
+home.text.2: L'Organisation EDUCAPEACE lutte pour le bien-être des enfants dans les écoles du Cameroun et d'autres pays d'Afrique, et pour améliorer la situation sanitaire des populations de ces pays par un meilleur accès aux soins, à l'eau potable et à l'assainissement.
+home.text.3: Nous soutenir
+home.text.4: Notre mission
+home.text.5: Les missions d'Educapeace s'articulent autour de deux volets qui sont:
+home.text.6: L'éducatif
+home.text.7: Remises de manuels et fournitures scolaires,
+home.text.8: Remises des bourses d’excellence aux élèves les plus méritants,
+home.text.9: Création de bibliothèques,
+home.text.10: Mise en place du matériel informatique et audiovisuel,
+home.text.11: Electrification des salles de classes etc.
+home.text.12: ENSEMBLE, POSITIVONS ET AGISSONS CONTRE LA MALNUTRITION.
+home.text.13: Educapeace reconnue Association d'intérêt général.
+home.text.14: La santé
+home.text.15: Organisation de campagnes à but de lutter contre les maladies tels que:
+home.text.16: Installation de borne-fontaine,
+home.text.17: Installation de latrines,
+home.text.18: Ou tout autre action pouvant contribuer au bien-être des enfants.
+#
+# Page about
+#
+about.text.1: EDUCAPEACE est une association humanitaire de solidarité internationale reconnue d'intérêt générale, régie par la loi 1901.
+about.text.2: Elle a été créée en 2014, enregistrée à la sous-préfecture de Meaux (France) sous le n°:
+about.text.3: Cette association a pour objet:
+about.text.4: De favoriser la scolarisation et le bien-être des enfants dans les écoles au Cameroun ainsi que dans d’autres pays d’Afrique
+about.text.5: D'améliorer la situation sanitaire des populations de ces pays par un meilleur accès aux soins, à l'eau potable et à l'assainissement.
+#
+# Our goals
+#
+goals.text.1: Nos objectifs
+goals.text.2: Les missions d'Educapeace s'articulent autour de deux parties
+goals.text.3: L'éducatif
+goals.text.4: Remises de manuels et fournitures scolaires
+goals.text.5: Remises des bourses d’excellence aux élèves les plus méritants
+goals.text.6: Création de bibliothèques
+goals.text.7: Mise en place du matériel informatique et audiovisuel
+goals.text.8: Electrification des salles de classes, etc
+goals.text.9: La santé
+goals.text.10: Organisation de campagnes de lutte contre les maladies telles que:
+goals.text.11: paludisme, MST, maladies hydriques, etc.
+goals.text.12: Installation de borne-fontaine
+goals.text.13: Installation de latrines
+goals.text.14: Ou tout autre action pouvant contribuer au bien-être des enfants
+#
+# president
+#
+president.text.1: MOT DU PRÉSIDENT FONDATEUR
+president.text.2: Pour créer cette association qui est votre, je me suis basé sur mon passé. Mon cursus scolaire (primaire) s’est passé à l’école publique de Nkol-Mbong Kama, au Sud du Cameroun. A cause du manque de moyens financiers, j’ai eu d’énormes problème par rapport aux études et à la santé. Ayant quitté mon pays le Cameroun il y a de cela une dizaine d’années, je me suis construit en apprenant pour mon avenir, pour les plus jeunes, pour les démunis
+president.text.3: Ainsi, est née l’association Educapeace
+president.text.4: Educapeace est en partenariat avec des écoles publiques au Cameroun (4 pour le moment) où chaque année nous offrons des bourses d’excellence, et fournitures scolaires aux enfants afin de les encourager à aller à l’école.
+president.text.5: Chaque année nous aidons plus de 600 enfants, et à ce jour nous avons déjà construit deux puits d’eau potable.
+president.text.6: Ensemble nous souhaitons donner encore plus de sourire aux enfants, leurs permettre d’aller à l’école car nous avons compris la valeur/puissance de l’école, puis leur permettre d’accéder aux équipements tels que l’eau potable, latrines, bibliothèque ... Afin d’améliorer leurs conditions de vie, diminuer le taux d’absentéisme scolaire, de maladies hydriques voir même de mortalité.
+president.text.7: Nous vous remercions pour votre soutien dans ce combat qui nous tient à cœur.
+president.text.8: Le président de l’association Jean Christophe LEUNOU.
+#
+# Our values
+#
+values.text.1: Nos valeurs
+values.text.2: L'association Educapeace donne une très grande importance sur ces trois valeurs qui sont:
+values.text.3: Solidarité
+values.text.4: Par une aide directe et sans intermédiaire vers chaque enfant, notre association accueil tous les enfants qui souhaitent aller à l’école.
+values.text.5: Respect
+values.text.6: Toutes nos actions sont marquées par le respect de chaque enfant soutenu sans discrimination de sexe, de religion, d’opinion et d’ethnie.
+values.text.7: Transparence
+values.text.8: La politique de l’association Educapeace est:
+values.text.9: 1€ REÇU = 1€ RÉALISE
+#
+# others texts
+#
+others.text.1: Nos partenaires
+others.text.2: L'association EDUCAPEACE est une ONG à but non lucratif créée en 2014, enregistrée à la sous-préfecture de Meaux sous le numéro:
+others.text.3: Educapeace encourage / soutient également d'autres associations en participant à leurs évènements humanitaires pour l'amélioration de leurs projets (Unicef pour son projet d'eau potable au Togo), The bubble day pour le compte des handicapés de Paris...
+others.text.4: Faites un don soit en envoyant un chèque à l'ordre de l'Association EDUCAPEACE à l'adresse:
+others.text.5: Assoication Educapeace, 13 allée de la lisière 77420 Champs Sur Marne
+others.text.6: A Soit par CB en cliquant ici
+others.text.7: Je donne
+others.text.8: J'adhère
+others.text.9: Je me connecte
+others.text.10: W771011659
+others.text.11: Contact
+others.text.12: Envoyez
+others.text.13: Suivez nous
+others.text.14: tous droits réservés
+#
+# Errors
+#
+error.contact.msg: Veuillez founir votre message...
+error.contact.email.1: Veuillez saisir une adresse mail valide
+error.contact.email.2: L'adresse mail saisie n'est pas valide
+error.contact.subject: Veuillez saisir le sujet de votre mail
+#
+# Status operation
+#
+status.op.title: Statut de l'opération
+status.op.success: Réussie!
+status.op.error: Echec!
+success.send.mail: Mail envoyé avec succès
+warning.send.mail: Echec d'envoi du mail
+#
+# form contact
+#
+form.contact.email: Email
+form.contact.subject: Sujet
+form.contact.msg: Message
+#
+# Team Educapeace
+#
+label.team.1: M. LEUNOU Jean Christophe
+label.team.2: Mme LEUNOU Cécile
+label.team.3: M. MONTANTEME Patrick
+label.team.4: Mme VALLADE Jennifer
+label.team.5: M. Njango Safeudieu Éric
+#
+# Done
+#
+label.done.1: Donner en ligne
+label.done.2: Tout don servira à l’achat de fourniture scolaires, a l'aménagement des infrastructures, et de santé primaire.
+label.done.3: Vos dons sont déductibles d'impôts à hauteur de:
+label.done.4: 60% pour les entreprises
+label.done.5: 66% pour les particuliers
+label.done.6: 75% pour les particuliers payant l'import sur la fortune.
+label.done.7: JE DONNE UNE FOIS
+label.done.8: JE DONNE TOUS LES MOIS
+label.done.9: PAR CHÈQUE
+label.done.10: Tout don servira à l'achat de fourniture scolaires, a l'aménagement des infrastructures, et de santé primaire.
+label.done.11: Vos dons sont déductibles d'impôts à hauteur de :
+label.done.12: 60% pour les entreprises
+label.done.13: 66% pour les particuliers
+label.done.14: 75% pour les particuliers payant l'import sur la fortune.
+label.done.15: Merci d'envoyer votre chèque à:
+label.done.16: Association EDUCAPEACE
+label.done.17: Centre Social et Culturel Georges Brassens
+label.done.18: Ordre du chèque:
+label.done.19: DEVENIR PARTENAIRE EDUCAPEACE
+label.done.20: EDUCAPEACE est une association humanitaire de solidarité internationale reconnue d'intérêt générale, régie par la loi 1901.
+label.done.21: Elle a été créée en 2014, enregistrée à la sous-préfecture de Meaux(France) sous le n°
+label.done.21.a: Cette association a pour objet:
+label.done.22: De favoriser la scolarisation et le bien-être des enfants dans les écoles au Cameroun ainsi que dans d'autres pays d'Afrique
+label.done.23: D'améliorer la situation sanitaire des populations de ces pays par un meilleur accès aux soins, à l'eau potable et à l'assainissement.
+label.done.24: Pour atteindre cet objet, l'association mettra en place des actions de solidarité telles que:
+label.done.25: La remise de manuels et fournitures scolaires, de bourses d'excellences,
+label.done.26: L'installation de borne-fontaine, de latrines,
+label.done.27: L'organisation de campagnes d'information et de sensibilisation dans le domaine de la santé,
+label.done.28: Ou tout autre action pouvant contribuer au bien-être des enfants.
+label.done.29: Pour développer nos projets visant à améliorer les conditions de vie des plus démunis dans les villages du Cameroun, Educapeace s'associe aux acteurs économiques qui partagent les mêmes valeurs d'engagement et de solidarité que nous et souhaitent nous aider à mener à bien un ou des projet(s) commun(s).
+label.done.30: Avec votre aide et vos collaborateurs, nous pouvons redonner de l'espoir!
+label.done.31: Notre action vous intéresse, comment devenir partenaire?
+label.done.32: Entreprise ou organisme partenaire:
+label.done.33: De nombreuses options s'offrent aux entreprises pour soutenir Educapeace:
+label.done.34: Mécénat financier
+label.done.35: financez l'intégralité d'un projet, un poste de dépenses bien défini ou simplement une thématique déterminée (l'eau, par exemple).
+label.done.36: Mécénat de compétences
+label.done.37: proposez à certains de vos salariés de mettre leurs compétences au service d'Educapeace pour une durée déterminée. Cette démarche donnera un sens nouveau à leur activité professionnelle.
+label.done.38: Dons en nature
+label.done.39: mettez à disposition de nos équipes au siège ou sur le terrain une partie de vos ressources ou produits, utiles au fonctionnement de notre association et de nos projets. Votre activité devient une forme de soutien direct à nos actions quotidiennes en Afrique subsaharienne.
+label.done.40: Produit partage
+label.done.41: reversez à Educapeace un pourcentage du prix de vente de l'un de vos produits ou services. Vous associez visuellement votre marque à Educapeace et communiquez ainsi directement sur votre engagement à nos côtés.
+label.done.42: Partenariat événementiel
+label.done.43: encouragez vos collaborateurs à participer à un événement en faveur d’Educapeace (défi sportif par exemple) ou organisez une manifestation spécifique au profit d'Educapeace. Vous fédérez ainsi vos équipes autour d'une cause humanitaire et vous bénéficiez en outre des retombées média de l'événement
+label.done.44: En contrepartie
+label.done.45: Votre logo et nom seront portés sur les supports de communication:
+label.done.45.list: affiches, flyers, films, site internet, réseaux sociaux...
+label.done.46: ASSOCIATION PARTENAIRE
+label.done.47: Vous êtes une association impliquée dans l'une de ces trois catégories:
+label.done.47.list: la santé, l'éducation, l'eau et l'assainissement?
+label.done.47.suite.1: Vous pouvez participer à l'organisation d'une, voir, de plusieurs de nos campagnes. Vous serez invitée aux réunions de préparation, ce qui vous permettra d'apporter vos idées et compétences et d'échanger avec l'ensemble des partenaires.
+label.done.47.suite.2: Votre logo et nom seront portés sur les supports de communication:
+label.done.47.suite.3: affiches, flyers...
+label.done.48: Nous sommes ouverts à toutes autres suggestions. N'hésitez pas à nous contacter pour discuter de vive voix ou par courriel de votre souhait de partenariat. Nous identifierons avec vous les modalités les mieux adaptées à votre organisme.
+label.done.49: DEVENEZ BÉNÉVOLE CHEZ EDUCAPEACE
+label.done.50: Rejoignez notre équipe de bénévoles et aider les enfants défavorisés.
+label.done.51: Faîtes connaître l'association
+label.done.52: Aidez-nous á faire connaitre Educapeace en en parlant dans votre entourage, dans votre comité d’entreprise, sur internet. Nous vous fournissons des brochures, des posters et des petits films sur nos activités.
+label.done.53: Contactez-nous:
+label.done.54: Faites du sport solidaire
+label.done.55: Vous avez envie d'allier activités sportive et solidarité? C'est possible! Football, course, basketball, golf... Rejoignez un de nos nombreux événement sportifs et perdez des calories pour les enfants.
+label.done.56: Sensibilisez votre école ou votre université
+label.done.57: Vous travaillez ou vous étudiez dans une école primaire, un collège, un lycée, ou université? Vous pouvez sensibiliser votre classe aux actualités humaines grâce a nos présentations, films et photos que nous mettons á votre disposition.
+label.done.58: FAIRE DES DONS MATÉRIEL
+label.done.59: Pour que vos encombrants et vieux objets vivent une nouvelle vie en profitant à d'autres personnes dans le besoin, vous pouvez déposer vos encombrants au siège de notre association:
+label.done.59.suite.1: Centre Social et Culturel Georges Brassens:
+label.done.60: MATERIELS SCOLAIRE
+label.done.61: Cartables; Crayons de couleurs; Stylos (toutes couleurs confondus); Jouets éducatifs; Livres pour enfants; Dictionnaires; Calculatrices etc.
+label.done.62: HYGIÈNE QUOTIDIENNE
+label.done.63: Chaussures; Gourdes à eau; Vêtements de 0 à 18 ans; Brosses à dents etc.
+label.done.64: BOITE A PHARMACIE
+label.done.65: Pansements prédécoupés; Antiseptiques cutanés; Compresses stériles; du paracétamol de l'ibuprofène en cas de douleur; Pommades ou pansements gras en cas de brûlure etc.
+label.done.66: MATERIEL INFORMATIQUE
+label.done.67: Ordinateur fixe et portable, imprimante, clés USB, rétroprojecteur etc.
+label.done.68: NB:
+label.done.68.suite: Les affaires dont vous faites don doivent être en bon état.
+label.done.69: NOTRE ÉQUIPE
+label.done.70: Président:
+label.done.71: Vice-présidente:
+label.done.72: Trésorier:
+label.done.73: Secrétaire:
+label.done.74: Communication:
+label.done.75: L'antenne EDUCAPEACE Cameroun est déclarée à la préfecture du Wouri (Douala) sous le numéro:
+label.done.76: EDUCAPEACE Cameroun est dirigée par le vice-président M. TCHEUNTOU Pascal, et la trésorière Madame Eken Rolande, la secrétaire Madame EYENGA ANGOULA Reinella et plusieurs bénévoles.
+label.done.77: Nos membres assurent l'acheminement des dons et la parfaite réalisation des missions dans le cas où un représentant EDUCAPEACE France ne peut être sur le terrain.
+label.done.78: Toutes les décisions et gestions comptables restent sous le contrôle d’EDUCAPEACE France avec justificatif à L'appui.
+#
+# solidary shop
+#

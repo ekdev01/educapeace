@@ -20,7 +20,7 @@
 namespace Doctrine\Common\Cache;
 
 /**
- * Interface for cache that can be flushed.
+ * Utils for cache that can be flushed.
  *
  * @link   www.doctrine-project.org
  * @since  1.4

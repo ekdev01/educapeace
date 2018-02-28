@@ -10,7 +10,7 @@
  */
 
 /**
- * Interface all loaders must implement.
+ * Utils all loaders must implement.
  *
  * @author Fabien Potencier <fabien@symfony.com>
  */

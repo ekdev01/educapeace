@@ -72,7 +72,7 @@ EOT
         // cause it will try to connect to a non-existing database
         if (isset($params['shards'])) {
             $shards = $params['shards'];
-            // Home select global
+            // Admin select global
             $params = array_merge($params, $params['global']);
             unset($params['global']['dbname']);
             if ($input->getOption('shard')) {

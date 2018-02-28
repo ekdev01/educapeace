@@ -73,7 +73,7 @@ final class ConsoleRunner
      */
     public static function createApplication(HelperSet $helperSet, array $commands = []) : Application
     {
-        $cli = new Application('Doctrine Command Line Interface', Version::VERSION);
+        $cli = new Application('Doctrine Command Line Utils', Version::VERSION);
         $cli->setCatchExceptions(true);
         $cli->setHelperSet($helperSet);
         self::addCommands($cli);

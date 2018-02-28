@@ -12,7 +12,7 @@
 namespace Symfony\Component\Form;
 
 /**
- * Interface for extensions which provide types, type extensions and a guesser.
+ * Utils for extensions which provide types, type extensions and a guesser.
  */
 interface FormExtensionInterface
 {

@@ -50,7 +50,7 @@ class ControllerResolverTest extends ContainerControllerResolverTest
 
     public function testGetControllerWithBundleNotation()
     {
-        $shortName = 'FooBundle:Home:test';
+        $shortName = 'FooBundle:Admin:test';
         $parser = $this->createMockParser();
         $parser->expects($this->once())
             ->method('parse')

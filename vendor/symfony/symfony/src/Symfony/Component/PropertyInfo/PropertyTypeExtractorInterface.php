@@ -12,7 +12,7 @@
 namespace Symfony\Component\PropertyInfo;
 
 /**
- * Type Extractor Interface.
+ * Type Extractor Utils.
  *
  * @author Kévin Dunglas <dunglas@gmail.com>
  */

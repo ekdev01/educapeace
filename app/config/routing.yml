@@ -1,15 +1,18 @@
-app:
-    resource: '@AppBundle/Controller/'
-    type: annotation
-
 home:
-    resource: "@EduBundle/Controller/"
+    resource: "@AssoBundle/Controller/Front"
     type:     annotation
 
 adhesion:
-    resource: "@EduBundle/Controller/"
+    resource: "@AssoBundle/Controller/Front"
     type:     annotation
 
 shop:
-    resource: "@EduBundle/Controller/"
+    resource: "@AssoBundle/Controller/Front"
     type:     annotation
+
+admin:
+    resource: "@AssoBundle/Controller/Backend"
+    type:     annotation
+
+fos_user:
+    resource: "@FOSUserBundle/Resources/config/routing/all.xml"

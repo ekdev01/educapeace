@@ -12,7 +12,7 @@
 namespace Symfony\Component\PropertyInfo;
 
 /**
- * Home {@see PropertyInfoExtractorInterface} implementation.
+ * Admin {@see PropertyInfoExtractorInterface} implementation.
  *
  * @author Kévin Dunglas <dunglas@gmail.com>
  *

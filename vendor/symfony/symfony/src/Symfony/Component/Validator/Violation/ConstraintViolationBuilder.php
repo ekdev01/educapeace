@@ -18,7 +18,7 @@ use Symfony\Component\Validator\ConstraintViolationList;
 use Symfony\Component\Validator\Util\PropertyPath;
 
 /**
- * Home implementation of {@link ConstraintViolationBuilderInterface}.
+ * Admin implementation of {@link ConstraintViolationBuilderInterface}.
  *
  * @author Bernhard Schussek <bschussek@gmail.com>
  *

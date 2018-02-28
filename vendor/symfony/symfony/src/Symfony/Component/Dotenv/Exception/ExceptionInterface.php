@@ -12,7 +12,7 @@
 namespace Symfony\Component\Dotenv\Exception;
 
 /**
- * Interface for exceptions.
+ * Utils for exceptions.
  *
  * @author Fabien Potencier <fabien@symfony.com>
  */

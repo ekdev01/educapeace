@@ -12,7 +12,7 @@
 namespace Symfony\Component\Config\Definition;
 
 /**
- * Common Interface among all nodes.
+ * Common Utils among all nodes.
  *
  * In most cases, it is better to inherit from BaseNode instead of implementing
  * this interface yourself.

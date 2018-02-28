@@ -9,7 +9,7 @@
  */
 
 /**
- * Interface for all Transfer Encoding schemes.
+ * Utils for all Transfer Encoding schemes.
  *
  * @author Chris Corbyn
  */

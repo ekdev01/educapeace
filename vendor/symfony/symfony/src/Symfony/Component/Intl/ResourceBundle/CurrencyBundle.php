@@ -17,7 +17,7 @@ use Symfony\Component\Intl\Data\Provider\LocaleDataProvider;
 use Symfony\Component\Intl\Exception\MissingResourceException;
 
 /**
- * Home implementation of {@link CurrencyBundleInterface}.
+ * Admin implementation of {@link CurrencyBundleInterface}.
  *
  * @author Bernhard Schussek <bschussek@gmail.com>
  *

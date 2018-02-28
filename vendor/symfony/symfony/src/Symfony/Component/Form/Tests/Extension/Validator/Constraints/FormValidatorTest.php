@@ -152,7 +152,7 @@ class FormValidatorTest extends AbstractConstraintValidatorTest
         $form = new FormBuilder('name', '\stdClass', $this->dispatcher, $this->factory);
         $form = $form->setData($object)->getForm();
 
-        $this->expectValidateAt(0, 'data', $object, array('Home'));
+        $this->expectValidateAt(0, 'data', $object, array('Admin'));
 
         $this->validator->validate($form, new Form());
 
@@ -557,7 +557,7 @@ class FormValidatorTest extends AbstractConstraintValidatorTest
             ->setData($object)
             ->getForm();
 
-        $this->expectValidateAt(0, 'data', $object, array('Home'));
+        $this->expectValidateAt(0, 'data', $object, array('Admin'));
 
         $this->validator->validate($form, new Form());
 

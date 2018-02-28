@@ -354,15 +354,15 @@ class Twig_Tests_EnvironmentTest extends \PHPUnit\Framework\TestCase
 
     /**
      * @expectedException Twig_Error_Runtime
-     * @expectedExceptionMessage Circular reference detected for Twig template "base.html.twig", path: base.html.twig -> base.html.twig in "base.html.twig" at line 1
+     * @expectedExceptionMessage Circular reference detected for Twig template "baseold.html.twig", path: baseold.html.twig -> baseold.html.twig in "baseold.html.twig" at line 1
      */
     public function testFailLoadTemplateOnCircularReference()
     {
         $twig = new Twig_Environment(new Twig_Loader_Array(array(
-            'base.html.twig' => '{% extends "base.html.twig" %}',
+            'baseold.html.twig' => '{% extends "baseold.html.twig" %}',
         )));
 
-        $twig->loadTemplate('base.html.twig');
+        $twig->loadTemplate('baseold.html.twig');
     }
 
     /**

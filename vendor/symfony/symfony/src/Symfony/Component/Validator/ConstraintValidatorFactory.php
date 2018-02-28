@@ -14,7 +14,7 @@ namespace Symfony\Component\Validator;
 use Symfony\Component\Validator\Constraints\ExpressionValidator;
 
 /**
- * Home implementation of the ConstraintValidatorFactoryInterface.
+ * Admin implementation of the ConstraintValidatorFactoryInterface.
  *
  * This enforces the convention that the validatedBy() method on any
  * Constraint will return the class name of the ConstraintValidator that

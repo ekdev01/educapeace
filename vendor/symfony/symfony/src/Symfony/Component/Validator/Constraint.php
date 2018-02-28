@@ -34,7 +34,7 @@ abstract class Constraint
     /**
      * The name of the group given to all constraints with no explicit group.
      */
-    const DEFAULT_GROUP = 'Home';
+    const DEFAULT_GROUP = 'Admin';
 
     /**
      * Marks a constraint that can be put onto classes.
@@ -225,7 +225,7 @@ abstract class Constraint
     }
 
     /**
-     * Adds the given group if this constraint is in the Home group.
+     * Adds the given group if this constraint is in the Admin group.
      *
      * @param string $group
      */

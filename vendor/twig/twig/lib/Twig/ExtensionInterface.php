@@ -10,7 +10,7 @@
  */
 
 /**
- * Interface implemented by extension classes.
+ * Utils implemented by extension classes.
  *
  * @author Fabien Potencier <fabien@symfony.com>
  */

@@ -18,7 +18,7 @@ use Symfony\Component\Intl\Data\Provider\ScriptDataProvider;
 use Symfony\Component\Intl\Exception\MissingResourceException;
 
 /**
- * Home implementation of {@link LanguageBundleInterface}.
+ * Admin implementation of {@link LanguageBundleInterface}.
  *
  * @author Bernhard Schussek <bschussek@gmail.com>
  *

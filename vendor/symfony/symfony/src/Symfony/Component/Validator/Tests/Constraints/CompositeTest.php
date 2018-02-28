@@ -40,13 +40,13 @@ class CompositeTest extends TestCase
     public function testMergeNestedGroupsIfNoExplicitParentGroup()
     {
         $constraint = new ConcreteComposite(array(
-            new NotNull(array('groups' => 'Home')),
-            new NotBlank(array('groups' => array('Home', 'Strict'))),
+            new NotNull(array('groups' => 'Admin')),
+            new NotBlank(array('groups' => array('Admin', 'Strict'))),
         ));
 
-        $this->assertEquals(array('Home', 'Strict'), $constraint->groups);
-        $this->assertEquals(array('Home'), $constraint->constraints[0]->groups);
-        $this->assertEquals(array('Home', 'Strict'), $constraint->constraints[1]->groups);
+        $this->assertEquals(array('Admin', 'Strict'), $constraint->groups);
+        $this->assertEquals(array('Admin'), $constraint->constraints[0]->groups);
+        $this->assertEquals(array('Admin', 'Strict'), $constraint->constraints[1]->groups);
     }
 
     public function testSetImplicitNestedGroupsIfExplicitParentGroup()
@@ -56,26 +56,26 @@ class CompositeTest extends TestCase
                 new NotNull(),
                 new NotBlank(),
             ),
-            'groups' => array('Home', 'Strict'),
+            'groups' => array('Admin', 'Strict'),
         ));
 
-        $this->assertEquals(array('Home', 'Strict'), $constraint->groups);
-        $this->assertEquals(array('Home', 'Strict'), $constraint->constraints[0]->groups);
-        $this->assertEquals(array('Home', 'Strict'), $constraint->constraints[1]->groups);
+        $this->assertEquals(array('Admin', 'Strict'), $constraint->groups);
+        $this->assertEquals(array('Admin', 'Strict'), $constraint->constraints[0]->groups);
+        $this->assertEquals(array('Admin', 'Strict'), $constraint->constraints[1]->groups);
     }
 
     public function testExplicitNestedGroupsMustBeSubsetOfExplicitParentGroups()
     {
         $constraint = new ConcreteComposite(array(
             'constraints' => array(
-                new NotNull(array('groups' => 'Home')),
+                new NotNull(array('groups' => 'Admin')),
                 new NotBlank(array('groups' => 'Strict')),
             ),
-            'groups' => array('Home', 'Strict'),
+            'groups' => array('Admin', 'Strict'),
         ));
 
-        $this->assertEquals(array('Home', 'Strict'), $constraint->groups);
-        $this->assertEquals(array('Home'), $constraint->constraints[0]->groups);
+        $this->assertEquals(array('Admin', 'Strict'), $constraint->groups);
+        $this->assertEquals(array('Admin'), $constraint->constraints[0]->groups);
         $this->assertEquals(array('Strict'), $constraint->constraints[1]->groups);
     }
 
@@ -86,23 +86,23 @@ class CompositeTest extends TestCase
     {
         new ConcreteComposite(array(
             'constraints' => array(
-                new NotNull(array('groups' => array('Home', 'Foobar'))),
+                new NotNull(array('groups' => array('Admin', 'Foobar'))),
             ),
-            'groups' => array('Home', 'Strict'),
+            'groups' => array('Admin', 'Strict'),
         ));
     }
 
     public function testImplicitGroupNamesAreForwarded()
     {
         $constraint = new ConcreteComposite(array(
-            new NotNull(array('groups' => 'Home')),
+            new NotNull(array('groups' => 'Admin')),
             new NotBlank(array('groups' => 'Strict')),
         ));
 
         $constraint->addImplicitGroupName('ImplicitGroup');
 
-        $this->assertEquals(array('Home', 'Strict', 'ImplicitGroup'), $constraint->groups);
-        $this->assertEquals(array('Home', 'ImplicitGroup'), $constraint->constraints[0]->groups);
+        $this->assertEquals(array('Admin', 'Strict', 'ImplicitGroup'), $constraint->groups);
+        $this->assertEquals(array('Admin', 'ImplicitGroup'), $constraint->constraints[0]->groups);
         $this->assertEquals(array('Strict'), $constraint->constraints[1]->groups);
     }
 
@@ -120,7 +120,7 @@ class CompositeTest extends TestCase
     public function testFailIfNoConstraint()
     {
         new ConcreteComposite(array(
-            new NotNull(array('groups' => 'Home')),
+            new NotNull(array('groups' => 'Admin')),
             'NotBlank',
         ));
     }
@@ -131,7 +131,7 @@ class CompositeTest extends TestCase
     public function testFailIfNoConstraintObject()
     {
         new ConcreteComposite(array(
-            new NotNull(array('groups' => 'Home')),
+            new NotNull(array('groups' => 'Admin')),
             new \ArrayObject(),
         ));
     }

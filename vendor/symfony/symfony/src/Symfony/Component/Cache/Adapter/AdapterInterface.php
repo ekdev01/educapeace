@@ -15,7 +15,7 @@ use Psr\Cache\CacheItemPoolInterface;
 use Symfony\Component\Cache\CacheItem;
 
 /**
- * Interface for adapters managing instances of Symfony's CacheItem.
+ * Utils for adapters managing instances of Symfony's CacheItem.
  *
  * @author Kévin Dunglas <dunglas@gmail.com>
  */

@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Social network tagging -->
+    <meta property="og:locale" content="fr_FR" />
+    <meta property="og:type" content="website"/>
+    <meta property="og:title" content="educapeace.org: EDUCAPEACE - Organisation de lutte contre l'analphabétisme des enfants dans les zones rurales du Cameroun et d'Afrique subsaharienne, et l'accès aux soins de santé pour tous, ainsi qu'à l'eau et assainissement."/>
+    <meta property="og:url" content="http://www.educapeace.org/"/>
+    <meta property="og:image" content="http://www.educapeace.org/bundles/edu/assets/home_rs.png"/>
+
+    <!-- PAGE settings -->
+    <title>Educapeace - Mail</title>
+
+    <meta name="description" content="L'Organisation EDUCAPEACE lutte contre l'analphabétisme des enfants dans les zones rurales du Cameroun et d'Afrique subsaharienne, et l'accès aux soins de santé pour tous, ainsi qu'à l'eau et assainissement.">
+    <meta name="keywords" content="éducation, afrique, humanitaire, santé, aide humanitaire, analphabétisme, enfance">
+    <meta name="author" content="EK DEV Center">
+
+    <!-- CSS dependencies -->
+    <link rel="stylesheet" href="{{ absolute_url(asset('bundles/front/theme.css')) }}">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" type="text/css">
+
+    <!-- Script: Animated entrance -->
+    <script src="{{ absolute_url(asset('bundles/front/js/animate-in.js')) }}"></script>
+</head>
+
+<body class="text-center">
+
+<!-- Content -->
+<section class="container py-2">
+    {% block content %}
+    {% endblock %}
+</section>
+<!-- /Content -->
+
+<!-- Footer -->
+{% include '::footer_mail.html.twig' %}
+<!-- /Footer -->
+</body>
+</html>

@@ -10,7 +10,7 @@
  */
 
 /**
- * Interface implemented by token parsers.
+ * Utils implemented by token parsers.
  *
  * @author Fabien Potencier <fabien@symfony.com>
  */

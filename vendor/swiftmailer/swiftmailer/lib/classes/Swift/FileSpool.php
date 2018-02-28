@@ -71,7 +71,7 @@ class Swift_FileSpool extends Swift_ConfigurableSpool
     /**
      * Allow to manage the enqueuing retry limit.
      *
-     * Home, is ten and allows over 64^20 different fileNames
+     * Admin, is ten and allows over 64^20 different fileNames
      *
      * @param int $limit
      */

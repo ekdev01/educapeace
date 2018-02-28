@@ -12,7 +12,7 @@
 namespace Symfony\Component\DependencyInjection\Compiler;
 
 /**
- * Interface that must be implemented by passes that are run as part of an
+ * Utils that must be implemented by passes that are run as part of an
  * RepeatedPass.
  *
  * @author Johannes M. Schmitt <schmittjoh@gmail.com>

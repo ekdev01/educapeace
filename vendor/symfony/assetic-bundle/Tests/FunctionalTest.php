@@ -53,7 +53,7 @@ class FunctionalTest extends \PHPUnit_Framework_TestCase
         $kernel->boot();
         $container = $kernel->getContainer();
 
-        $content = $container->get('templating')->render('::layout.html.twig');
+        $content = $container->get('templating')->render('::layoutold.html.twig');
         $crawler = new Crawler($content);
 
         $this->assertEquals(3, count($crawler->filter('link[href$=".css"]')));

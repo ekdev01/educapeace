@@ -25,7 +25,7 @@ use Symfony\Component\PropertyAccess\Exception\NoSuchPropertyException;
 use Symfony\Component\PropertyAccess\Exception\UnexpectedTypeException;
 
 /**
- * Home implementation of {@link PropertyAccessorInterface}.
+ * Admin implementation of {@link PropertyAccessorInterface}.
  *
  * @author Bernhard Schussek <bschussek@gmail.com>
  * @author Kévin Dunglas <dunglas@gmail.com>

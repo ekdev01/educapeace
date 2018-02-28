@@ -1,0 +1,43 @@
+{# src/EK/AssoBundle/Resources/views/Mail/confirmationAdhesion.html.twig #}
+{# Template Bundle #}
+{% extends "AssoBundle::layout_mail.html.twig" %}
+
+{% block content %}
+    <div>
+        <table width="100%" cellpadding="0" cellspacing="0" border="0">
+            <tr>
+                <td><img src="{{ asset('bundles/front/assets/DSC_4708.jpg') }}" class="mx-auto" height="200"></td>
+            </tr>
+        </table>
+    </div>
+    <div>
+            {{ 'label.hello'|trans }} <h3>{{ data.firstname }}</h3>,
+
+            <br /><br />
+            {{ 'mail.confirm.adhesion.text1'|trans }}
+            <br /><br />
+
+            {{ 'mail.confirm.adhesion.text2'|trans }}<br /><br />
+            {{ 'label.ident'|trans }}: {{ data.login }}<br />
+            {{ 'label.password'|trans }}: {{ data.password }}
+    </div>
+    <div>
+        <table width="100%" cellpadding="0" cellspacing="0" border="0">
+            <tr>
+                <td width="20%"><img src="{{ asset('bundles/front/assets/brandEducapeace.png') }}" class="mx-auto" width="160"></td>
+                <td width="80%">
+                    {{ 'mail.confirm.adhesion.text3'|trans }}!<br><br>
+
+                    {{ 'mail.confirm.adhesion.text4'|trans }}<br>
+                    Jean Christophe LEUNOU<br><br>
+
+                    EDUCAPEACE Centre Social et Culturel Georges Brassens :<br>
+                    4, rue de l'orme au Charron 77340 Pontault-Combault.<br>
+                    Tél : +33 (0)609697967<br>
+                    E-mail : contact@educapeace.org<br>
+                    N° RNA : W771011659<br>
+                </td>
+            </tr>
+        </table>
+    </div>
+{% endblock %}

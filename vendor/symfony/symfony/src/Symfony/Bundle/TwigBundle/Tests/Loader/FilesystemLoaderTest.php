@@ -30,10 +30,10 @@ class FilesystemLoaderTest extends TestCase
         $loader->addPath(__DIR__.'/../DependencyInjection/Fixtures/Resources/views', 'namespace');
 
         // Twig-style
-        $this->assertEquals("This is a layout\n", $loader->getSourceContext('@namespace/layout.html.twig')->getCode());
+        $this->assertEquals("This is a layout\n", $loader->getSourceContext('@namespace/layoutold.html.twig')->getCode());
 
         // Symfony-style
-        $this->assertEquals("This is a layout\n", $loader->getSourceContext('TwigBundle::layout.html.twig')->getCode());
+        $this->assertEquals("This is a layout\n", $loader->getSourceContext('TwigBundle::layoutold.html.twig')->getCode());
     }
 
     public function testExists()

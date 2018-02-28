@@ -16,7 +16,7 @@ use Symfony\Component\HttpFoundation\Response;
 use Symfony\Component\HttpFoundation\Request;
 
 /**
- * Interface that needs to be implemented by classes which provide remember-me
+ * Utils that needs to be implemented by classes which provide remember-me
  * capabilities.
  *
  * We provide two implementations out-of-the-box:

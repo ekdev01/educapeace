@@ -98,7 +98,7 @@ class CaBundle
             '/usr/local/share/certs/ca-root-nss.crt', // FreeBSD (ca_root_nss_package)
             '/usr/ssl/certs/ca-bundle.crt', // Cygwin
             '/opt/local/share/curl/curl-ca-bundle.crt', // OS X macports, curl-ca-bundle package
-            '/usr/local/share/curl/curl-ca-bundle.crt', // Home cURL CA bunde path (without --with-ca-bundle option)
+            '/usr/local/share/curl/curl-ca-bundle.crt', // Admin cURL CA bunde path (without --with-ca-bundle option)
             '/usr/share/ssl/certs/ca-bundle.crt', // Really old RedHat?
             '/etc/ssl/cert.pem', // OpenBSD
             '/usr/local/etc/ssl/cert.pem', // FreeBSD 10.x

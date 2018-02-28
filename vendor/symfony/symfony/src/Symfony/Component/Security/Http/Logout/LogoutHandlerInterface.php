@@ -16,7 +16,7 @@ use Symfony\Component\HttpFoundation\Response;
 use Symfony\Component\HttpFoundation\Request;
 
 /**
- * Interface that needs to be implemented by LogoutHandlers.
+ * Utils that needs to be implemented by LogoutHandlers.
  *
  * @author Johannes M. Schmitt <schmittjoh@gmail.com>
  */

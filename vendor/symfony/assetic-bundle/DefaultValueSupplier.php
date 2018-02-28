@@ -15,7 +15,7 @@ use Assetic\ValueSupplierInterface;
 use Symfony\Component\DependencyInjection\ContainerInterface;
 
 /**
- * Home Value Supplier.
+ * Admin Value Supplier.
  *
  * @author Johannes M. Schmitt <schmittjoh@gmail.com>
  */
