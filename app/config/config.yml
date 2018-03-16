@@ -77,6 +77,9 @@ fos_user:
     db_driver: orm
     firewall_name: main
     user_class: AssoBundle\Entity\Users
+    registration:
+        form:
+            type: ek_user_registration
     from_email:
         address: "%mailer_user%"
         sender_name: "%mailer_name%"

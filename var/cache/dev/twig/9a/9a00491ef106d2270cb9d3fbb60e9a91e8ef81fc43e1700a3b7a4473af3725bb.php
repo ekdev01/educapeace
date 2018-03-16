@@ -16,29 +16,29 @@ class __TwigTemplate_3b50522a13460d4e66b150c19aefbd36f011a7f1e3ce0284cebfe32d9ba
 
     protected function doDisplay(array $context, array $blocks = array())
     {
-        $__internal_5375230148341e6694f8cefd9a764a79219ce231e3ab142aab449b94b858e6ce = $this->env->getExtension("Symfony\\Bundle\\WebProfilerBundle\\Twig\\WebProfilerExtension");
-        $__internal_5375230148341e6694f8cefd9a764a79219ce231e3ab142aab449b94b858e6ce->enter($__internal_5375230148341e6694f8cefd9a764a79219ce231e3ab142aab449b94b858e6ce_prof = new Twig_Profiler_Profile($this->getTemplateName(), "template", "::js_ident.html.twig"));
+        $__internal_8106208857e939e2be48e0263ae8e60cc873b152928ee01aa48322086ff05ec8 = $this->env->getExtension("Symfony\\Bundle\\WebProfilerBundle\\Twig\\WebProfilerExtension");
+        $__internal_8106208857e939e2be48e0263ae8e60cc873b152928ee01aa48322086ff05ec8->enter($__internal_8106208857e939e2be48e0263ae8e60cc873b152928ee01aa48322086ff05ec8_prof = new Twig_Profiler_Profile($this->getTemplateName(), "template", "::js_ident.html.twig"));
 
-        $__internal_534ff335175b334cac94549e8d5069793ef52e49a5102761145e3578dcae6359 = $this->env->getExtension("Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension");
-        $__internal_534ff335175b334cac94549e8d5069793ef52e49a5102761145e3578dcae6359->enter($__internal_534ff335175b334cac94549e8d5069793ef52e49a5102761145e3578dcae6359_prof = new Twig_Profiler_Profile($this->getTemplateName(), "template", "::js_ident.html.twig"));
+        $__internal_a63598a67e629decfc04870034b2562fc7b44f6c7fffc8b7e375507918651399 = $this->env->getExtension("Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension");
+        $__internal_a63598a67e629decfc04870034b2562fc7b44f6c7fffc8b7e375507918651399->enter($__internal_a63598a67e629decfc04870034b2562fc7b44f6c7fffc8b7e375507918651399_prof = new Twig_Profiler_Profile($this->getTemplateName(), "template", "::js_ident.html.twig"));
 
         // line 1
         $this->displayBlock('javascript', $context, $blocks);
         
-        $__internal_5375230148341e6694f8cefd9a764a79219ce231e3ab142aab449b94b858e6ce->leave($__internal_5375230148341e6694f8cefd9a764a79219ce231e3ab142aab449b94b858e6ce_prof);
+        $__internal_8106208857e939e2be48e0263ae8e60cc873b152928ee01aa48322086ff05ec8->leave($__internal_8106208857e939e2be48e0263ae8e60cc873b152928ee01aa48322086ff05ec8_prof);
 
         
-        $__internal_534ff335175b334cac94549e8d5069793ef52e49a5102761145e3578dcae6359->leave($__internal_534ff335175b334cac94549e8d5069793ef52e49a5102761145e3578dcae6359_prof);
+        $__internal_a63598a67e629decfc04870034b2562fc7b44f6c7fffc8b7e375507918651399->leave($__internal_a63598a67e629decfc04870034b2562fc7b44f6c7fffc8b7e375507918651399_prof);
 
     }
 
     public function block_javascript($context, array $blocks = array())
     {
-        $__internal_207b170a559f33bebc9e3b3ea3d181c7f2e16aa570ca96529509c150fa2eed9a = $this->env->getExtension("Symfony\\Bundle\\WebProfilerBundle\\Twig\\WebProfilerExtension");
-        $__internal_207b170a559f33bebc9e3b3ea3d181c7f2e16aa570ca96529509c150fa2eed9a->enter($__internal_207b170a559f33bebc9e3b3ea3d181c7f2e16aa570ca96529509c150fa2eed9a_prof = new Twig_Profiler_Profile($this->getTemplateName(), "block", "javascript"));
+        $__internal_7654b084fb5495c8867d5ad8e86f59013275e70bda8fe2b44d90cbd435ec3e7b = $this->env->getExtension("Symfony\\Bundle\\WebProfilerBundle\\Twig\\WebProfilerExtension");
+        $__internal_7654b084fb5495c8867d5ad8e86f59013275e70bda8fe2b44d90cbd435ec3e7b->enter($__internal_7654b084fb5495c8867d5ad8e86f59013275e70bda8fe2b44d90cbd435ec3e7b_prof = new Twig_Profiler_Profile($this->getTemplateName(), "block", "javascript"));
 
-        $__internal_24f92ec3ee30bd51599256de62761c973a5a94395fcaaa69ef3a99f5e22461bd = $this->env->getExtension("Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension");
-        $__internal_24f92ec3ee30bd51599256de62761c973a5a94395fcaaa69ef3a99f5e22461bd->enter($__internal_24f92ec3ee30bd51599256de62761c973a5a94395fcaaa69ef3a99f5e22461bd_prof = new Twig_Profiler_Profile($this->getTemplateName(), "block", "javascript"));
+        $__internal_3b39b4c0abf9f5a3f8b7ecdd55bc1deb6cd90d53a81296b84beb59c6633760e8 = $this->env->getExtension("Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension");
+        $__internal_3b39b4c0abf9f5a3f8b7ecdd55bc1deb6cd90d53a81296b84beb59c6633760e8->enter($__internal_3b39b4c0abf9f5a3f8b7ecdd55bc1deb6cd90d53a81296b84beb59c6633760e8_prof = new Twig_Profiler_Profile($this->getTemplateName(), "block", "javascript"));
 
         // line 2
         echo "    <script src=\"https://code.jquery.com/jquery-3.2.1.min.js\"></script>
@@ -212,43 +212,86 @@ class __TwigTemplate_3b50522a13460d4e66b150c19aefbd36f011a7f1e3ce0284cebfe32d9ba
                 \$('#_authentificationModal').modal('hide');
             });
 
+            // Form 1
+
             \$('#_choice-btn-60-1').click(function() {
-                alert('choice-btn-60-1');
-                \$('#amount_free_1').val('60');
-                var deductAMount =
+                var deductAMount = parseFloat((60 * 0.34));
+
+                deductAMount = deductAMount.toFixed(2);
+                \$('#amount_deduct_1').val(deductAMount);
+                \$('#amount_choice_1').val('150');
+                \$('#amount_choice_deduct_1').val(deductAMount);
             });
 
             \$('#_choice-btn-100-1').click(function() {
-                alert('choice-btn-100-1');
+                var deductAMount = parseFloat((100 * 0.34));
 
+                deductAMount = deductAMount.toFixed(2);
+                \$('#amount_deduct_1').val(deductAMount);
+                \$('#amount_choice_1').val('100');
+                \$('#amount_choice_deduct_1').val(deductAMount);
             });
 
             \$('#_choice-btn-150-1').click(function() {
-                alert('choice-btn-150-1');
+                var deductAMount = parseFloat((150 * 0.34));
 
+                deductAMount = deductAMount.toFixed(2);
+                \$('#amount_deduct_1').val(deductAMount);
+                \$('#amount_choice_1').val('60');
+                \$('#amount_choice_deduct_1').val(deductAMount);
             });
 
-            \$('#_choice-btn-60-2').click(function() {
-                alert('choice-btn-60-2');
+            // Form 2
 
+            \$('#_choice-btn-60-2').click(function() {
+                var deductAMount = parseFloat((60 * 0.34));
+
+                deductAMount = deductAMount.toFixed(2);
+                \$('#amount_deduct_2').val(deductAMount);
+                \$('#amount_choice_2').val('60');
+                \$('#amount_choice_deduct_2').val(deductAMount);
             });
 
             \$('#_choice-btn-100-2').click(function() {
-                alert('choice-btn-100-2');
+                var deductAMount = parseFloat((100 * 0.34));
+
+                deductAMount = deductAMount.toFixed(2);
+                \$('#amount_deduct_2').val(deductAMount);
+                \$('#amount_choice_2').val('100');
+                \$('#amount_choice_deduct_2').val(deductAMount);
 
             });
 
             \$('#_choice-btn-150-2').click(function() {
-                alert('choice-btn-150-2');
+                var deductAMount = parseFloat((150 * 0.34));
+
+                deductAMount = deductAMount.toFixed(2);
+                \$('#amount_deduct_2').val(deductAMount);
+                \$('#amount_choice_2').val('150');
+                \$('#amount_choice_deduct_2').val(deductAMount);
             });
+
+            \$('#amount_free_1').keypress(function(e) {
+                e.preventDefault();
+                var amount_free = 0.0;
+                console.log('amount_free = '+amount_free);
+            });
+
+            \$('#amount_free_2').keypress(function(e) {
+               /* e.preventDefault();
+                var amount_free = 0.0;
+                amount_free = fireKeyboardEvent(\"keypress\", 13);
+                console.log('amount_free = '+amount_free);*/
+            });
+
         });
     </script>
 ";
         
-        $__internal_24f92ec3ee30bd51599256de62761c973a5a94395fcaaa69ef3a99f5e22461bd->leave($__internal_24f92ec3ee30bd51599256de62761c973a5a94395fcaaa69ef3a99f5e22461bd_prof);
+        $__internal_3b39b4c0abf9f5a3f8b7ecdd55bc1deb6cd90d53a81296b84beb59c6633760e8->leave($__internal_3b39b4c0abf9f5a3f8b7ecdd55bc1deb6cd90d53a81296b84beb59c6633760e8_prof);
 
         
-        $__internal_207b170a559f33bebc9e3b3ea3d181c7f2e16aa570ca96529509c150fa2eed9a->leave($__internal_207b170a559f33bebc9e3b3ea3d181c7f2e16aa570ca96529509c150fa2eed9a_prof);
+        $__internal_7654b084fb5495c8867d5ad8e86f59013275e70bda8fe2b44d90cbd435ec3e7b->leave($__internal_7654b084fb5495c8867d5ad8e86f59013275e70bda8fe2b44d90cbd435ec3e7b_prof);
 
     }
 
@@ -421,35 +464,78 @@ class __TwigTemplate_3b50522a13460d4e66b150c19aefbd36f011a7f1e3ce0284cebfe32d9ba
                 \$('#_authentificationModal').modal('hide');
             });
 
+            // Form 1
+
             \$('#_choice-btn-60-1').click(function() {
-                alert('choice-btn-60-1');
-                \$('#amount_free_1').val('60');
-                var deductAMount =
+                var deductAMount = parseFloat((60 * 0.34));
+
+                deductAMount = deductAMount.toFixed(2);
+                \$('#amount_deduct_1').val(deductAMount);
+                \$('#amount_choice_1').val('150');
+                \$('#amount_choice_deduct_1').val(deductAMount);
             });
 
             \$('#_choice-btn-100-1').click(function() {
-                alert('choice-btn-100-1');
+                var deductAMount = parseFloat((100 * 0.34));
 
+                deductAMount = deductAMount.toFixed(2);
+                \$('#amount_deduct_1').val(deductAMount);
+                \$('#amount_choice_1').val('100');
+                \$('#amount_choice_deduct_1').val(deductAMount);
             });
 
             \$('#_choice-btn-150-1').click(function() {
-                alert('choice-btn-150-1');
+                var deductAMount = parseFloat((150 * 0.34));
 
+                deductAMount = deductAMount.toFixed(2);
+                \$('#amount_deduct_1').val(deductAMount);
+                \$('#amount_choice_1').val('60');
+                \$('#amount_choice_deduct_1').val(deductAMount);
             });
 
-            \$('#_choice-btn-60-2').click(function() {
-                alert('choice-btn-60-2');
+            // Form 2
 
+            \$('#_choice-btn-60-2').click(function() {
+                var deductAMount = parseFloat((60 * 0.34));
+
+                deductAMount = deductAMount.toFixed(2);
+                \$('#amount_deduct_2').val(deductAMount);
+                \$('#amount_choice_2').val('60');
+                \$('#amount_choice_deduct_2').val(deductAMount);
             });
 
             \$('#_choice-btn-100-2').click(function() {
-                alert('choice-btn-100-2');
+                var deductAMount = parseFloat((100 * 0.34));
+
+                deductAMount = deductAMount.toFixed(2);
+                \$('#amount_deduct_2').val(deductAMount);
+                \$('#amount_choice_2').val('100');
+                \$('#amount_choice_deduct_2').val(deductAMount);
 
             });
 
             \$('#_choice-btn-150-2').click(function() {
-                alert('choice-btn-150-2');
+                var deductAMount = parseFloat((150 * 0.34));
+
+                deductAMount = deductAMount.toFixed(2);
+                \$('#amount_deduct_2').val(deductAMount);
+                \$('#amount_choice_2').val('150');
+                \$('#amount_choice_deduct_2').val(deductAMount);
             });
+
+            \$('#amount_free_1').keypress(function(e) {
+                e.preventDefault();
+                var amount_free = 0.0;
+                console.log('amount_free = '+amount_free);
+            });
+
+            \$('#amount_free_2').keypress(function(e) {
+               /* e.preventDefault();
+                var amount_free = 0.0;
+                amount_free = fireKeyboardEvent(\"keypress\", 13);
+                console.log('amount_free = '+amount_free);*/
+            });
+
         });
     </script>
 {% endblock javascript %}", "::js_ident.html.twig", "/Users/ekdevcenter/Sites/educapeace/app/Resources/views/js_ident.html.twig");

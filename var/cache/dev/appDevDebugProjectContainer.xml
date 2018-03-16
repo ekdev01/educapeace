@@ -384,7 +384,7 @@
       <parameter key="tech@ekdevcenter.tech">EK DEV center - Support App</parameter>
     </parameter>
     <parameter key="fos_user.registration.confirmation.enabled">false</parameter>
-    <parameter key="fos_user.registration.form.type">FOS\UserBundle\Form\Type\RegistrationFormType</parameter>
+    <parameter key="fos_user.registration.form.type">ek_user_registration</parameter>
     <parameter key="fos_user.registration.form.name">fos_user_registration_form</parameter>
     <parameter key="fos_user.registration.form.validation_groups" type="collection">
       <parameter>Registration</parameter>
@@ -552,6 +552,9 @@
       <argument type="service" id="service_container"/>
       <argument type="service" id="translator.default"/>
     </service>
+    <service id="front.form_registration" class="EK\AssoBundle\Form\RegistrationType">
+      <tag name="form.type" alias="ek_user_registration"/>
+    </service>
     <service id="controller_name_converter" class="Symfony\Bundle\FrameworkBundle\Controller\ControllerNameParser" public="false">
       <tag name="monolog.logger" channel="request"/>
       <argument type="service" id="kernel"/>
@@ -714,7 +717,7 @@
       <tag name="monolog.logger" channel="cache"/>
       <argument></argument>
       <argument>0</argument>
-      <argument>nO-9rJilLq0PESN7XoOnGR</argument>
+      <argument>LdgDY+WgITjSm6c6IAUAmt</argument>
       <argument>/Users/ekdevcenter/Sites/educapeace/var/cache/dev/pools</argument>
       <argument type="service" id="monolog.logger.cache" on-invalid="ignore"/>
       <factory class="Symfony\Component\Cache\Adapter\AbstractAdapter" method="createSystemCache"/>
@@ -724,7 +727,7 @@
       <tag name="monolog.logger" channel="cache"/>
       <argument></argument>
       <argument>0</argument>
-      <argument>nO-9rJilLq0PESN7XoOnGR</argument>
+      <argument>LdgDY+WgITjSm6c6IAUAmt</argument>
       <call method="setLogger">
         <argument type="service" id="monolog.logger.cache" on-invalid="ignore"/>
       </call>
@@ -840,7 +843,7 @@
       <argument type="service" id="form.resolved_type_factory"/>
     </service>
     <service id="form.extension" class="Symfony\Component\Form\Extension\DependencyInjection\DependencyInjectionExtension" public="false">
-      <argument type="service" id="service_locator.61ce42ee314d3459d7339b36d3fecf2a"/>
+      <argument type="service" id="service_locator.147061ecc2d7f0039841c3254c1703ce"/>
       <argument type="collection">
         <argument key="Symfony\Component\Form\Extension\Core\Type\FormType" type="iterator">
           <argument type="service" id="form.type_extension.form.http_foundation"/>
@@ -2762,6 +2765,13 @@
         </argument>
         <argument>null</argument>
       </call>
+      <call method="add">
+        <argument type="service" id="security.request_matcher.fc1361a081a79d43baa3b010f55efe95a2cf43369ee73dcd2182ec1b9334ab99334e0826"/>
+        <argument type="collection">
+          <argument>ROLE_ADMIN</argument>
+        </argument>
+        <argument>null</argument>
+      </call>
     </service>
     <service id="security.context_listener" class="Symfony\Component\Security\Http\Firewall\ContextListener" public="false">
       <tag name="monolog.logger" channel="security"/>
@@ -3175,12 +3185,12 @@
     </service>
     <service id="security.authentication.listener.anonymous.main" class="Symfony\Component\Security\Http\Firewall\AnonymousAuthenticationListener" public="false">
       <argument type="service" id="security.token_storage"/>
-      <argument>5a96f26ae50699.67160992</argument>
+      <argument>5a9ef228acbe48.23621106</argument>
       <argument type="service" id="monolog.logger.security" on-invalid="null"/>
       <argument type="service" id="security.authentication.manager"/>
     </service>
     <service id="security.authentication.provider.anonymous.main" class="Symfony\Component\Security\Core\Authentication\Provider\AnonymousAuthenticationProvider" public="false">
-      <argument>5a96f26ae50699.67160992</argument>
+      <argument>5a9ef228acbe48.23621106</argument>
     </service>
     <service id="security.exception_listener.main" class="Symfony\Component\Security\Http\Firewall\ExceptionListener" public="false">
       <argument type="service" id="security.token_storage"/>
@@ -3220,6 +3230,9 @@
     </service>
     <service id="security.request_matcher.5b101508263005aeeb8e52488988a83674e139591c84905c8af6424efad20469093b970b" class="Symfony\Component\HttpFoundation\RequestMatcher" public="false">
       <argument>^/resetting</argument>
+    </service>
+    <service id="security.request_matcher.fc1361a081a79d43baa3b010f55efe95a2cf43369ee73dcd2182ec1b9334ab99334e0826" class="Symfony\Component\HttpFoundation\RequestMatcher" public="false">
+      <argument>^/admin/</argument>
     </service>
     <service id="security.console.user_password_encoder_command" class="Symfony\Bundle\SecurityBundle\Command\UserPasswordEncoderCommand" public="false">
       <tag name="console.command"/>
@@ -4272,7 +4285,7 @@
     <service id="fos_user.registration.form.factory" class="FOS\UserBundle\Form\Factory\FormFactory">
       <argument type="service" id="form.factory"/>
       <argument>fos_user_registration_form</argument>
-      <argument>FOS\UserBundle\Form\Type\RegistrationFormType</argument>
+      <argument>ek_user_registration</argument>
       <argument type="collection">
         <argument>Registration</argument>
         <argument>Default</argument>
@@ -4531,9 +4544,10 @@
         <argument key="translation.loader.yml" type="service" id="translation.loader.yml"/>
       </argument>
     </service>
-    <service id="service_locator.61ce42ee314d3459d7339b36d3fecf2a" class="Symfony\Component\DependencyInjection\ServiceLocator" public="false">
+    <service id="service_locator.147061ecc2d7f0039841c3254c1703ce" class="Symfony\Component\DependencyInjection\ServiceLocator" public="false">
       <tag name="container.service_locator"/>
       <argument type="collection">
+        <argument key="EK\AssoBundle\Form\RegistrationType" type="service" id="front.form_registration"/>
         <argument key="FOS\UserBundle\Form\Type\ChangePasswordFormType" type="service" id="fos_user.change_password.form.type"/>
         <argument key="FOS\UserBundle\Form\Type\ProfileFormType" type="service" id="fos_user.profile.form.type"/>
         <argument key="FOS\UserBundle\Form\Type\RegistrationFormType" type="service" id="fos_user.registration.form.type"/>
@@ -4772,7 +4786,7 @@
     <service id="cache.system.recorder_inner" class="Symfony\Component\Cache\Adapter\AdapterInterface" public="false" lazy="true">
       <argument>pdKdO5Cqzv</argument>
       <argument>0</argument>
-      <argument>nO-9rJilLq0PESN7XoOnGR</argument>
+      <argument>LdgDY+WgITjSm6c6IAUAmt</argument>
       <argument>/Users/ekdevcenter/Sites/educapeace/var/cache/dev/pools</argument>
       <argument type="service" id="monolog.logger.cache" on-invalid="ignore"/>
       <factory class="Symfony\Component\Cache\Adapter\AbstractAdapter" method="createSystemCache"/>
@@ -4780,7 +4794,7 @@
     <service id="cache.validator.recorder_inner" class="Symfony\Component\Cache\Adapter\AdapterInterface" public="false" lazy="true">
       <argument>mAfGQizKph</argument>
       <argument>0</argument>
-      <argument>nO-9rJilLq0PESN7XoOnGR</argument>
+      <argument>LdgDY+WgITjSm6c6IAUAmt</argument>
       <argument>/Users/ekdevcenter/Sites/educapeace/var/cache/dev/pools</argument>
       <argument type="service" id="monolog.logger.cache" on-invalid="ignore"/>
       <factory class="Symfony\Component\Cache\Adapter\AbstractAdapter" method="createSystemCache"/>
@@ -4788,7 +4802,7 @@
     <service id="cache.serializer.recorder_inner" class="Symfony\Component\Cache\Adapter\AdapterInterface" public="false" lazy="true">
       <argument>lwiIRJ1VQ7</argument>
       <argument>0</argument>
-      <argument>nO-9rJilLq0PESN7XoOnGR</argument>
+      <argument>LdgDY+WgITjSm6c6IAUAmt</argument>
       <argument>/Users/ekdevcenter/Sites/educapeace/var/cache/dev/pools</argument>
       <argument type="service" id="monolog.logger.cache" on-invalid="ignore"/>
       <factory class="Symfony\Component\Cache\Adapter\AbstractAdapter" method="createSystemCache"/>
@@ -4796,7 +4810,7 @@
     <service id="cache.annotations.recorder_inner" class="Symfony\Component\Cache\Adapter\AdapterInterface" public="false" lazy="true">
       <argument>PL99RjN3+0</argument>
       <argument>0</argument>
-      <argument>nO-9rJilLq0PESN7XoOnGR</argument>
+      <argument>LdgDY+WgITjSm6c6IAUAmt</argument>
       <argument>/Users/ekdevcenter/Sites/educapeace/var/cache/dev/pools</argument>
       <argument type="service" id="monolog.logger.cache" on-invalid="ignore"/>
       <factory class="Symfony\Component\Cache\Adapter\AbstractAdapter" method="createSystemCache"/>

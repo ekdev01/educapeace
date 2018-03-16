@@ -15,11 +15,11 @@ class __TwigTemplate_b6d2e2be549ffaec76f607da79f8cd9dd57cbe45d52eb9b188d730fdc50
 
     protected function doDisplay(array $context, array $blocks = array())
     {
-        $__internal_9a142ccfa0cec88f7e7897d828dfbff1d9ac1bc11af1283b8432404c406a3a45 = $this->env->getExtension("Symfony\\Bundle\\WebProfilerBundle\\Twig\\WebProfilerExtension");
-        $__internal_9a142ccfa0cec88f7e7897d828dfbff1d9ac1bc11af1283b8432404c406a3a45->enter($__internal_9a142ccfa0cec88f7e7897d828dfbff1d9ac1bc11af1283b8432404c406a3a45_prof = new Twig_Profiler_Profile($this->getTemplateName(), "template", "::nav.html.twig"));
+        $__internal_35e677057656e58ffbee6858130e3dd6034126ae59a6007a8ae85967b96d657d = $this->env->getExtension("Symfony\\Bundle\\WebProfilerBundle\\Twig\\WebProfilerExtension");
+        $__internal_35e677057656e58ffbee6858130e3dd6034126ae59a6007a8ae85967b96d657d->enter($__internal_35e677057656e58ffbee6858130e3dd6034126ae59a6007a8ae85967b96d657d_prof = new Twig_Profiler_Profile($this->getTemplateName(), "template", "::nav.html.twig"));
 
-        $__internal_774e7d9823129768639a83969f526e8e86ec9fb1800079169bd46c3b93478626 = $this->env->getExtension("Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension");
-        $__internal_774e7d9823129768639a83969f526e8e86ec9fb1800079169bd46c3b93478626->enter($__internal_774e7d9823129768639a83969f526e8e86ec9fb1800079169bd46c3b93478626_prof = new Twig_Profiler_Profile($this->getTemplateName(), "template", "::nav.html.twig"));
+        $__internal_f82f04bf818e710b6d5f0fb10fa127d0164df7c9827c081063fb67216ab99a19 = $this->env->getExtension("Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension");
+        $__internal_f82f04bf818e710b6d5f0fb10fa127d0164df7c9827c081063fb67216ab99a19->enter($__internal_f82f04bf818e710b6d5f0fb10fa127d0164df7c9827c081063fb67216ab99a19_prof = new Twig_Profiler_Profile($this->getTemplateName(), "template", "::nav.html.twig"));
 
         // line 1
         echo "<nav class=\"navbar navbar-expand-md fixed-top navbar-light bg-light\" style=\"vertical-align: middle\">
@@ -51,17 +51,17 @@ class __TwigTemplate_b6d2e2be549ffaec76f607da79f8cd9dd57cbe45d52eb9b188d730fdc50
         echo twig_escape_filter($this->env, $this->env->getExtension('Symfony\Bridge\Twig\Extension\TranslationExtension')->trans("menu_news"), "html", null, true);
         echo "</a>
                 </li>
-                <li class=\"nav-item mx-2\">
-                    <a class=\"nav-link\" href=\"";
-        // line 15
+                <li><a class=\"nav-link\" href=\"";
+        // line 14
         echo $this->env->getExtension('Symfony\Bridge\Twig\Extension\RoutingExtension')->getPath("page_adhesion");
         echo "\">";
         echo twig_escape_filter($this->env, $this->env->getExtension('Symfony\Bridge\Twig\Extension\TranslationExtension')->trans("menu_adhesion"), "html", null, true);
-        echo "</a>
-                </li>
-                <li class=\"nav-item mx-2\">
+        echo "</a></li>
+            ";
+        // line 33
+        echo "                <li class=\"nav-item mx-2\">
                     <a class=\"nav-link\" href=\"";
-        // line 18
+        // line 34
         echo $this->env->getExtension('Symfony\Bridge\Twig\Extension\RoutingExtension')->getPath("shop_page");
         echo "\">";
         echo twig_escape_filter($this->env, $this->env->getExtension('Symfony\Bridge\Twig\Extension\TranslationExtension')->trans("menu_shop"), "html", null, true);
@@ -69,30 +69,30 @@ class __TwigTemplate_b6d2e2be549ffaec76f607da79f8cd9dd57cbe45d52eb9b188d730fdc50
                 </li>
                 <li class=\"nav-item mx-2\">
                     <a class=\"nav-link\" href=\"#contact\">";
-        // line 21
+        // line 37
         echo twig_escape_filter($this->env, $this->env->getExtension('Symfony\Bridge\Twig\Extension\TranslationExtension')->trans("menu_contact"), "html", null, true);
         echo "</a>
                 </li>
             </ul>
             ";
-        // line 24
-        if ((twig_get_attribute($this->env, $this->getSourceContext(), (isset($context["app"]) || array_key_exists("app", $context) ? $context["app"] : (function () { throw new Twig_Error_Runtime('Variable "app" does not exist.', 24, $this->getSourceContext()); })()), "user", array()) && $this->env->getExtension('Symfony\Bridge\Twig\Extension\SecurityExtension')->isGranted("IS_AUTHENTICATED_FULLY"))) {
-            // line 25
+        // line 40
+        if ((twig_get_attribute($this->env, $this->getSourceContext(), (isset($context["app"]) || array_key_exists("app", $context) ? $context["app"] : (function () { throw new Twig_Error_Runtime('Variable "app" does not exist.', 40, $this->getSourceContext()); })()), "user", array()) && $this->env->getExtension('Symfony\Bridge\Twig\Extension\SecurityExtension')->isGranted("IS_AUTHENTICATED_FULLY"))) {
+            // line 41
             echo "                <ul class=\"nav navbar-nav navbar-right\">
                     <li class=\"dropdown\">
                         <a href=\"#\" class=\"user-profile dropdown-toggle\" data-toggle=\"dropdown\" aria-expanded=\"false\">
                             <span class=\"red\"><b>";
-            // line 28
+            // line 44
             echo twig_escape_filter($this->env, $this->env->getExtension('Symfony\Bridge\Twig\Extension\TranslationExtension')->trans("label.welcome"), "html", null, true);
             echo " Désiré</b>
                         </a>
                         <ul class=\"dropdown-menu dropdown-usermenu pull-right\">
                             <li>&nbsp;<a href=\"/admin/adherent\">";
-            // line 31
+            // line 47
             echo twig_escape_filter($this->env, $this->env->getExtension('Symfony\Bridge\Twig\Extension\TranslationExtension')->trans("label.area.member"), "html", null, true);
             echo "</a></li>
                             <li>&nbsp;<a href=\"";
-            // line 32
+            // line 48
             echo $this->env->getExtension('Symfony\Bridge\Twig\Extension\RoutingExtension')->getPath("fos_user_security_logout");
             echo "\"><i class=\"fa fa-sign-out pull-right\"></i>";
             echo twig_escape_filter($this->env, $this->env->getExtension('Symfony\Bridge\Twig\Extension\TranslationExtension')->trans("label.logon"), "html", null, true);
@@ -102,20 +102,20 @@ class __TwigTemplate_b6d2e2be549ffaec76f607da79f8cd9dd57cbe45d52eb9b188d730fdc50
                 </ul>
             ";
         } else {
-            // line 37
+            // line 53
             echo "                <a href=\"#\" id=\"authentification\" role=\"button\" data-toggle=\"modal\" data-target=\"#_authentificationModal\" class=\"btn navbar-btn mx-2 btn-outline-light text-secondary\">";
             echo twig_escape_filter($this->env, $this->env->getExtension('Symfony\Bridge\Twig\Extension\TranslationExtension')->trans("menu_members_area"), "html", null, true);
             echo "</a>
             ";
         }
-        // line 39
+        // line 55
         echo "
 &nbsp;&nbsp;
 <!-- Languages -->
 ";
-        // line 42
-        if ((twig_get_attribute($this->env, $this->getSourceContext(), twig_get_attribute($this->env, $this->getSourceContext(), (isset($context["app"]) || array_key_exists("app", $context) ? $context["app"] : (function () { throw new Twig_Error_Runtime('Variable "app" does not exist.', 42, $this->getSourceContext()); })()), "request", array()), "getLocale", array(), "method") == "fr")) {
-            // line 43
+        // line 58
+        if ((twig_get_attribute($this->env, $this->getSourceContext(), twig_get_attribute($this->env, $this->getSourceContext(), (isset($context["app"]) || array_key_exists("app", $context) ? $context["app"] : (function () { throw new Twig_Error_Runtime('Variable "app" does not exist.', 58, $this->getSourceContext()); })()), "request", array()), "getLocale", array(), "method") == "fr")) {
+            // line 59
             echo "<a href=\"#\" title=\"";
             echo twig_escape_filter($this->env, $this->env->getExtension('Symfony\Bridge\Twig\Extension\TranslationExtension')->trans("label_fr"), "html", null, true);
             echo "\"><img alt=\"";
@@ -125,8 +125,8 @@ class __TwigTemplate_b6d2e2be549ffaec76f607da79f8cd9dd57cbe45d52eb9b188d730fdc50
             echo "\" width=\"30\" height=\"20\" /></a>
 &nbsp;&nbsp;
 <a href=\"";
-            // line 45
-            echo twig_escape_filter($this->env, $this->env->getExtension('Symfony\Bridge\Twig\Extension\RoutingExtension')->getPath(twig_get_attribute($this->env, $this->getSourceContext(), twig_get_attribute($this->env, $this->getSourceContext(), (isset($context["app"]) || array_key_exists("app", $context) ? $context["app"] : (function () { throw new Twig_Error_Runtime('Variable "app" does not exist.', 45, $this->getSourceContext()); })()), "request", array()), "get", array(0 => "_route"), "method"), twig_array_merge(twig_get_attribute($this->env, $this->getSourceContext(), twig_get_attribute($this->env, $this->getSourceContext(), (isset($context["app"]) || array_key_exists("app", $context) ? $context["app"] : (function () { throw new Twig_Error_Runtime('Variable "app" does not exist.', 45, $this->getSourceContext()); })()), "request", array()), "get", array(0 => "_route_params"), "method"), array("lg" => "en"))), "html", null, true);
+            // line 61
+            echo twig_escape_filter($this->env, $this->env->getExtension('Symfony\Bridge\Twig\Extension\RoutingExtension')->getPath(twig_get_attribute($this->env, $this->getSourceContext(), twig_get_attribute($this->env, $this->getSourceContext(), (isset($context["app"]) || array_key_exists("app", $context) ? $context["app"] : (function () { throw new Twig_Error_Runtime('Variable "app" does not exist.', 61, $this->getSourceContext()); })()), "request", array()), "get", array(0 => "_route"), "method"), twig_array_merge(twig_get_attribute($this->env, $this->getSourceContext(), twig_get_attribute($this->env, $this->getSourceContext(), (isset($context["app"]) || array_key_exists("app", $context) ? $context["app"] : (function () { throw new Twig_Error_Runtime('Variable "app" does not exist.', 61, $this->getSourceContext()); })()), "request", array()), "get", array(0 => "_route_params"), "method"), array("lg" => "en"))), "html", null, true);
             echo "\" title=\"";
             echo twig_escape_filter($this->env, $this->env->getExtension('Symfony\Bridge\Twig\Extension\TranslationExtension')->trans("label_en"), "html", null, true);
             echo "\"><img alt=\"";
@@ -136,11 +136,11 @@ class __TwigTemplate_b6d2e2be549ffaec76f607da79f8cd9dd57cbe45d52eb9b188d730fdc50
             echo "\" width=\"30\" height=\"20\" /></a>
 
 ";
-        } elseif ((twig_get_attribute($this->env, $this->getSourceContext(), twig_get_attribute($this->env, $this->getSourceContext(),         // line 47
-(isset($context["app"]) || array_key_exists("app", $context) ? $context["app"] : (function () { throw new Twig_Error_Runtime('Variable "app" does not exist.', 47, $this->getSourceContext()); })()), "request", array()), "getLocale", array(), "method") == "en")) {
-            // line 48
+        } elseif ((twig_get_attribute($this->env, $this->getSourceContext(), twig_get_attribute($this->env, $this->getSourceContext(),         // line 63
+(isset($context["app"]) || array_key_exists("app", $context) ? $context["app"] : (function () { throw new Twig_Error_Runtime('Variable "app" does not exist.', 63, $this->getSourceContext()); })()), "request", array()), "getLocale", array(), "method") == "en")) {
+            // line 64
             echo "<a href=\"";
-            echo twig_escape_filter($this->env, $this->env->getExtension('Symfony\Bridge\Twig\Extension\RoutingExtension')->getPath(twig_get_attribute($this->env, $this->getSourceContext(), twig_get_attribute($this->env, $this->getSourceContext(), (isset($context["app"]) || array_key_exists("app", $context) ? $context["app"] : (function () { throw new Twig_Error_Runtime('Variable "app" does not exist.', 48, $this->getSourceContext()); })()), "request", array()), "get", array(0 => "_route"), "method"), twig_array_merge(twig_get_attribute($this->env, $this->getSourceContext(), twig_get_attribute($this->env, $this->getSourceContext(), (isset($context["app"]) || array_key_exists("app", $context) ? $context["app"] : (function () { throw new Twig_Error_Runtime('Variable "app" does not exist.', 48, $this->getSourceContext()); })()), "request", array()), "get", array(0 => "_route_params"), "method"), array("lg" => "fr"))), "html", null, true);
+            echo twig_escape_filter($this->env, $this->env->getExtension('Symfony\Bridge\Twig\Extension\RoutingExtension')->getPath(twig_get_attribute($this->env, $this->getSourceContext(), twig_get_attribute($this->env, $this->getSourceContext(), (isset($context["app"]) || array_key_exists("app", $context) ? $context["app"] : (function () { throw new Twig_Error_Runtime('Variable "app" does not exist.', 64, $this->getSourceContext()); })()), "request", array()), "get", array(0 => "_route"), "method"), twig_array_merge(twig_get_attribute($this->env, $this->getSourceContext(), twig_get_attribute($this->env, $this->getSourceContext(), (isset($context["app"]) || array_key_exists("app", $context) ? $context["app"] : (function () { throw new Twig_Error_Runtime('Variable "app" does not exist.', 64, $this->getSourceContext()); })()), "request", array()), "get", array(0 => "_route_params"), "method"), array("lg" => "fr"))), "html", null, true);
             echo "\" title=\"";
             echo twig_escape_filter($this->env, $this->env->getExtension('Symfony\Bridge\Twig\Extension\TranslationExtension')->trans("label_fr"), "html", null, true);
             echo "\"><img alt=\"";
@@ -150,7 +150,7 @@ class __TwigTemplate_b6d2e2be549ffaec76f607da79f8cd9dd57cbe45d52eb9b188d730fdc50
             echo "\" width=\"30\" height=\"20\" /></a>
 &nbsp;&nbsp;
 <a href=\"#\" title=\"";
-            // line 50
+            // line 66
             echo twig_escape_filter($this->env, $this->env->getExtension('Symfony\Bridge\Twig\Extension\TranslationExtension')->trans("label_en"), "html", null, true);
             echo "\"><img alt=\"";
             echo twig_escape_filter($this->env, $this->env->getExtension('Symfony\Bridge\Twig\Extension\TranslationExtension')->trans("label_en"), "html", null, true);
@@ -160,9 +160,9 @@ class __TwigTemplate_b6d2e2be549ffaec76f607da79f8cd9dd57cbe45d52eb9b188d730fdc50
 
 ";
         } else {
-            // line 53
+            // line 69
             echo "<a href=\"";
-            echo twig_escape_filter($this->env, $this->env->getExtension('Symfony\Bridge\Twig\Extension\RoutingExtension')->getPath(twig_get_attribute($this->env, $this->getSourceContext(), twig_get_attribute($this->env, $this->getSourceContext(), (isset($context["app"]) || array_key_exists("app", $context) ? $context["app"] : (function () { throw new Twig_Error_Runtime('Variable "app" does not exist.', 53, $this->getSourceContext()); })()), "request", array()), "get", array(0 => "_route"), "method"), twig_array_merge(twig_get_attribute($this->env, $this->getSourceContext(), twig_get_attribute($this->env, $this->getSourceContext(), (isset($context["app"]) || array_key_exists("app", $context) ? $context["app"] : (function () { throw new Twig_Error_Runtime('Variable "app" does not exist.', 53, $this->getSourceContext()); })()), "request", array()), "get", array(0 => "_route_params"), "method"), array("lg" => "fr"))), "html", null, true);
+            echo twig_escape_filter($this->env, $this->env->getExtension('Symfony\Bridge\Twig\Extension\RoutingExtension')->getPath(twig_get_attribute($this->env, $this->getSourceContext(), twig_get_attribute($this->env, $this->getSourceContext(), (isset($context["app"]) || array_key_exists("app", $context) ? $context["app"] : (function () { throw new Twig_Error_Runtime('Variable "app" does not exist.', 69, $this->getSourceContext()); })()), "request", array()), "get", array(0 => "_route"), "method"), twig_array_merge(twig_get_attribute($this->env, $this->getSourceContext(), twig_get_attribute($this->env, $this->getSourceContext(), (isset($context["app"]) || array_key_exists("app", $context) ? $context["app"] : (function () { throw new Twig_Error_Runtime('Variable "app" does not exist.', 69, $this->getSourceContext()); })()), "request", array()), "get", array(0 => "_route_params"), "method"), array("lg" => "fr"))), "html", null, true);
             echo "\" title=\"";
             echo twig_escape_filter($this->env, $this->env->getExtension('Symfony\Bridge\Twig\Extension\TranslationExtension')->trans("label_fr"), "html", null, true);
             echo "\"><img alt=\"";
@@ -172,8 +172,8 @@ class __TwigTemplate_b6d2e2be549ffaec76f607da79f8cd9dd57cbe45d52eb9b188d730fdc50
             echo "\" width=\"30\" height=\"20\" /></a>
 &nbsp;&nbsp;
 <a href=\"";
-            // line 55
-            echo twig_escape_filter($this->env, $this->env->getExtension('Symfony\Bridge\Twig\Extension\RoutingExtension')->getPath(twig_get_attribute($this->env, $this->getSourceContext(), twig_get_attribute($this->env, $this->getSourceContext(), (isset($context["app"]) || array_key_exists("app", $context) ? $context["app"] : (function () { throw new Twig_Error_Runtime('Variable "app" does not exist.', 55, $this->getSourceContext()); })()), "request", array()), "get", array(0 => "_route"), "method"), twig_array_merge(twig_get_attribute($this->env, $this->getSourceContext(), twig_get_attribute($this->env, $this->getSourceContext(), (isset($context["app"]) || array_key_exists("app", $context) ? $context["app"] : (function () { throw new Twig_Error_Runtime('Variable "app" does not exist.', 55, $this->getSourceContext()); })()), "request", array()), "get", array(0 => "_route_params"), "method"), array("lg" => "en"))), "html", null, true);
+            // line 71
+            echo twig_escape_filter($this->env, $this->env->getExtension('Symfony\Bridge\Twig\Extension\RoutingExtension')->getPath(twig_get_attribute($this->env, $this->getSourceContext(), twig_get_attribute($this->env, $this->getSourceContext(), (isset($context["app"]) || array_key_exists("app", $context) ? $context["app"] : (function () { throw new Twig_Error_Runtime('Variable "app" does not exist.', 71, $this->getSourceContext()); })()), "request", array()), "get", array(0 => "_route"), "method"), twig_array_merge(twig_get_attribute($this->env, $this->getSourceContext(), twig_get_attribute($this->env, $this->getSourceContext(), (isset($context["app"]) || array_key_exists("app", $context) ? $context["app"] : (function () { throw new Twig_Error_Runtime('Variable "app" does not exist.', 71, $this->getSourceContext()); })()), "request", array()), "get", array(0 => "_route_params"), "method"), array("lg" => "en"))), "html", null, true);
             echo "\" title=\"";
             echo twig_escape_filter($this->env, $this->env->getExtension('Symfony\Bridge\Twig\Extension\TranslationExtension')->trans("label_en"), "html", null, true);
             echo "\"><img alt=\"";
@@ -183,17 +183,17 @@ class __TwigTemplate_b6d2e2be549ffaec76f607da79f8cd9dd57cbe45d52eb9b188d730fdc50
             echo "\" width=\"30\" height=\"20\" /></a>
 ";
         }
-        // line 57
+        // line 73
         echo "<!-- /Languages -->
 
 </div>
 </div>
 </nav>";
         
-        $__internal_9a142ccfa0cec88f7e7897d828dfbff1d9ac1bc11af1283b8432404c406a3a45->leave($__internal_9a142ccfa0cec88f7e7897d828dfbff1d9ac1bc11af1283b8432404c406a3a45_prof);
+        $__internal_35e677057656e58ffbee6858130e3dd6034126ae59a6007a8ae85967b96d657d->leave($__internal_35e677057656e58ffbee6858130e3dd6034126ae59a6007a8ae85967b96d657d_prof);
 
         
-        $__internal_774e7d9823129768639a83969f526e8e86ec9fb1800079169bd46c3b93478626->leave($__internal_774e7d9823129768639a83969f526e8e86ec9fb1800079169bd46c3b93478626_prof);
+        $__internal_f82f04bf818e710b6d5f0fb10fa127d0164df7c9827c081063fb67216ab99a19->leave($__internal_f82f04bf818e710b6d5f0fb10fa127d0164df7c9827c081063fb67216ab99a19_prof);
 
     }
 
@@ -209,7 +209,7 @@ class __TwigTemplate_b6d2e2be549ffaec76f607da79f8cd9dd57cbe45d52eb9b188d730fdc50
 
     public function getDebugInfo()
     {
-        return array (  187 => 57,  176 => 55,  164 => 53,  154 => 50,  142 => 48,  140 => 47,  129 => 45,  119 => 43,  117 => 42,  112 => 39,  106 => 37,  96 => 32,  92 => 31,  86 => 28,  81 => 25,  79 => 24,  73 => 21,  65 => 18,  57 => 15,  49 => 12,  41 => 9,  33 => 4,  29 => 3,  25 => 1,);
+        return array (  187 => 73,  176 => 71,  164 => 69,  154 => 66,  142 => 64,  140 => 63,  129 => 61,  119 => 59,  117 => 58,  112 => 55,  106 => 53,  96 => 48,  92 => 47,  86 => 44,  81 => 41,  79 => 40,  73 => 37,  65 => 34,  62 => 33,  56 => 14,  49 => 12,  41 => 9,  33 => 4,  29 => 3,  25 => 1,);
     }
 
     public function getSourceContext()
@@ -227,9 +227,25 @@ class __TwigTemplate_b6d2e2be549ffaec76f607da79f8cd9dd57cbe45d52eb9b188d730fdc50
                 <li class=\"nav-item mx-2\">
                     <a class=\"nav-link\" href=\"{{ path('news_page') }}\">{{ 'menu_news'|trans }}</a>
                 </li>
-                <li class=\"nav-item mx-2\">
-                    <a class=\"nav-link\" href=\"{{ path('page_adhesion') }}\">{{ 'menu_adhesion'|trans }}</a>
+                <li><a class=\"nav-link\" href=\"{{ path('page_adhesion') }}\">{{ 'menu_adhesion'|trans }}</a></li>
+            {#
+            </ul>
+            <ul class=\"navbar-nav\">
+                <li class=\"dropdown\">
+                    <a href=\"{{ path('page_adhesion') }}\" class=\"nav-link dropdown-toggle\" data-toggle=\"dropdown\" aria-expanded=\"false\">
+                        {{ 'menu_adhesion'|trans }}
+                    </a>
+                    <ul class=\"dropdown-menu dropdown-user pull-left\">
+                        <li><a href=\"#adhesion\">J'adhère</a></li>
+                        <li><a href=\"#touslesmois\">Je donne tous les mois</a></li>
+                        <li><a href=\"#unefois\">Je donne une fois</a></li>
+                        <li><a href=\"#parcheque\">Je donne par chèque</a></li>
+                        <li><a href=\"#don\">Je fais un don</a></li>
+                    </ul>
                 </li>
+            </ul>
+            <ul class=\"navbar-nav\">
+            #}
                 <li class=\"nav-item mx-2\">
                     <a class=\"nav-link\" href=\"{{ path('shop_page') }}\">{{ 'menu_shop'|trans }}</a>
                 </li>

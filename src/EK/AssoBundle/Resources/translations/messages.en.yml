@@ -6,7 +6,7 @@ menu_home: Admin
 menu_asso: Association
 menu_news: News
 menu_adhesion: Support us
-menu_shop: Shop
+menu_shop: Solidarity shop
 menu_contact: Contact
 menu_members_area: Members area
 #
@@ -14,6 +14,12 @@ menu_members_area: Members area
 #
 label.title.1: Educapeace
 label.title.2: Association Educapeace
+label.title.3: Our team
+label.title.4: The Educapeace history
+#
+label.team.cam.1: Vice-président M. TCHEUNTOU Pascal
+label.team.cam.2: Trésorière Mme EKEN Rolande
+label.team.cam.3: Secrétaire Mme EYENGA ANGOULA Reinella
 #
 # pages titles
 #
@@ -47,6 +53,7 @@ label.phone: Phone
 label.hello: Hello
 label.area.member: Member's area
 label.logon: Log on
+label.address.name: Centre social et culturel Georges
 label.address.value: 4, rue de l'orme au Charron 77340 Pontault-Combault
 label.email.value: educapeace@gmail.com
 label.email2.value: contact@educapeace.org
@@ -190,7 +197,8 @@ others.text.1: Our partners
 others.text.2: The association EDUCAPEACE is a non-profit NGO created in 2014, registered at the sub-prefecture of Meaux under the number:
 others.text.3: Educapeace also encourages / supports other associations by participating in their humanitarian events for the improvement of their projects (Unicef for its drinking water project in Togo), The bubble day for the disabled in Paris ...
 others.text.4: Donate by sending a check payable to the EDUCAPEACE Association at:
-others.text.5: Assoication Educapeace, 13 allée de la lisière 77420 Champs Sur Marne
+others.text.5.a: Centre social et culturel Georges
+others.text.5: 4 rue de l'orme au Charron 77340 Pontault-Combault
 others.text.6: Either by CB by clicking here
 others.text.7: I give
 others.text.8: I adhere
@@ -315,9 +323,18 @@ label.done.72: Treasurer:
 label.done.73: Secretary:
 label.done.74: Communication:
 label.done.75: The EDUCAPEACE Cameroon antenna is declared to the prefecture of Wouri (Douala) under the number:
-label.done.76: EDUCAPEACE Cameroon is headed by the vice-president Mr TCHEUNTOU Pascal, and the treasurer Mrs Eken Rolande, the secretary Mrs EYENGA ANGOULA Reinella and several volunteers.
+label.done.76: EDUCAPEACE Cameroon is headed by the vice-president Mr TCHEUNTOU Pascal, and the treasurer Mrs EKEN Rolande, the secretary Mrs EYENGA ANGOULA Reinella and several volunteers.
 label.done.77: Our members ensure the delivery of donations and the perfect accomplishment of the missions in case an EDUCAPEACE France representative can not be on the ground.
 label.done.78: All accounting decisions and management remain under the control of EDUCAPEACE France with proof in support.
 #
 # solidary shop
 #
+label.shop.title: Solidarity shop
+label.shop.1: The solidarity store EDUCAPEACE offers you many solidarity products online:
+label.shop.2: pastry, ginger juice, Bissap juice, African outfit, necklaces, art objects, etc.
+label.shop.3: Your purchases make sense and give us the means to act.
+label.shop.4: To know more...
+#
+label.history.1: « To create this association that is yours, I based myself on my past. My (primary) school curriculum took place at Nkol-Mbong Kama public school in southern Cameroon. Because of the lack of financial means, I had a huge problem with studies and health. Having left my country Cameroon about ten years ago, I built myself by learning for my future, for the youngest, for the underprivileged. » Thus, was born the association Educapeace.
+label.history.2: Educapeace is in partnership with public schools in Cameroon (4 at the moment) where every year we offer scholarships and school supplies to children to encourage them to go to school. Every year we help more than 600 children, and to date we have already built two wells of drinking water.
+label.history.3: Together we want to give children even more smile, allow them to go to school because we understood the value / power of the school, then allow them access to equipment such as drinking water, latrines, library ... To improve their living conditions, reduce the rate of school absenteeism, waterborne diseases and even mortality.

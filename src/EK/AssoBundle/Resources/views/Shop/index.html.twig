@@ -11,6 +11,14 @@
             <div class="row" style="vertical-align: top"><!--.row-->
 
                 <div class="col-md-8"><!--/.col-md-8-->
+                    <div class="jumbotron" style="margin-top: 21px;">
+                        <h1>{{ 'label.shop.title'|trans }}</h1>
+                        <p style="text-align: justify">
+                            {{ 'label.shop.1'|trans }} {{ 'label.shop.2'|trans }}<br />
+                            {{ 'label.shop.3'|trans }}
+                        </p>
+                        {# <p><a href="#" id="shopexplanation" role="button" data-toggle="modal" data-target="#_shopexplanationModal" class="btn btn-primary btn-lg">{{ 'label.shop.4'|trans }}</a></p> #}
+                    </div>
                     <br>
                     <div class="input-group">
                         <div class="input-group-btn">
@@ -135,7 +143,6 @@
                 <aside class="col-md-4 p-3" style="vertical-align: top">
                     {% include 'AssoBundle:Shop:_cart.html.twig' %}
                 </aside>
-
             </div><!--/.row-->
         </div><!--/.blog-->
     </section>

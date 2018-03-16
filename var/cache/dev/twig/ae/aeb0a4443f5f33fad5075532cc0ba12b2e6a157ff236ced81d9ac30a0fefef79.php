@@ -15,11 +15,11 @@ class __TwigTemplate_2e97891f7ebc33a97c0071dcc07d11bdf68bf994040be4a5affd1d59224
 
     protected function doDisplay(array $context, array $blocks = array())
     {
-        $__internal_e4c0927339c4d3e0175fa53699534d2cf615b30aac22b89e588761c6b69cdb7e = $this->env->getExtension("Symfony\\Bundle\\WebProfilerBundle\\Twig\\WebProfilerExtension");
-        $__internal_e4c0927339c4d3e0175fa53699534d2cf615b30aac22b89e588761c6b69cdb7e->enter($__internal_e4c0927339c4d3e0175fa53699534d2cf615b30aac22b89e588761c6b69cdb7e_prof = new Twig_Profiler_Profile($this->getTemplateName(), "template", "::modal.html.twig"));
+        $__internal_cba837ebe65933ea6eb539c38c45c0e5794e98a0e8fbff50c5a5aef1e2c7416c = $this->env->getExtension("Symfony\\Bundle\\WebProfilerBundle\\Twig\\WebProfilerExtension");
+        $__internal_cba837ebe65933ea6eb539c38c45c0e5794e98a0e8fbff50c5a5aef1e2c7416c->enter($__internal_cba837ebe65933ea6eb539c38c45c0e5794e98a0e8fbff50c5a5aef1e2c7416c_prof = new Twig_Profiler_Profile($this->getTemplateName(), "template", "::modal.html.twig"));
 
-        $__internal_6155e437ef7e2575e56b0be62d204fa783b59bb616e6ae188c2e8070c57e6a14 = $this->env->getExtension("Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension");
-        $__internal_6155e437ef7e2575e56b0be62d204fa783b59bb616e6ae188c2e8070c57e6a14->enter($__internal_6155e437ef7e2575e56b0be62d204fa783b59bb616e6ae188c2e8070c57e6a14_prof = new Twig_Profiler_Profile($this->getTemplateName(), "template", "::modal.html.twig"));
+        $__internal_3503a08504413155dd9ec0f31e7bbbcab2b68e8a5726283eb4c241c8c40f547a = $this->env->getExtension("Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension");
+        $__internal_3503a08504413155dd9ec0f31e7bbbcab2b68e8a5726283eb4c241c8c40f547a->enter($__internal_3503a08504413155dd9ec0f31e7bbbcab2b68e8a5726283eb4c241c8c40f547a_prof = new Twig_Profiler_Profile($this->getTemplateName(), "template", "::modal.html.twig"));
 
         // line 1
         echo "<!-- Modal authentification -->
@@ -262,15 +262,37 @@ class __TwigTemplate_2e97891f7ebc33a97c0071dcc07d11bdf68bf994040be4a5affd1d59224
 </div>
 <!-- /Modal password forgetten -->
 
+<!-- Modal shop explanation -->
+<div class=\"modal fade bd-example-modal-lg\" id=\"_shopexplanationModal\" tabindex=\"-1\" role=\"dialog\" aria-labelledby=\"myLargeModalLabel\" aria-hidden=\"true\">
+    <div class=\"modal-dialog modal-lg\" role=\"document\">
+        <div class=\"modal-content text-white bg-secondary-shop\">
+            <div class=\"modal-header  text-center\">
+                <h4 class=\"modal-title text-center\">";
+        // line 204
+        echo twig_escape_filter($this->env, $this->env->getExtension('Symfony\Bridge\Twig\Extension\TranslationExtension')->trans("label.shop.title"), "html", null, true);
+        echo "</h4>
+                <button type=\"button\" class=\"close\" data-dismiss=\"modal\" aria-label=\"Close\"> <span aria-hidden=\"true\">×</span></button>
+            </div>
+            <div class=\"modal-body\">
+                <div class=\"modal-footer text-right\">
+                    <button type=\"button\" class=\"btn btn-secondary text-white\" data-dismiss=\"modal\">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- /Modal shop explanation -->
+
+
 <!-- Loading... -->
 <div id=\"loadingDiv\" class=\"modal loadingDiv\" role=\"dialog\" tabindex=\"-1\" style=\"top: 10% !important;background-color: transparent;\">
     ";
-        // line 202
+        // line 221
         echo "    <div class=\"modal-dialog\">
         <div class=\"modal-content\">
             <div class=\"modal-body\" style=\"text-align: center\">
                 <img src=\"";
-        // line 205
+        // line 224
         echo twig_escape_filter($this->env, $this->env->getExtension('Symfony\Bridge\Twig\Extension\AssetExtension')->getAssetUrl("bundles/front/assets/img/loading.svg"), "html", null, true);
         echo "\" width=\"20%\" />
             </div>
@@ -279,10 +301,10 @@ class __TwigTemplate_2e97891f7ebc33a97c0071dcc07d11bdf68bf994040be4a5affd1d59224
 </div>
 <!-- /Loading... -->";
         
-        $__internal_e4c0927339c4d3e0175fa53699534d2cf615b30aac22b89e588761c6b69cdb7e->leave($__internal_e4c0927339c4d3e0175fa53699534d2cf615b30aac22b89e588761c6b69cdb7e_prof);
+        $__internal_cba837ebe65933ea6eb539c38c45c0e5794e98a0e8fbff50c5a5aef1e2c7416c->leave($__internal_cba837ebe65933ea6eb539c38c45c0e5794e98a0e8fbff50c5a5aef1e2c7416c_prof);
 
         
-        $__internal_6155e437ef7e2575e56b0be62d204fa783b59bb616e6ae188c2e8070c57e6a14->leave($__internal_6155e437ef7e2575e56b0be62d204fa783b59bb616e6ae188c2e8070c57e6a14_prof);
+        $__internal_3503a08504413155dd9ec0f31e7bbbcab2b68e8a5726283eb4c241c8c40f547a->leave($__internal_3503a08504413155dd9ec0f31e7bbbcab2b68e8a5726283eb4c241c8c40f547a_prof);
 
     }
 
@@ -298,7 +320,7 @@ class __TwigTemplate_2e97891f7ebc33a97c0071dcc07d11bdf68bf994040be4a5affd1d59224
 
     public function getDebugInfo()
     {
-        return array (  274 => 205,  269 => 202,  256 => 191,  252 => 190,  245 => 186,  240 => 184,  234 => 181,  229 => 179,  224 => 177,  219 => 175,  211 => 170,  195 => 157,  189 => 153,  181 => 86,  177 => 85,  168 => 79,  164 => 78,  154 => 71,  150 => 70,  140 => 63,  136 => 62,  129 => 57,  123 => 55,  121 => 54,  115 => 51,  110 => 49,  102 => 44,  87 => 32,  81 => 29,  72 => 23,  66 => 20,  62 => 19,  57 => 17,  53 => 16,  47 => 13,  40 => 11,  32 => 6,  25 => 1,);
+        return array (  296 => 224,  291 => 221,  272 => 204,  256 => 191,  252 => 190,  245 => 186,  240 => 184,  234 => 181,  229 => 179,  224 => 177,  219 => 175,  211 => 170,  195 => 157,  189 => 153,  181 => 86,  177 => 85,  168 => 79,  164 => 78,  154 => 71,  150 => 70,  140 => 63,  136 => 62,  129 => 57,  123 => 55,  121 => 54,  115 => 51,  110 => 49,  102 => 44,  87 => 32,  81 => 29,  72 => 23,  66 => 20,  62 => 19,  57 => 17,  53 => 16,  47 => 13,  40 => 11,  32 => 6,  25 => 1,);
     }
 
     public function getSourceContext()
@@ -500,6 +522,25 @@ class __TwigTemplate_2e97891f7ebc33a97c0071dcc07d11bdf68bf994040be4a5affd1d59224
     </div>
 </div>
 <!-- /Modal password forgetten -->
+
+<!-- Modal shop explanation -->
+<div class=\"modal fade bd-example-modal-lg\" id=\"_shopexplanationModal\" tabindex=\"-1\" role=\"dialog\" aria-labelledby=\"myLargeModalLabel\" aria-hidden=\"true\">
+    <div class=\"modal-dialog modal-lg\" role=\"document\">
+        <div class=\"modal-content text-white bg-secondary-shop\">
+            <div class=\"modal-header  text-center\">
+                <h4 class=\"modal-title text-center\">{{ 'label.shop.title'|trans }}</h4>
+                <button type=\"button\" class=\"close\" data-dismiss=\"modal\" aria-label=\"Close\"> <span aria-hidden=\"true\">×</span></button>
+            </div>
+            <div class=\"modal-body\">
+                <div class=\"modal-footer text-right\">
+                    <button type=\"button\" class=\"btn btn-secondary text-white\" data-dismiss=\"modal\">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- /Modal shop explanation -->
+
 
 <!-- Loading... -->
 <div id=\"loadingDiv\" class=\"modal loadingDiv\" role=\"dialog\" tabindex=\"-1\" style=\"top: 10% !important;background-color: transparent;\">

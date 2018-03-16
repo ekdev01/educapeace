@@ -155,35 +155,78 @@
                 $('#_authentificationModal').modal('hide');
             });
 
+            // Form 1
+
             $('#_choice-btn-60-1').click(function() {
-                alert('choice-btn-60-1');
-                $('#amount_free_1').val('60');
-                var deductAMount =
+                var deductAMount = parseFloat((60 * 0.34));
+
+                deductAMount = deductAMount.toFixed(2);
+                $('#amount_deduct_1').val(deductAMount);
+                $('#amount_choice_1').val('150');
+                $('#amount_choice_deduct_1').val(deductAMount);
             });
 
             $('#_choice-btn-100-1').click(function() {
-                alert('choice-btn-100-1');
+                var deductAMount = parseFloat((100 * 0.34));
 
+                deductAMount = deductAMount.toFixed(2);
+                $('#amount_deduct_1').val(deductAMount);
+                $('#amount_choice_1').val('100');
+                $('#amount_choice_deduct_1').val(deductAMount);
             });
 
             $('#_choice-btn-150-1').click(function() {
-                alert('choice-btn-150-1');
+                var deductAMount = parseFloat((150 * 0.34));
 
+                deductAMount = deductAMount.toFixed(2);
+                $('#amount_deduct_1').val(deductAMount);
+                $('#amount_choice_1').val('60');
+                $('#amount_choice_deduct_1').val(deductAMount);
             });
 
-            $('#_choice-btn-60-2').click(function() {
-                alert('choice-btn-60-2');
+            // Form 2
 
+            $('#_choice-btn-60-2').click(function() {
+                var deductAMount = parseFloat((60 * 0.34));
+
+                deductAMount = deductAMount.toFixed(2);
+                $('#amount_deduct_2').val(deductAMount);
+                $('#amount_choice_2').val('60');
+                $('#amount_choice_deduct_2').val(deductAMount);
             });
 
             $('#_choice-btn-100-2').click(function() {
-                alert('choice-btn-100-2');
+                var deductAMount = parseFloat((100 * 0.34));
+
+                deductAMount = deductAMount.toFixed(2);
+                $('#amount_deduct_2').val(deductAMount);
+                $('#amount_choice_2').val('100');
+                $('#amount_choice_deduct_2').val(deductAMount);
 
             });
 
             $('#_choice-btn-150-2').click(function() {
-                alert('choice-btn-150-2');
+                var deductAMount = parseFloat((150 * 0.34));
+
+                deductAMount = deductAMount.toFixed(2);
+                $('#amount_deduct_2').val(deductAMount);
+                $('#amount_choice_2').val('150');
+                $('#amount_choice_deduct_2').val(deductAMount);
             });
+
+            $('#amount_free_1').keypress(function(e) {
+                e.preventDefault();
+                var amount_free = 0.0;
+                console.log('amount_free = '+amount_free);
+            });
+
+            $('#amount_free_2').keypress(function(e) {
+               /* e.preventDefault();
+                var amount_free = 0.0;
+                amount_free = fireKeyboardEvent("keypress", 13);
+                console.log('amount_free = '+amount_free);*/
+            });
+
         });
     </script>
 {% endblock javascript %}

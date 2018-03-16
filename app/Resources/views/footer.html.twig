@@ -5,8 +5,7 @@
                 <img src="{{ asset('bundles/front/assets/brandEducapeace.png') }}" class="mx-auto pb-2" width="180">
                 <p>+33 (0)6 09 69 79 67</p>
                 <p class="my-3">
-                    <a target="blank">13 Allée de la Lisière
-                        <br>77420 Champ sur Marne</a>
+                    <a target="blank">{{ 'others.text.5.a'|trans }}<br/>{{ 'others.text.5'|trans }}</a>
                 </p>
             </div>
             <div class="col-lg-4 col-md-6">
@@ -15,9 +14,14 @@
             <div class="col-lg-1"></div>
             <div class="col-lg-3">
                 <h4>{{ 'others.text.13'|trans }}</h4>
+                {#
                 <a href="https://www.facebook.com/Educapeace/" target="blank"><i class="fab fa-facebook-square text-muted fa-3x m-1"></i></a>
                 <a href="#" target="blank"><i class="fab fa-twitter-square text-muted fa-3x m-1"></i></a>
                 <a href="#" target="blank"><i class="fab fa-youtube-square text-muted fa-3x m-1"></i></a>
+                #}
+                <a href="https://www.facebook.com/Educapeace/" target="blank"><i class="fa fa-facebook-square text-muted fa-3x m-1"></i></a>
+                <a href="#" target="blank"><i class="fa fa-3x fa-twitter m-2 text-muted"></i></a>
+                <a href="#" target="blank"><i class="fa fa-3x text-muted fa-youtube-play m-1"></i></a>
             </div>
         </div>
         <div class="row text-center">

@@ -10,6 +10,7 @@
         <div class="col-md-10 mx-4">
 
             <!-- Je donne en ligne -->
+            {#
             <div class="cont-item py-3">
                 <div class="row">
                     <h1 class="mt-3 text-uppercase"><small style="font-size: 15pt;"><b>{{ 'label.done.1'|trans }}</b></small></h1>
@@ -24,10 +25,11 @@
                     </p>
                 </div>
             </div>
+            #}
             <!-- /Je donne en ligne -->
 
             <!-- Je donne une fois-->
-            <div class="cont-item py-3">
+            <div class="cont-item py-3" id="unefois">
                 <div class="row">
                     <h1 class="mt-3 text-uppercase"><small style="font-size: 15pt;"><b>{{ 'label.done.7'|trans }}</b></small></h1>
                 </div>
@@ -71,7 +73,7 @@
                                                         (<span class="input-group-addon">€</span>):
                                                     </label>
                                                     <input type="hidden" class="form-control" size="5" id="amount_choice_1" name="_amount_choice_1" required>
-                                                    <input type="text" class="form-control" size="5" id="amount_free_1" name="_amount_free_1" required>
+                                                    <input type="text" class="form-control" id="amount_free_1" name="_amount_free_1" required>
                                                 </div>
                                             </td>
                                         </tr>
@@ -83,8 +85,8 @@
                                                         <small>{{ 'form.supportus.deduct_amount'|trans }}</small>
                                                         (<span class="input-group-addon">€</span>):
                                                     </label>
-                                                    <input type="hidden" class="form-control" size="5" id="amount_choice_deduct_1" name="_amount_choice_deduct_1" required>
-                                                    <input type="text" class="form-control" size="8" id="amount_deduct_1" name="_amount_deduct_1" readonly>
+                                                    <input type="hidden" class="form-control" id="amount_choice_deduct_1" name="_amount_choice_deduct_1" required>
+                                                    <input type="text" class="form-control" id="amount_deduct_1" name="_amount_deduct_1" readonly>
                                                 </div>
                                             </td>
                                         </tr>
@@ -335,7 +337,7 @@
             <!-- /Je donne une fois-->
 
             <!-- Je donne tous les mois -->
-            <div class="cont-item py-3">
+            <div class="cont-item py-3" id="touslesmois">
                 <div class="row">
                     <h1 class="mt-3 text-uppercase"><small style="font-size: 15pt;"><b>{{ 'label.done.8'|trans }}</b></small></h1>
                 </div>
@@ -380,8 +382,8 @@
                                                         <small>{{ 'form.supportus.free_amount'|trans }}</small>
                                                         (<span class="input-group-addon">€</span>):
                                                     </label>
-                                                    <input type="hidden" class="form-control" size="5" id="amount_choice_2" name="_amount_choice_2" required>
-                                                    <input type="text" class="form-control" size="5" id="amount_free_2" name="_amount_free_2" required>
+                                                    <input type="hidden" class="form-control" id="amount_choice_2" name="_amount_choice_2" required>
+                                                    <input type="text" class="form-control" id="amount_free_2" name="_amount_free_2" required>
                                                 </div>
                                             </td>
                                         </tr>
@@ -393,8 +395,8 @@
                                                         <small>{{ 'form.supportus.deduct_amount'|trans }}</small>
                                                         (<span class="input-group-addon">€</span>):
                                                     </label>
-                                                    <input type="hidden" class="form-control" size="5" id="amount_choice_deduct_2" name="_amount_choice_deduct_2" required>
-                                                    <input type="text" class="form-control" size="8" id="amount_deduct_2" name="_amount_deduct_2" readonly>
+                                                    <input type="hidden" class="form-control" id="amount_choice_deduct_2" name="_amount_choice_deduct_2" required>
+                                                    <input type="text" class="form-control" id="amount_deduct_2" name="_amount_deduct_2" readonly>
                                                 </div>
                                             </td>
                                         </tr>
@@ -584,7 +586,7 @@
             <!-- /Je donne une fois-->
 
             <!-- Par cheque -->
-            <div class="cont-item py-3">
+            <div class="cont-item py-3" id="parcheque">
                 <div class="row">
                     <h1 class="mt-3 text-uppercase"><small style="font-size: 15pt;"><b>{{ 'label.done.9'|trans }}</b></small></h1>
                 </div>
@@ -757,6 +759,7 @@
 
 
             <!-- Notre equipe -->
+            {#
             <div class="cont-item py-3">
                 <div class="row">
                     <h1 class="mt-3 text-uppercase"><small style="font-size: 15pt;"><b>{{ 'label.done.69'|trans }}</b></small></h1>
@@ -778,6 +781,7 @@
                     <hr size="1" color="#eee" width="100%"/>
                 </div>
             </div>
+            #}
             <!-- /Notre equipe -->
         </div>
     </div>

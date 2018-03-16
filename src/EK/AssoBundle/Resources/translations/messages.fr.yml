@@ -6,7 +6,7 @@ menu_home: Accueil
 menu_asso: Association
 menu_news: Actualités
 menu_adhesion: Nous soutenir
-menu_shop: Boutique
+menu_shop: Boutique solidaire
 menu_contact: Contact
 menu_members_area: Espace adhérents
 #
@@ -14,6 +14,14 @@ menu_members_area: Espace adhérents
 #
 label.title.1: Educapeace
 label.title.2: Association Educapeace
+label.title.3: Notre équipe
+label.title.4: L'histoire d'Educapeace
+label.title.5: Educapeace France
+label.title.6: Educapeace Cameroun
+#
+label.team.cam.1: Vice-président M. TCHEUNTOU Pascal
+label.team.cam.2: Trésorière Mme EKEN Rolande
+label.team.cam.3: Secrétaire Mme EYENGA ANGOULA Reinella
 #
 # pages titles
 #
@@ -47,6 +55,7 @@ label.phone: Téléphone
 label.hello: Bonjour
 label.area.member: Espace adhérent
 label.logon: Se connecter
+label.address.name: Centre social et culturel Georges
 label.address.value: 4, rue de l'orme au Charron 77340 Pontault-Combault
 label.email.value: educapeace@gmail.com
 label.email2.value: contact@educapeace.org
@@ -190,7 +199,8 @@ others.text.1: Nos partenaires
 others.text.2: L'association EDUCAPEACE est une ONG à but non lucratif créée en 2014, enregistrée à la sous-préfecture de Meaux sous le numéro:
 others.text.3: Educapeace encourage / soutient également d'autres associations en participant à leurs évènements humanitaires pour l'amélioration de leurs projets (Unicef pour son projet d'eau potable au Togo), The bubble day pour le compte des handicapés de Paris...
 others.text.4: Faites un don soit en envoyant un chèque à l'ordre de l'Association EDUCAPEACE à l'adresse:
-others.text.5: Assoication Educapeace, 13 allée de la lisière 77420 Champs Sur Marne
+others.text.5.a: Centre social et culturel Georges
+others.text.5: 4 rue de l'orme au Charron 77340 Pontault-Combault
 others.text.6: A Soit par CB en cliquant ici
 others.text.7: Je donne
 others.text.8: J'adhère
@@ -315,9 +325,18 @@ label.done.72: Trésorier:
 label.done.73: Secrétaire:
 label.done.74: Communication:
 label.done.75: L'antenne EDUCAPEACE Cameroun est déclarée à la préfecture du Wouri (Douala) sous le numéro:
-label.done.76: EDUCAPEACE Cameroun est dirigée par le vice-président M. TCHEUNTOU Pascal, et la trésorière Madame Eken Rolande, la secrétaire Madame EYENGA ANGOULA Reinella et plusieurs bénévoles.
+label.done.76: EDUCAPEACE Cameroun est dirigée par le vice-président M. TCHEUNTOU Pascal, et la trésorière Madame EKEN Rolande, la secrétaire Madame EYENGA ANGOULA Reinella et plusieurs bénévoles.
 label.done.77: Nos membres assurent l'acheminement des dons et la parfaite réalisation des missions dans le cas où un représentant EDUCAPEACE France ne peut être sur le terrain.
 label.done.78: Toutes les décisions et gestions comptables restent sous le contrôle d’EDUCAPEACE France avec justificatif à L'appui.
 #
 # solidary shop
 #
+label.shop.title: Boutique solidaire
+label.shop.1: La boutique solidaire EDUCAPEACE vous propose de nombreux produits solidaires en ligne:
+label.shop.2: pâtisserie, jus de gingembre, jus de Bissap, tenue Africaine, colliers, objets d’arts, etc.
+label.shop.3: Vos achats ont du sens et nous donnent les moyens d'agir.
+label.shop.4: Pour en savoir plus...
+#
+label.history.1: « Pour créer cette association qui est vôtre, je me suis basé sur mon passé. Mon cursus scolaire (primaire) s'est passé à l’école publique de Nkol-Mbong Kama, au Sud du Cameroun. A cause du manque de moyens financiers, j'ai eu d'énormes problème par rapport aux études et à la santé.  Ayant quitté mon pays le Cameroun il y a de cela une dizaine d'années, je me suis construit en apprenant pour mon avenir, pour les plus jeunes, pour les démunis ». Ainsi, est née l'association Educapeace.
+label.history.2: Educapeace est en partenariat avec des écoles publiques au Cameroun (4 pour le moment) où chaque année nous offrons des bourses d'excellence, et fournitures scolaires aux enfants afin de les encourager à aller à l'école. Chaque année nous aidons plus de 600 enfants, et à ce jour nous avons déjà construit deux puits d'eau potable.
+label.history.3: Ensemble nous souhaitons donner encore plus de sourire aux enfants, leurs permettre d'aller à l'école car nous avons compris la valeur/puissance de l'école, puis leur permettre d'accéder aux équipements tels que l'eau potable, latrines, bibliothèque … Afin d'améliorer leurs conditions de vie, diminuer le taux d'absentéisme scolaire, de maladies hydriques voir même de mortalité.

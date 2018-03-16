@@ -5,21 +5,64 @@
 {% block title %}{{ page_titre }}{% endblock %}
 
 {% block content %}
-    <div>
-        <h5 class="text-dark">{{ 'about.text.1'|trans }}</h5>
+
+    <!-- Qui sommes-nous? -->
+    <div class="py-5 section-parallax" style="background-image: url({{ asset('bundles/front/assets/pic/DSC_7362.png') }});">
+        <div class="container my-5 bg-about p-4">
+            <div class="row py-3">
+                <div class="col-md-12 text-center">
+                    <h1 class="mt-4 text-secondary">{{ 'page_title_about'|trans }}</h1>
+                    <h5 class="text-dark">{{ 'about.text.1'|trans }}</h5>
+                    <h5 class="text-dark">{{ 'about.text.2'|trans }} <span class="text-primary">W771011659</span>;</h5>
+                    <h5 class="text-uppercase text-secondary">{{ 'about.text.3'|trans }}</h5>
+                    <p class="text-justify">
+                        <ul>
+                            <li><h5 class="text-dark">- {{ 'about.text.4'|trans }},</h5></li>
+                            <li><h5 class="text-dark">- {{ 'about.text.5'|trans }}.</h5></li>
+                        </ul>
+                    </p>
+                </div>
+            </div>
+        </div>
     </div>
-    <br/>
-    <div>
-        <h5 class="text-dark">{{ 'about.text.2'|trans }} <span class="text-primary">W771011659</span>;</h5>
+
+    <!-- Histoire d'educapeace -->
+    <div class="py-5 section-parallax" style="background-image: url({{ asset('bundles/front/assets/pic/DSC_7362.png') }});">
+        <div class="container my-5 bg-light p-4">
+            <div class="row py-3">
+                <div class="col-md-12 text-center">
+                    <h1 class="mt-4 text-secondary">{{ 'label.title.4'|trans }}</h1>
+                    <p class="text-justify">{{ 'label.history.1'|trans }}</p>
+                    <p class="text-justify">{{ 'label.history.2'|trans }}</p>
+                    <p class="text-justify">{{ 'label.history.3'|trans }}</p>
+                </div>
+            </div>
+        </div>
     </div>
-    <br />
-    <div>
-        <h5 class="text-dark">{{ 'about.text.3'|trans }}</h5>
-        <ul>
-            <li><h5 class="text-dark">- {{ 'about.text.4'|trans }},</h5></li>
-            <li><h5 class="text-dark">- {{ 'about.text.5'|trans }}.</h5></li>
-        </ul>
+
+    <!-- Notre équipe -->
+    <div class="py-5 section-parallax" style="background-image: url({{ asset('bundles/front/assets/pic/DSC_7362.png') }});">
+        <div class="container my-5 bg-about p-4">
+            <div class="row py-3">
+                <div class="col-md-12 text-center">
+                    <h1 class="mt-4 text-secondary">{{ 'label.title.3'|trans }}</h1>
+                    <h5 class="text-uppercase text-secondary">{{ 'label.title.5'|trans }}</h5>
+                    <p class="text-center">
+                        <br> • {{ 'label.done.70'|trans }} {{ 'label.team.1'|trans }},
+                        <br> • {{ 'label.done.71'|trans }} {{ 'label.team.2'|trans }},
+                        <br> • {{ 'label.done.72'|trans }} {{ 'label.team.3'|trans }},
+                        <br> • {{ 'label.done.73'|trans }} {{ 'label.team.4'|trans }},
+                        <br> • {{ 'label.done.74'|trans }} {{ 'label.team.5'|trans }}.
+                    </p>
+                    <h5 class="text-uppercase text-secondary">{{ 'label.title.6'|trans }}</h5>
+                    <p class="text-center">
+                        {{ 'label.done.75'|trans }} {{ 'label.numero.wouri'|trans }}.<br />
+                        {{ 'label.done.76'|trans }} {{ 'label.done.77'|trans }}<br />
+                        {{ 'label.done.78'|trans }}
+                    </p>
+                </div>
+            </div>
+        </div>
     </div>
-    <br/>
     <hr>
 {% endblock %}

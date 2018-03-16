@@ -39,3 +39,7 @@ services:
         tags:
             - { name: kernel.event_subscriber }
 
+    front.form_registration:
+        class: EK\AssoBundle\Form\RegistrationType
+        tags:
+            - { name: form.type, alias: ek_user_registration }
